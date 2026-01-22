@@ -1,2 +1,2 @@
 # MICB_475_25W2_Team_6
-## Hello everyone
+### Hello everyone, lets have a great term! - Muntaqim
