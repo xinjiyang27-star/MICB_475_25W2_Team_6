@@ -2,9 +2,9 @@
 ### Hello everyone, lets have a great term! - Muntaqim
 **Group Members:** Yuqing Jin, Tara Philip, Muntaqim Syed, Caroline Wei, Jiyang Xin
 
-## Time Line ##
+## Time Line ⏰ ##
 
-## Meeting Agenda ##
+## Team Meeting 🤝 ##
 ### January 
 [January 26](/Team_Meeting/January_26.md)
 ### February
@@ -14,7 +14,7 @@
 ### April 
 [April 6]()
 
-## Lab Notebook ##
+## Lab Notebook 📓 ##
 
 
 
