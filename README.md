@@ -6,7 +6,7 @@
 
 ## Meeting Agenda ##
 ### January 
-[January 26](/Team Meetings/January 26.md)
+[January 26](/Team_Meeting/January_26.md)
 ### February
 [February 2]() | [February 9]() | [February 16]() | [February 23]()
 ### March 
