@@ -1,6 +1,6 @@
 # MICB_475_25W2_Team_6
 ### Hello everyone, lets have a great term! - Muntaqim
-### Let's goooooo -Jiyang 
+### 👍 -Jiyang 
 **Group Members:** Yuqing Jin, Tara Philip, Muntaqim Syed, Caroline Wei, Jiyang Xin
 
 ## Time Line ⏰ ##
