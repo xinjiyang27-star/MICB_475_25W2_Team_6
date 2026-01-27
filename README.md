@@ -9,7 +9,7 @@
 ### January 
 [January 26](/Team_Meeting/January_26.md)
 ### February
-[February 2]() | [February 9]() | [February 16]() | [February 23]()
+[February 2](/Team_Meeting/February_2.md) | [February 9]() | [February 16]() | [February 23]()
 ### March 
 [March 2]() | [March 9]() | [March 16]() | [March 23]() | [March 30]()
 ### April 
