@@ -14,4 +14,8 @@
 3. Agenda
 - Things we worked on
 - Things we want to walk about
-- Before the meeting 
+- Before the meeting
+4. Dataset and Project ideas
+- Finding the dataset --> enough metadata for us to use?
+- Find papers --> 16S, metadata
+- By Friday! 
