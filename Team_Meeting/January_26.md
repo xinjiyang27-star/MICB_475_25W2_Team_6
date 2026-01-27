@@ -42,7 +42,7 @@
 
 6. Combining datasets
 - difficult at the beginning
-e.g. Compare different cancers --> different types of cancers affect microbiota 
+- e.g. Compare different cancers --> different types of cancers affect microbiota 
 
 ## To-do List 
 1. Do more research on finding the relevant papers which containing 16S sequencing data and metadata
