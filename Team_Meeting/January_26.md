@@ -32,10 +32,12 @@
 2) IBD
 - CD --> hard to find something novel
 - UC --> novel research question is hard to find
-3) infant --> datasets: need more time points, antibiotic exposure (use or not)
+3) infant
+- datasets: need more time points, antibiotic exposure (use or not)
 - how does the antibiotic exposure affect the infant microbiota --> time dependent manner
 - Difficulty: Approperiate datasets 
-4) Gut microbiota after chemotherapy (Novel)  --> Having datasets and paper now
+4) Gut microbiota after chemotherapy (Novel)
+- Having datasets and paper now
 5) Different types of cancers affect microbiota 
 
 6. Combining datasets
