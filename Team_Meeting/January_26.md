@@ -25,4 +25,5 @@ Ideas
           - Chron diseases --> hard to find something novel
           - MS --> novel, they have been touched a lot
           - infant --> more time points, antibiotic exposure (use or not)
+              - Difficulty: Approperiate datasets 
       
