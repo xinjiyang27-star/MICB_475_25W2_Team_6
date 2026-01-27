@@ -19,11 +19,16 @@
 - Finding the dataset --> enough metadata for us to use?
 - Find papers --> 16S, metadata
 - By Friday!
-Ideas
+5. Ideas
     - MS and Parkinson
     - IBD
-          - Chron diseases --> hard to find something novel
-          - MS --> novel, they have been touched a lot
-          - infant --> more time points, antibiotic exposure (use or not)
+          - CD --> hard to find something novel
+          - UC --> novel research question is hard to find
+    - MS --> novel, they have been touched a lot
+    - infant --> more time points, antibiotic exposure (use or not)
               - Difficulty: Approperiate datasets 
-      
+    - Gut microbiota after chemotherapy (Novel)  --> Having datasets and paper now
+    - Different types of cancers affect gut microbiota 
+6. Combining datasets
+- difficult at the beginning
+e.g. Compare different cancers --> different types of cancers affect microbiota 
