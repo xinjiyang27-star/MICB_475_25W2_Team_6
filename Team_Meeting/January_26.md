@@ -26,19 +26,19 @@
 - Send the papers to Evelyn by ❗Friday❗
 
 5. Project ideas
-1) MS and Parkinson
+i) MS and Parkinson
 - A novel field
 - but have been touched a lot 
-2) IBD
+ii) IBD
 - CD --> hard to find something novel
 - UC --> novel research question is hard to find
-3) infant
+iii) infant
 - datasets: need more time points, antibiotic exposure (use or not)
 - how does the antibiotic exposure affect the infant microbiota --> time dependent manner
 - Difficulty: Approperiate datasets 
-4) Gut microbiota after chemotherapy (Novel)
+iv) Gut microbiota after chemotherapy (Novel)
 - Having datasets and paper now
-5) Different types of cancers affect microbiota 
+v) Different types of cancers affect microbiota 
 
 6. Combining datasets
 - difficult at the beginning
