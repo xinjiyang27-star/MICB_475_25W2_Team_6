@@ -12,7 +12,7 @@
 
 
 ## Q&A
-Q1 Based on the datasets that we found, how can we come up with "NOVEL" research questions?
+❓Q1 Based on the datasets that we found, how can we come up with "NOVEL" research questions?
 
 ## To-Do List 
 1. 
