@@ -9,4 +9,9 @@
 - Prepare the meeting, Have something want to talk about 
 - Set Agenda, meeting minutes 
 - Using the Github
-    - Github setup 
+    - Github setup
+    - Documentation on Github 
+3. Agenda
+- Things we worked on
+- Things we want to walk about
+- Before the meeting 
