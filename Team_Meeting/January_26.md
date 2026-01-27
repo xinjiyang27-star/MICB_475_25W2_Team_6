@@ -8,3 +8,4 @@
 2. Team meeting
 - Prepare the meeting, Have something want to talk about 
 - Set Agenda 
+- Github usage 
