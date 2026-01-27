@@ -7,5 +7,6 @@
 1. Self Introduction 
 2. Team meeting
 - Prepare the meeting, Have something want to talk about 
-- Set Agenda 
-- Github usage 
+- Set Agenda, meeting minutes 
+- Using the Github
+    - Github setup 
