@@ -18,4 +18,11 @@
 4. Dataset and Project ideas
 - Finding the dataset --> enough metadata for us to use?
 - Find papers --> 16S, metadata
-- By Friday! 
+- By Friday!
+Ideas
+    - MS and Parkinson
+    - IBD
+          - Chron diseases --> hard to find something novel
+          - MS --> novel, they have been touched a lot
+          - infant --> more time points, antibiotic exposure (use or not)
+      
