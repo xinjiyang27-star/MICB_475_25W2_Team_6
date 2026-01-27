@@ -45,7 +45,7 @@
 - e.g. Compare different cancers --> different types of cancers affect microbiota 
 
 ## To-do List 
-1. Do more research on finding the relevant papers which containing 16S sequencing data and metadata
+1. Do more research on finding the relevant papers which containing 16S sequencing data
 2. Get the paper ready by 6PM on Wednesday, Jan 28, 2026. 
 3. Papers will be sent to Evelyn after 6PM on Wednesday, Jan 28, 2026. (once papers are finalized)
 4. After hearing back from Evelyn, determine the research topic
