@@ -1,12 +1,11 @@
 # February 2 [16:00-]
 ## Completed
-1. 
-2. 
-3. 
+1. Research topics were narrowed down to infant and chemotherapy
+2. Dataset searching from published literature 
+3. Brainstorm of research questions based on the metadata
 ## Meeting Agenda 
-1. 
+1. Research question discussion
 2. 
-3. Q&A
 ## Meeting Notes 
 1. 
 
