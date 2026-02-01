@@ -6,7 +6,7 @@
 ## Meeting Agenda 
 1. Discussion of research question ideas
 2. Finalize the potential research questions
-3. 
+3. Q&A about concepts, technicals, etc. (if there is)
 ## Meeting Notes 
 1. 
 
