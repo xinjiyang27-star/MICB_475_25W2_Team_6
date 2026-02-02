@@ -10,6 +10,7 @@
    - concern: infant and chemotherapy metadata don't contain too much information, how can we understand their data more? 
 3. Discussion of research question ideas
    - pediatric UC: if combine this dataset with an adult IBD dataset: compare female and male pediatric UC and/or female/male pediatric UC with female/male adult UC.
+   - Infant antibiotic exposure and UC: Brainstorming them now
 5. Finalize the potential research questions
 6. Q&A about concepts, technicals, etc. (if there is)
 ## Meeting Notes 
