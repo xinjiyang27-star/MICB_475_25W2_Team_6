@@ -4,7 +4,7 @@
 3. Dataset searching from published literature and Evelyn found 3 pontential datasets
    - 2 datasets for infant (one for infant antibiotics and one for pediatric UC)
    - 1 dataset for chemotherapy
-5. Brainstorm of research questions based on the metadata
+5. Brainstorm of research questions based on the metadata and research papers 
 ## Meeting Agenda 
 1. Finalize the research topic and dataset
    - concern: infant and chemotherapy metadata don't contain too much information, how can we understand their data more?
