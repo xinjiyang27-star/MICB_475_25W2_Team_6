@@ -16,6 +16,7 @@
         2) UC
         3) combining 1) and 2)
         4) combining 2) and Ryan's dataset (IBD in human) on Canvas
+        5) chemotherapy
 5. Finalize the potential research questions
 6. Q&A about concepts, technicals, etc. (if there is)
 ## Meeting Notes 
@@ -23,10 +24,10 @@
 
 
 ## Q&A
-❓Q1 Based on the datasets that we found, how can we come up with "NOVEL" research questions?
+❓Q1 How do we combine datasets? What do we need to check to combine them?
 
 ❓Q2 Will the datasets and metadata files which we found be uploaded to the server?
 
-❓Q3 How do we combine datasets? What do we need to check to combine them? 
+❓Q3 If the research question that we came up with are unfortunately addressed or half-addressed by a paper from somewhere (Not the original dataset-containing paper nor UJIMI), how can we do? Do we need to switch to another question directly or add some conditions in the research question (since we would not use the same dataset, so can we add some limiting conditions based on the dataset and make the research question "novel")
 ## To-Do List 
 1. 
