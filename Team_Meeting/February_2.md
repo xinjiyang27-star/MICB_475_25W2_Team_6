@@ -15,7 +15,7 @@
         1) antibiotic exposure of infant: window specificity 
         2) UC: sex difference in UC
         3) combining 1) and 2): signiture comparison (NOT causation) ➡️ taxa depletion by antibiotic
-        4) combining 2) and Ryan's dataset (IBD in human) on Canvas ➡️ age-specific signiture (I LOVE this idea!!! I'm soooo excited to talk about it!!!)
+        4) combining 2) and Ryan's dataset (IBD in human) on Canvas ➡️ age-specific signiture
         5) chemotherapy
 5. Finalize the potential research questions
 6. Q&A about concepts, technicals, etc. (if there is)
