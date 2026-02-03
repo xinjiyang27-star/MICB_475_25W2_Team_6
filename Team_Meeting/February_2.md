@@ -60,7 +60,8 @@
 3) machine learning
    - 2 poeple: pediatric UC in QIIME2 -> desep or indicator taxa in R -> random forest model (build the model) -> % accuracy
    - 3 people: Halfvarson in QIIME2 -> desep or indicator taxa in R -> random forest model (build the model) -> % accuracy
-   - combine pediatric UC and Halfvarson model -> cross compare them 
+   - combine pediatric UC and Halfvarson model -> cross compare them
+   - objective: Buid machine learning models to predict UC patients and healthy for pediatric and adult.
    
 ## Q&A
 ❓Q1 How do we combine datasets? What do we need to check to combine them?
