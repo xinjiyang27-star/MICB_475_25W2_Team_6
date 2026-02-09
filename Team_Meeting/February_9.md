@@ -1,4 +1,4 @@
-# February 2 [16:00-17:00]
+# February 9 [16:00-]
 ## Completed
 1. Finalized the dataset selection which will be used for research project
    - Halfvarson paper
