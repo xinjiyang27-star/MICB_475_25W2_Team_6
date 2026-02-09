@@ -9,7 +9,8 @@
 1. Go through the proposal skeleton and ask Evelyn for suggestions
 2. Q and A:
    - For introduction, how much details should we include about UC and CD microbiota? Do we need to include how species are different or more general trend?
-   - 
+   - In terms of literature review: Do we have a least numbers of papers that need to be included in the literature review (I looked through the example proposal, which seems like they didn't include many papers for that section)?
+3. 
 
 
 ## Meeting Notes 
