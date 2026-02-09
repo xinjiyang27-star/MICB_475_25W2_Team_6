@@ -11,7 +11,7 @@
    - For introduction, how much details should we include about UC and CD microbiota? Do we need to include how species are different or more general trend?
    - In terms of literature review: Do we have a least numbers of papers that need to be included in the literature review (I looked through the example proposal, which seems like they didn't include many papers for that section)?
 
-This is the skeleton of Introduction&Background section 
+This is the skeleton of Introduction&Background section(This is only a draft, which some contents may be repetitive, and will be revised later)
 ![Alt text](/images/Intro-1.png)
 ![Alt text](/images/Intro-2.png)
 ## Meeting Notes 
