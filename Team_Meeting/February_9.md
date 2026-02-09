@@ -6,7 +6,7 @@
 4. Draft/Skeleton of the research ideas and proposal 
 
 ## Meeting Agenda 
-1. ❗Halfvarson paper discussion: I found something really important about this paper, which may affect our research topic, let's discuss it in the meeting -- Jiyang 
+1. ❗(Please give Jiyang ~5 minutes to talk about the issues and his current ideas, thanks!) Halfvarson paper discussion: I found something really important about this paper, which may affect our research topic, let's discuss it in the meeting -- Jiyang 
 2. Go through the proposal skeleton (Introduction&Background; Hypothesis; Experimental aims) and ask Evelyn for suggestions
 3. Q and A:
    - For introduction, how much details should we include about UC and CD microbiota? Do we need to include how species are different or more general trend?
