@@ -12,7 +12,8 @@
    - In terms of literature review: Do we have a least numbers of papers that need to be included in the literature review (I looked through the example proposal, which seems like they didn't include many papers for that section)?
 
 This is the skeleton of Introduction&Background section 
-(/images/Intro-1.png)(/images/Intro-2.png)
+![Alt text](/images/Intro-1.png)
+![Alt text](/images/Intro-2.png)
 ## Meeting Notes 
 
 
