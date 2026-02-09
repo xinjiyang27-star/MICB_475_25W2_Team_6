@@ -10,7 +10,7 @@
 2. Q and A:
    - For introduction, how much details should we include about UC and CD microbiota? Do we need to include how species are different or more general trend?
    - In terms of literature review: Do we have a least numbers of papers that need to be included in the literature review (I looked through the example proposal, which seems like they didn't include many papers for that section)?
-   - In terms of the current knoweldge gap: my current idea 1) most ML is trained on metagenomic sequencing, not too many papers talks about training based on 16S sequencing. 2) Identify any gap from the original Halfvarson paper, and link it to the ML (e.g. Halfvarson doesn't do machine learning)
+   - In terms of the current knoweldge gap: my current idea 1) most ML is trained on metagenomic sequencing, not too many papers talks about training based on 16S sequencing. 2) Identify any gap from the original Halfvarson paper, and link it to the ML
 
 This is the skeleton of Introduction&Background section(This is only a draft, which some contents may be repetitive, and will be revised later)
 ![Alt text](/images/Intro-1.png)
