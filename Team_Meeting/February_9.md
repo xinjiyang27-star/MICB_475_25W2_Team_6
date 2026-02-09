@@ -6,8 +6,9 @@
 4. Draft/Skeleton of the research ideas and proposal 
 
 ## Meeting Agenda 
-1. (Suppose to take most of the meeting time?)Go through the proposal skeleton (Introduction&Background; Hypothesis; Experimental aims) and ask Evelyn for suggestions
-2. Q and A:
+1.❗Halfvarson paper discussion: I found something really important about this paper, which may affect our research topic, let's discuss it in the meeting -- Jiyang 
+2. (Suppose to take most of the meeting time?)Go through the proposal skeleton (Introduction&Background; Hypothesis; Experimental aims) and ask Evelyn for suggestions
+3. Q and A:
    - For introduction, how much details should we include about UC and CD microbiota? Do we need to include how species are different or more general trend?
    - In terms of literature review: Do we have a least numbers of papers that need to be included in the literature review (I looked through the example proposal, which seems like they didn't include many papers for that section)?
    - In terms of the current knoweldge gap: my current idea 1) most ML is trained on metagenomic sequencing, not too many papers talks about training based on 16S sequencing. 2) Identify any gap from the original Halfvarson paper
