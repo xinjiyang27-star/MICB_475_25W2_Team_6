@@ -5,7 +5,7 @@
 2. Finalized research ideas: build a machine learning model to distinguish UC, CD, and healthy for diagnostic purposes
 4. Draft/Skeleton of the research ideas and proposal 
 
-## Meeting Agenda 
+## Meeting Agenda: https://docs.google.com/document/d/1FFczbSTuTaX4RDC6o7nsk2-34agODmL2r1FjgjkNk7U/edit?usp=sharing
 1. ❗(Please give Jiyang ~5 minutes to talk about the issues and his current ideas, thanks!) Halfvarson paper discussion: I found something really important about this paper, which may affect our research topic, let's discuss it in the meeting -- Jiyang 
 2. Go through the proposal skeleton (Introduction&Background; Hypothesis; Experimental aims) and ask Evelyn for suggestions
 3. Q and A:
