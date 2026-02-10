@@ -31,6 +31,8 @@ This is the skeleton of Introduction&Background section(This is only a draft, wh
         - Can include all in the model
     - finding the key ASV to train the model
    - USE whole dataset to find the ASV --> use same ASV to determine the model for each location.
+   - Keep the medication for now --> to see whether it is affected
+   - Keep all variables in the model --> to determine later 
 
 3. Contact Hans --> Ryan's dataset
    - Hans will know --> to cut the barcode
