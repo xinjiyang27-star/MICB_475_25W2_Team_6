@@ -19,7 +19,15 @@ This is the skeleton of Introduction&Background section(This is only a draft, wh
 ![Alt text](/images/Intro-1.png)
 ![Alt text](/images/Intro-2.png)
 ## Meeting Notes 
-
+1. Halfvarson paper
+  - They used machine learning by RF to do the prediction classifier
+2. Ryan
+   - No Machine learning
+   - we can go with Ryan paper to use the dataset to do comparison with Halfvarson paper's model --> which one is better for prediction 
+   - Need to control for location of biopsy
+   - Do many small models for each location --> to see which one is the best one
+        - control biopsy location
+        - 
 
 
 ## To-do List
