@@ -27,7 +27,13 @@ This is the skeleton of Introduction&Background section(This is only a draft, wh
    - Need to control for location of biopsy
    - Do many small models for each location --> to see which one is the best one
         - control biopsy location
-        - 
+        - Put gender and medication in the model --> to see medication or gender is a good predictor
+        - Can include all in the model
+    - finding the key ASV to train the model
+
+3. Contact Hans --> Ryan's dataset
+   - Hans will know --> to cut the barcode
+   - We have to remove the barcodes before processing. 
 
 
 ## To-do List
