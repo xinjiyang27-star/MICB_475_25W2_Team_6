@@ -30,6 +30,7 @@ This is the skeleton of Introduction&Background section(This is only a draft, wh
         - Put gender and medication in the model --> to see medication or gender is a good predictor
         - Can include all in the model
     - finding the key ASV to train the model
+   - USE whole dataset to find the ASV --> use same ASV to determine the model for each location.
 
 3. Contact Hans --> Ryan's dataset
    - Hans will know --> to cut the barcode
