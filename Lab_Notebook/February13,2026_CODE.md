@@ -20,3 +20,7 @@ qiime feature-table summarize \
 qiime feature-table tabulate-seqs \
   --i-data ryan-rep-seqs.qza \
   --o-visualization ryan-rep-seqs.qzv
+
+qiime metadata tabulate \
+  --m-input-file ryan-stats.qza \
+  --o-visualization ryan-stats.qzv
