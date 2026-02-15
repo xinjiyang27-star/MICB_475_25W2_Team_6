@@ -10,3 +10,13 @@ qiime dada2 denoise-paired \
   --o-denoising-stats ryan-stats.qza
 
 #Ensure overlap is: forward length after truncation + reverse length after truncation - amplicon length ≥ 20–30 bp overlap
+
+# Visualize Files
+qiime feature-table summarize \
+  --i-table ryan-table.qza \
+  --o-visualization ryan-table.qzv \
+  --m-sample-metadata-file /datasets/project_2/human_ibd/ryan_metadata.tsv
+
+qiime feature-table tabulate-seqs \
+  --i-data ryan-rep-seqs.qza \
+  --o-visualization ryan-rep-seqs.qzv
