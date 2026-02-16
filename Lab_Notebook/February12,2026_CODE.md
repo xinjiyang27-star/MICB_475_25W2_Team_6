@@ -41,5 +41,9 @@ MICB475 Server
 8. Download the qzv file to Local
 
    scp root@10.19.139.189:/data/project_2/ryan_demux_seqs-trimmed.qzv .
+   
+## Results
+[ryan_demux_seqs-trimmed.qzv](/Lab_Notebook/Experimental_Results/ryan_demux_seqs-timmed.qzv)
+
 
 
