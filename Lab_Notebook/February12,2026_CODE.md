@@ -1,4 +1,4 @@
-# Sequencing data process in QIIME2 12 February 
+# Sequencing data process in QIIME2 [12 February] 
 ## Purpose: 
 To import the data from Ryan's paper and demultiplex the data for downstream analysis. 
 
