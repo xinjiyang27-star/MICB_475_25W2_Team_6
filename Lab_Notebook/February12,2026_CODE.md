@@ -43,7 +43,7 @@ MICB475 Server
    scp root@10.19.139.189:/data/project_2/ryan_demux_seqs-trimmed.qzv .
    
 ## Results
-[ryan_demux_seqs-trimmed.qzv](/Lab_Notebook/Experimental_Results/ryan_demux_seqs-timmed.qzv) 
+ryan_demux_seqs-trimmed.qzv (filepath: /Lab_Notebook/Experimental_Results/ryan_demux_seqs-trimmed.qzv)
 
 
 
