@@ -37,6 +37,7 @@
   - Base rarefraction value based on alpha rarefraction, base it on a condition. Play with sampling depth to maximize where we don't see a decrease in frequency.
   - Alpha and Beta diversity are not super important. Important to still run the analysis to see how different the conditions are, best bet is to rerun as single-end reads, and see if we have the sampling depth issue. If there is an issue, rewrite data overview part.
   - Last thing we need is the rarefaction value: "if we try to rarefy, we lose a lot of samples, so we will re-run as single reads and do the rarefaction action, hence we cannot run the diversity metrics."
+    
 1'. Run all alpha diversity and Beta. If alpha ALWAYS KW test, if Beta ALWAYS Permanova. We want to see which metrics has significant differences, informs which downstream analysis is more important in picking taxa for the model.
   - We need to run the Post-hoc test too for the KW test
 5. Stat test is embedded into the DESEQ, ISA, etc. When listing, we just say "Internal test determined by the actual analysis". Keep everything at 0.05 (p-value). Contingent on taxa - if we have a lot of indicator taxa then we need to be more stringent with the p-value. All the analyses highlight which taxa are different in the conditions - should be in experimental aims.
