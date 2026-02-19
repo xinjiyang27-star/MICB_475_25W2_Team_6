@@ -29,3 +29,5 @@
 9. First line of chart --> Aim1 and Aim 2 sample using --> use all? use some? ...
 10. research sub-aim: locations of the bipsy for CD, UC, Healthy classification? Main aim is using biopsy for ML IBD subtype classification. 
 ## Meeting Notes
+**Answers to Questions:**
+1. 
