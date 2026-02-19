@@ -1,4 +1,4 @@
-# February 9 [16:00-]
+# February 9 [16:00-16:35]
 ## Completed
 1. Finalized the dataset selection which will be used for research project
    - Halfvarson paper
@@ -16,8 +16,7 @@
    - Would normalizing sequencing depths and number of samples be enough for aim 1
    - How specific do we have to be in the hypothesis? Should we mention known taxa that are elevated/reduced between the diseases?
 This is the skeleton of Introduction&Background section(This is only a draft, which some contents may be repetitive, and will be revised later)
-![Alt text](/images/Intro-1.png)
-![Alt text](/images/Intro-2.png)
+
 ## Meeting Notes 
 1. Halfvarson paper
   - They used machine learning by RF to do the prediction classifier
@@ -41,3 +40,5 @@ This is the skeleton of Introduction&Background section(This is only a draft, wh
 
 
 ## To-do List
+1. Data processing
+2. Proposal 
