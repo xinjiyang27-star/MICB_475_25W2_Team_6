@@ -3,10 +3,16 @@
 1. quality score cut off:
    1) stay with what we have so far so far --> if we stay with it, what about the rarefaction?
 <img width="1007" height="538" alt="Screen Shot 2026-02-18 at 10 04 23 PM" src="https://github.com/user-attachments/assets/3e65d716-89eb-4870-b970-219ff6d631eb" />
+<img width="508" height="313" alt="Screen Shot 2026-02-18 at 10 04 58 PM" src="https://github.com/user-attachments/assets/e4d11504-1024-4216-b0c7-7ad294299b67" />
+<img width="510" height="316" alt="Screen Shot 2026-02-18 at 10 06 08 PM" src="https://github.com/user-attachments/assets/eaba60f4-d6de-44b5-8636-c8e4a16a1805" />
 
    3) lower to 20
-   4) lower to 25, paper says
-   5) do forward only, discard the reverse reads   
+<img width="997" height="492" alt="Screen Shot 2026-02-18 at 10 06 42 PM" src="https://github.com/user-attachments/assets/425a3a9f-c874-43aa-8c5a-844f3bd83c24" />
+   <img width="512" height="337" alt="Screen Shot 2026-02-18 at 10 06 59 PM" src="https://github.com/user-attachments/assets/c33f5c62-8dc0-4494-b83f-1060b5453fca" />
+<img width="506" height="335" alt="Screen Shot 2026-02-18 at 10 07 22 PM" src="https://github.com/user-attachments/assets/2e620e3f-7e3f-4a99-8fdc-6f028219f54d" />
+
+   5) lower to 25, paper says
+   6) do forward only, discard the reverse reads   
 1. purpose of running alpha diversity and beta diversity and what statistical test should we use for the alpha.
    - KW test? permanova? Tukey post-hoc test
 2. Explanation of running alpha and b diversity --> why we are doing this, doing that
