@@ -44,7 +44,8 @@
 6. ISA output will be a table
 9. Control for location, keep the samples for a specific location. For the proposal, say "depends on model, we may control for location or treatment, but we will apply it to the model first to determine if it is necessary" - for the first 3 analyses - will depend on the random forest model.
 - For random forest, say "all samples, contingent on what we found as confounding variables."
-10. Don't talk about comparing the locations of sampling in the proposal. 
+10. Don't talk about comparing the locations of sampling in the proposal.
+  
 _Other notes:_
 - Demux file looks good, no issues there. After trimming, however, reads went down A LOT (700ish from 19Million)
 - Alignment of pair reads may just not be good because the barcodes may disrupt the alignment. 
