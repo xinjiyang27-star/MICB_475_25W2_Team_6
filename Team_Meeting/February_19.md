@@ -34,7 +34,6 @@
   - adjust manifest, 3 columns rn, so what we have to do is delete reverse pathway, change forwards pathway to absolute. So it will only read forward reads; they are better quality anyway.
   - 180 or 220bp is fine for the cut-off
   - Benefit of paired, it's more beneficial IF THEY PAIR
-  - Email Dr. Sun if we get confused
   - Base rarefraction value based on alpha rarefraction, base it on a condition. Play with sampling depth to maximize where we don't see a decrease in frequency.
   - Alpha and Beta diversity are not super important. Important to still run the analysis to see how different the conditions are, best bet is to rerun as single-end reads, and see if we have the sampling depth issue. If there is an issue, rewrite data overview part.
   - Last thing we need is the rarefaction value: "if we try to rarefy, we lose a lot of samples, so we will re-run as single reads and do the rarefaction action, hence we cannot run the diversity metrics."
