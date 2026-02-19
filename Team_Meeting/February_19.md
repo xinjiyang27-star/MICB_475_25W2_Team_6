@@ -30,4 +30,4 @@
 10. research sub-aim: locations of the bipsy for CD, UC, Healthy classification? Main aim is using biopsy for ML IBD subtype classification. 
 ## Meeting Notes
 **Answers to Questions:**
-1. 
+1. W
