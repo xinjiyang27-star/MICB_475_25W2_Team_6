@@ -25,5 +25,6 @@
    - should we run the stat test after we get the p values?
 6. ISA: Results/Output is the chart?
 7. We run all of the CoreMicrobiome, ISA, DeSeq --> determine the taxa used to train the model? but If each of them gives us a different result, what can we do?
-8. First line of chart --> Aim1 and Aim 2 sample using --> use all? use some? ...
-9. research sub-aim: locations of the bipsy for CD, UC, Healthy classification? Main aim is using biopsy for ML IBD subtype classification. 
+8. What statistical test do CoreMicrobiome, ISA, DeSeq use? Since we don't choose the statistical test, do we need to find the default statistical test for them?
+9. First line of chart --> Aim1 and Aim 2 sample using --> use all? use some? ...
+10. research sub-aim: locations of the bipsy for CD, UC, Healthy classification? Main aim is using biopsy for ML IBD subtype classification. 
