@@ -1,7 +1,7 @@
 # February 19 [12:00-12:45]
 ## Questions to discuss 
 1. quality score cut off:
-   1) stay with what we have so far so far
+   1) stay with what we have so far so far --> if we stay with it, what about the rarefaction?
    2) lower to 20
    3) lower to 25, paper says
    4) do forward only, discard the reverse reads   
