@@ -30,4 +30,28 @@
 10. research sub-aim: locations of the bipsy for CD, UC, Healthy classification? Main aim is using biopsy for ML IBD subtype classification. 
 ## Meeting Notes
 **Answers to Questions:**
-1. W
+1. Proceed with just forward reads. Keep proposal as it is, as though paired reads, but in reality, run it as forward reads only.
+  - adjust manifest, 3 columns rn, so what we have to do is delete reverse pathway, change forwards pathway to absolute. So it will only read forward reads; they are better quality anyway.
+  - 180 or 220bp is fine for the cut-off
+  - Benefit of paired, it's more beneficial IF THEY PAIR
+  - Email Dr. Sun if we get confused
+  - Base rarefraction value based on alpha rarefraction, base it on a condition. Play with sampling depth to maximize where we don't see a decrease in frequency.
+  - Alpha and Beta diversity are not super important. Important to still run the analysis to see how different the conditions are, best bet is to rerun as single-end reads, and see if we have the sampling depth issue. If there is an issue, rewrite data overview part.
+  - Last thing we need is the rarefaction value: "if we try to rarefy, we lose a lot of samples, so we will re-run as single reads and do the rarefaction action, hence we cannot run the diversity metrics."
+1'. Run all alpha diversity and Beta. If alpha ALWAYS KW test, if Beta ALWAYS Permanova. We want to see which metrics has significant differences, informs which downstream analysis is more important in picking taxa for the model.
+  - We need to run the Post-hoc test too for the KW test
+5. Stat test is embedded into the DESEQ, ISA, etc. When listing, we just say "Internal test determined by the actual analysis". Keep everything at 0.05 (p-value). Contingent on taxa - if we have a lot of indicator taxa then we need to be more stringent with the p-value. All the analyses highlight which taxa are different in the conditions - should be in experimental aims.
+6. ISA output will be a table
+9. Control for location, keep the samples for a specific location. For the proposal, say "depends on model, we may control for location or treatment, but we will apply it to the model first to determine if it is necessary" - for the first 3 analyses - will depend on the random forest model.
+- For random forest, say "all samples, contingent on what we found as confounding variables."
+10. Don't talk about comparing the locations of sampling in the proposal. 
+_Other notes:_
+- Demux file looks good, no issues there. After trimming, however, reads went down A LOT (700ish from 19Million)
+- Alignment of pair reads may just not be good because the barcodes may disrupt the alignment. 
+- Don't have sub-aims.
+- Start running single-end reads even if we don't put it in the proposal (oo munts did it alr)
+- After we trim, and get the table, email Evelyn to see we get good reads. Not sure if 220 is stringent enough
+- RF is a statistical test,
+- Do mention what the cut off for the p-adj for volcano plot 
+
+
