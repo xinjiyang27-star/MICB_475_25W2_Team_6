@@ -57,7 +57,7 @@ qiime phylogeny align-to-tree-mafft-fasttree \
   --o-tree forwardryan-unrooted-tree.qza \
   --o-rooted-tree forwardryan-rooted-tree.qza 
 
-#Alpha-rarefaction
+#Alpha rarefaction
 qiime diversity alpha-rarefaction \
   --i-table forwardryan-table.qza \
   --i-phylogeny forwardryan-rooted-tree.qza \
