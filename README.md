@@ -21,6 +21,7 @@
 [February 12](/Lab_Notebook/February12,2026_CODE.md)
 [February 13](/Lab_Notebook/February13,2026_CODE.md)
 [February 14](/Lab_Notebook/February14,2026_CODE.md)
+[February 19](/Lab_Notebook/February19,2026_CODE.md)
 
 ## Finalized Code 💻 ##
 
