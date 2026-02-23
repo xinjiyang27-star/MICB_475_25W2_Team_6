@@ -1,4 +1,4 @@
-#Febraury 23
+# Febraury 23
 ## Agenda 
 1. Update about proposal (Submitted!)
 2. formatting issue with Mac
