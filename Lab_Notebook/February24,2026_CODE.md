@@ -1,4 +1,12 @@
-# Beta-diversity
+# Running Beta-diversity and Taxonomy bar plots in R [Feb.24.2026]
+
+## Purpose:
+1. To generate the four beta-diveristy metrics (bray-curtis, jaccard, unweighted unifrac, and weighted unifrac) and taxonomy bar plot
+
+## Materials:
+1. R-studio
+## Methods:  
+1. ### Beta-diversity
 #Run beta-diversity using bray-curtis as the metric
 
 bc_dm <- distance(ryan_rare, method="bray")
@@ -42,8 +50,8 @@ gg_pcoa_wu
 ggsave("plot_pcoa_bc.png"
        , gg_pcoa_bc
        , height=4, width=6)
-
-# Taxonomy bar plots
+       
+2. ### Taxonomy bar plots
 
 #Plot bar plot of taxonomy. Group it by phylum
 
