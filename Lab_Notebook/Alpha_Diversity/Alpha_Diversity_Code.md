@@ -1,4 +1,4 @@
 
 
 
-/MICB_475_25W2_Team_6/images/plot_richness.png
+[plot_richness](/images/plot_richness.png)
