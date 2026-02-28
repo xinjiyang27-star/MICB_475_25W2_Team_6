@@ -1,0 +1,344 @@
+sample-id	Subject	Gender	Condition	Montreal.classification	Biopsy_location	Age_when_sampled	Years_since_diagnosis	Histological.status	Medications	Smoking.status	DocumentedFlareWithin24MonthsofSampling	Epi.Sentrix_ID	Epi.Sentrix_Position
+SRR6153846	sCD01	Male	Crohn's Disease	A2L2B1	Right colon	52	29	Inflamed tissue 	No	Non-smoker	No		
+SRR6153847	sCD01	Male	Crohn's Disease	A2L2B1	Sigmoid	52	29	Noninflamed tissue 	No	Non-smoker	No		
+SRR6153845	sCD02	Female	Crohn's Disease	A2L2B1	Right colon	31	14	Noninflamed tissue 	No	Non-smoker	Yes	2E+11	R05C01
+SRR6153843	sCD03	Female	Crohn's Disease	A2L3B1	Sigmoid	34	12	Inflamed tissue 	Anti-TNF	Non-smoker	Yes	2E+11	R04C02
+SRR6153840	sCD03	Female	Crohn's Disease	A2L3B1	Right colon	34	12	Noninflamed tissue 	Anti-TNF	Non-smoker	Yes	2E+11	R05C01
+SRR6153841	sCD04	Male	Crohn's Disease	A2L3B3	Splenic flexture	37	4	Inflamed tissue 	No	Non-smoker	Yes		
+SRR6153838	sCD04	Male	Crohn's Disease	A2L3B3	Right colon	37	4	Noninflamed tissue 	No	Non-smoker	Yes		
+SRR6153839	sCD05	Female	Crohn's Disease	A2L2B1	Rectum	48	14	Inflamed tissue 	Anti-TNF	Non-smoker	Yes	2E+11	R02C02
+SRR6153654	sCD05	Female	Crohn's Disease	A2L2B1	Sigmoid	48	14	Noninflamed tissue 	Anti-TNF	Non-smoker	Yes	2E+11	R02C01
+SRR6153655	sCD06	Male	Crohn's Disease	A2L3B2	Right colon	31	12	Inflamed tissue 	No	Non-smoker	No		
+SRR6153652	sCD06	Male	Crohn's Disease	A2L3B2	Rectum	31	12	Noninflamed tissue 	No	Non-smoker	No		
+SRR6153653	sCD07	Male	Crohn's Disease	A2L2B2	Sigmoid	34	15	Inflamed tissue 	Mesalamine+mercaptopurine	Smoker	Yes	2E+11	R01C01
+SRR6153650	sCD07	Male	Crohn's Disease	A2L2B2	Rectum	34	15	Noninflamed tissue 	Mesalamine+mercaptopurine	Smoker	Yes	2E+11	R01C02
+SRR6153651	sCD08	Female	Crohn's Disease	A2L3B2	Right colon	33	13	Inflamed tissue 	No	Non-smoker	No	2E+11	R03C02
+SRR6153648	sCD08	Female	Crohn's Disease	A2L3B2	Rectum	33	13	Noninflamed tissue 	No	Non-smoker	No	2E+11	R03C02
+SRR6153649	sCD09	Male	Crohn's Disease	A2L2B1	Rectum	44	12	Inflamed tissue 	Mercaptopurine	Smoker	No	2E+11	R03C02
+SRR6153656	sCD09	Male	Crohn's Disease	A2L2B1	Sigmoid	44	12	Noninflamed tissue 	Mercaptopurine	Smoker	No	2E+11	R01C01
+SRR6153657	sCD10	Female	Crohn's Disease	A1L2B2	T colon	31	19	Inflamed tissue 	Mercaptopurine+corticosteroids	Smoker	No		
+SRR6153707	sCD10	Female	Crohn's Disease	A1L2B2	Rectum	31	19	Noninflamed tissue 	Mercaptopurine+corticosteroids	Smoker	No		
+SRR6153706	sCD11	Male	Crohn's Disease	A2L2B1	Right colon	31	11	Inflamed tissue 	Mesalamine+mercaptopurine	Non-smoker	No		
+SRR6153705	sCD11	Male	Crohn's Disease	A2L2B1	Rectum	31	11	Noninflamed tissue 	Mesalamine+mercaptopurine	Non-smoker	No		
+SRR6153704	sCD12	Male	Crohn's Disease	A2L2B1	Right colon	21	0	Inflamed tissue 	Antibiotics	Non-smoker	No	2E+11	R04C02
+SRR6153703	sCD12	Male	Crohn's Disease	A2L2B1	Rectum	21	0	Noninflamed tissue 	Antibiotics	Non-smoker	No	2E+11	R01C02
+SRR6153702	sCD13	Female	Crohn's Disease	A3L3B2	Sigmoid	41	12	Inflamed tissue 	Mercaptopurine	Non-smoker	Yes	2E+11	R04C01
+SRR6153701	sCD13	Female	Crohn's Disease	A3L3B2	Rectum	41	12	Noninflamed tissue 	Mercaptopurine	Non-smoker	Yes	2E+11	R04C02
+SRR6153700	sCD16	Male	Crohn's Disease	A2L2B1	Rectum	22	4	Inflamed tissue 	No	Non-smoker	No		
+SRR6153699	sCD16	Male	Crohn's Disease	A2L2B1	Rectum	22	4	Noninflamed tissue 	No	Non-smoker	No		
+SRR6153698	sCD17	Female	Crohn's Disease	A2L3B2	Right colon	62	25	Inflamed tissue 	No	Non-smoker	No	2E+11	R04C01
+SRR6153800	sCD17	Female	Crohn's Disease	A2L3B2	Rectum	62	25	Noninflamed tissue 	No	Non-smoker	No	2E+11	R03C02
+SRR6153801	sCD18	Male	Crohn's Disease	A3L3B2	Right colon	55	8	Inflamed tissue 	Corticosteroids	Non-smoker	No	2E+11	R05C02
+SRR6153802	sCD18	Male	Crohn's Disease	A3L3B2	Rectum	55	8	Noninflamed tissue 	Corticosteroids	Non-smoker	No	2E+11	R06C01
+SRR6153803	sCD19	Male	Crohn's Disease	A2L3B1	Right colon	59	40	Inflamed tissue 	Corticosteroids	Non-smoker	No		
+SRR6153804	sCD19	Male	Crohn's Disease	A2L3B1	Right colon	59	40	Noninflamed tissue 	Corticosteroids	Non-smoker	No		
+SRR6153805	sCD20	Male	Crohn's Disease	A2L2B1	Right colon	47	3	Inflamed tissue 	Mercaptopurine	Non-smoker	No	2E+11	R04C01
+SRR6153806	sCD20	Male	Crohn's Disease	A2L2B1	Rectum	47	3	Noninflamed tissue 	Mercaptopurine	Non-smoker	No	2E+11	R03C02
+SRR6153807	sCD21	Male	Crohn's Disease	A2L2B1	Right colon	44	8	Inflamed tissue 	No	Non-smoker	No		
+SRR6153798	sCD21	Male	Crohn's Disease	A2L2B1	Rectum	44	8	Noninflamed tissue 	No	Non-smoker	No		
+SRR6153799	sCD22	Male	Crohn's Disease	A3L2B1	Right colon	65	0	Inflamed tissue 	No	Non-smoker	No	2E+11	R04C01
+SRR6153617	sCD22	Male	Crohn's Disease	A3L2B1	Rectum	65	0	Noninflamed tissue 	No	Non-smoker	No	2E+11	R01C01
+SRR6153616	sCD23	Male	Crohn's Disease	A2L3B1	Sigmoid	34	10	Inflamed tissue 	No	Non-smoker	No		
+SRR6153619	sCD24	Female	Crohn's Disease	A2L2B1	Rectum	38	17	Inflamed tissue 	No	Smoker	No	2E+11	R01C01
+SRR6153618	sCD24	Female	Crohn's Disease	A2L2B1	Right colon	38	17	Noninflamed tissue 	No	Smoker	No	2E+11	R02C01
+SRR6153621	sCD25	Male	Crohn's Disease	A2L3B2	Sigmoid	37	9	Inflamed tissue 	Mercaptopurine	Non-smoker	No		
+SRR6153620	sCD25	Male	Crohn's Disease	A2L3B2	Rectum	37	9	Noninflamed tissue 	Mercaptopurine	Non-smoker	No		
+SRR6153623	sCD26	Male	Crohn's Disease	A2L2B1	Right colon	51	20	Inflamed tissue 	No	Non-smoker	No	2E+11	R01C01
+SRR6153622	sCD26	Male	Crohn's Disease	A2L2B1	Rectum	51	20	Noninflamed tissue 	No	Non-smoker	No	2E+11	R04C01
+SRR6153615	sCD28	Male	Crohn's Disease	A2L3B1	Right colon	34	13	Inflamed tissue 	Anti-TNF	Non-smoker	No	2E+11	R04C02
+SRR6153614	sCD29	Male	Crohn's Disease	A2L2B1	Right colon	24	7	Inflamed tissue 	Corticosteroids	Non-smoker	Yes		
+SRR6153722	sCD29	Male	Crohn's Disease	A2L2B1	Rectum	24	7	Noninflamed tissue 	Corticosteroids	Non-smoker	Yes		
+SRR6153723	sCD30	Male	Crohn's Disease	A3L2B1	Rectum	66	0	Inflamed tissue 	No	Non-smoker	No	2E+11	R02C02
+SRR6153720	sCD30	Male	Crohn's Disease	A3L2B1	Right colon	66	0	Noninflamed tissue 	No	Non-smoker	No	2E+11	R06C01
+SRR6153721	sCD31	Female	Crohn's Disease	A2L3B2	Right colon	34	2	Inflamed tissue 	Mesalamine	Non-smoker	No	2E+11	R05C02
+SRR6153726	sCD31	Female	Crohn's Disease	A2L3B2	Rectum	34	2	Noninflamed tissue 	Mesalamine	Non-smoker	No	2E+11	R03C02
+SRR6153727	sCD32	Male	Crohn's Disease	A2L3B1	Rectum	31	6	Inflamed tissue 	Anti-TNF	Non-smoker	Yes		
+SRR6153724	sCD32	Male	Crohn's Disease	A2L3B1	Right colon	31	6	Noninflamed tissue 	Anti-TNF	Non-smoker	Yes		
+SRR6153725	sCD36	Male	Crohn's Disease	A2L3B1	Right colon	52	17	Inflamed tissue 	No	Non-smoker	No	2E+11	R01C01
+SRR6153718	sCD36	Male	Crohn's Disease	A2L3B1	Rectum	52	17	Noninflamed tissue 	No	Non-smoker	No	2E+11	R02C02
+SRR6153719	sCD38	Female	Crohn's Disease	A2L2B1	Right colon	33	13	Inflamed tissue 	Anti-TNF	Non-smoker	No	2E+11	R02C02
+SRR6153751	sCD38	Female	Crohn's Disease	A2L2B1	Rectum	33	13	Noninflamed tissue 	Anti-TNF	Non-smoker	No	2E+11	R04C01
+SRR6153750	sCD41	Male	Crohn's Disease	A2L2B1	Right colon	35	6	Inflamed tissue 	Mesalamine+mercaptopurine	Non-smoker	No	2E+11	R05C01
+SRR6153749	sCD41	Male	Crohn's Disease	A2L2B1	Rectum	35	6	Noninflamed tissue 	Mesalamine+mercaptopurine	Non-smoker	No	2E+11	R04C01
+SRR6153748	sCD42	Male	Crohn's Disease	A2L2B1	Right colon	40	0	Inflamed tissue 	No	Non-smoker	No	2E+11	R02C01
+SRR6153755	sCD42	Male	Crohn's Disease	A2L2B1	Sigmoid	40	0	Noninflamed tissue 	No	Non-smoker	No	2E+11	R03C02
+SRR6153754	sCD43	Male	Crohn's Disease	A3L2B1	Caecum	65	0	Inflamed tissue 	Mesalamine	Smoker	Unknown	2E+11	R04C01
+SRR6153753	sCD43	Male	Crohn's Disease	A3L2B1	Rectosigmoid	65	0	Noninflamed tissue 	Mesalamine	Smoker	Unknown	2E+11	R05C02
+SRR6153752	sCD44	Female	Crohn's Disease	A2L2B1	Sigmoid	34	10	Noninflamed tissue 	Mercaptopurine	Smoker	Yes	2E+11	R03C02
+SRR6153756	sCD45	Female	Crohn's Disease	A2L3B2	Descending	25	7	Noninflamed tissue 	No	Non-smoker	Yes	2E+11	R06C01
+SRR6153757	sCD45	Female	Crohn's Disease	A2L3B2	Right colon undefined	25	7	Inflamed tissue 	No	Non-smoker	Yes	2E+11	R03C01
+SRR6153533	sCD46	Female	Crohn's Disease	A3L3B1	Caecum	79	20	Noninflamed tissue 	Anti-TNF+antibiotics	Non-smoker	Yes		
+SRR6153535	sCD47	Female	Crohn's Disease	A2L3B2	Descending	48	20	Noninflamed tissue 	Corticosteroids	Non-smoker	No	2E+11	R05C02
+SRR6153534	sCD47	Female	Crohn's Disease	A2L3B2	Sigmoid	48	20	Inflamed tissue 	Corticosteroids	Non-smoker	No	2E+11	R03C01
+SRR6153536	sCD48	Male	Crohn's Disease	A3L3B1	Descending	65	16	Inflamed tissue 	No	Non-smoker	No	2E+11	R05C01
+SRR6153529	sCD48	Male	Crohn's Disease	A3L3B1	Sigmoid	65	16	Noninflamed tissue 	No	Non-smoker	No	2E+11	R05C02
+SRR6153530	sCD49	Female	Crohn's Disease	A2L2B1	Rectum	32	0	Inflamed tissue 	No	Non-smoker	Yes	2E+11	R06C02
+SRR6153531	sCD49	Female	Crohn's Disease	A2L2B1	Right colon undefined	32	0	Noninflamed tissue 	No	Non-smoker	Yes	2E+11	R01C01
+SRR6153525	sCD50	Female	Crohn's Disease	A2L2B1	Ascending	52	6	Noninflamed tissue 	No	Non-smoker	Yes	2E+11	R02C01
+SRR6153532	sCD50	Female	Crohn's Disease	A2L2B1	Sigmoid	52	6	Inflamed tissue 	No	Non-smoker	Yes	2E+11	R01C02
+SRR6153665	sCD51	Female	Crohn's Disease	A1L2B1	Descending	22	7	Noninflamed tissue 	Mesalamine+mercaptopurine	Non-smoker	No	2E+11	R03C01
+SRR6153526	sCD51	Female	Crohn's Disease	A1L2B1	Ascending	22	7	Inflamed tissue 	Mesalamine+mercaptopurine	Non-smoker	No	2E+11	R04C01
+SRR6153664	sCD52	Female	Crohn's Disease	A2L3B1	Sigmoid	31	0	Inflamed tissue 	No	Non-smoker	No	2E+11	R04C01
+SRR6153667	sCD52	Female	Crohn's Disease	A2L3B1	Sigmoid	31	0	Noninflamed tissue 	No	Non-smoker	No	2E+11	R01C02
+SRR6153666	sCD53	Female	Crohn's Disease	A3L2B1	Rectum	68	17	Inflamed tissue 	Anti-TNF	Non-smoker	Yes	2E+11	R01C02
+SRR6153661	sCD53	Female	Crohn's Disease	A3L2B1	Sigmoid	68	17	Noninflamed tissue 	Anti-TNF	Non-smoker	Yes	2E+11	R02C02
+SRR6153660	sCD54	Male	Crohn's Disease	A2L3B1	Right colon	43	5	Inflamed tissue 	No	Non-smoker	Yes	2E+11	R06C01
+SRR6153663	sCD54	Male	Crohn's Disease	A2L3B1	Rectum	43	5	Noninflamed tissue 	No	Non-smoker	Yes	2E+11	R06C01
+SRR6153659	sCD55	Female	Crohn's Disease	A2L3B2	Descending	22	3	Noninflamed tissue 	Mercaptopurine	Smoker	No	2E+11	R06C02
+SRR6153662	sCD55	Female	Crohn's Disease	A2L3B2	Right colon	22	3	Inflamed tissue 	Mercaptopurine	Smoker	No		
+SRR6153658	sCD56	Female	Crohn's Disease	A2L2B1	Ascending	51	30	Inflamed tissue 	Mercaptopurine	Non-smoker	No	2E+11	R02C02
+SRR6153766	sCD56	Female	Crohn's Disease	A2L2B1	Sigmoid	51	30	Noninflamed tissue 	Mercaptopurine	Non-smoker	No	2E+11	R06C02
+SRR6153765	sCD58	Female	Crohn's Disease	A2L3B1	Descending	45	22	Inflamed tissue 	No	Ex-smoker	Yes	2E+11	R05C01
+SRR6153762	sCD58	Female	Crohn's Disease	A2L3B1	Rectum	45	22	Noninflamed tissue 	No	Ex-smoker	Yes	2E+11	R05C01
+SRR6153760	sCD59	Female	Crohn's Disease	A2L2B1	Ascending	41	6	Noninflamed tissue 	Mesalamine	Non-smoker	Yes	2E+11	R01C01
+SRR6153763	sCD59	Female	Crohn's Disease	A2L2B1	Transverse	41	6	Inflamed tissue 	Mesalamine	Non-smoker	Yes	2E+11	R02C02
+SRR6153761	sCD60	Female	Crohn's Disease	A2L2B1	Ascending	47	30	Inflamed tissue 	Mercaptopurine	Non-smoker	No	2E+11	R04C02
+SRR6153758	sCD60	Female	Crohn's Disease	A2L2B1	Sigmoid	47	30	Noninflamed tissue 	Mercaptopurine	Non-smoker	No	2E+11	R02C01
+SRR6153745	sCD61	Male	Crohn's Disease	A2L2B1p	Caecum	40	11	Noninflamed tissue 	Mesalamine	Smoker	No		
+SRR6153759	sCD61	Male	Crohn's Disease	A2L2B1p	Transverse	40	11	Inflamed tissue 	Mesalamine	Smoker	No		
+SRR6153746	sCD62	Female	Crohn's Disease	A2L2B1	Ascending	42	20	Noninflamed tissue 	Mercaptopurine	Smoker	No	2E+11	R03C01
+SRR6153741	sCD62	Female	Crohn's Disease	A2L2B1	Ascending	42	20	Noninflamed tissue 	Mercaptopurine	Smoker	No		
+SRR6153744	sCD62	Female	Crohn's Disease	A2L2B1	Descending	42	20	Inflamed tissue 	Mercaptopurine	Smoker	No	2E+11	R02C01
+SRR6153747	sCD62	Female	Crohn's Disease	A2L2B1	Descending	42	20	Inflamed tissue 	Mercaptopurine	Smoker	No		
+SRR6153742	sCD63	Female	Crohn's Disease	A2L2B1	Rectum	33	8	Noninflamed tissue 	No	Smoker	Yes	2E+11	R01C01
+SRR6153739	sCD63	Female	Crohn's Disease	A2L2B1	Rectum	33	8	Noninflamed tissue 	No	Smoker	Yes		
+SRR6153740	sCD63	Female	Crohn's Disease	A2L2B1	Transverse	33	8	Inflamed tissue 	No	Smoker	Yes	2E+11	R03C02
+SRR6153743	sCD63	Female	Crohn's Disease	A2L2B1	Transverse	33	8	Inflamed tissue 	No	Smoker	Yes		
+SRR6153738	sHT02	Female	Healthy		Right colon undefined	63		Noninflamed tissue 		Non-smoker	No		
+SRR6153646	sHT02	Female	Healthy		Right colon undefined	63		Noninflamed tissue 		Non-smoker	No		
+SRR6153647	sHT03	Male	Healthy		Right colon undefined	Uncertain		Noninflamed tissue 		Non-smoker	No		
+SRR6153644	sHT03	Male	Healthy		Right colon undefined	Uncertain		Noninflamed tissue 		Non-smoker	No		
+SRR6153645	sHT04	Female	Healthy		Right colon undefined	37		Noninflamed tissue 		Non-smoker	No		
+SRR6153642	sHT04	Female	Healthy		Right colon undefined	37		Noninflamed tissue 		Non-smoker	No		
+SRR6153643	sHT05	Male	Healthy		Right colon undefined	59		Noninflamed tissue 		Non-smoker	No		
+SRR6153640	sHT05	Male	Healthy		Right colon undefined	59		Noninflamed tissue 		Non-smoker	No		
+SRR6153641	sHT06	Female	Healthy		Right colon undefined	70		Noninflamed tissue 		Non-smoker	No		
+SRR6153638	sHT06	Female	Healthy		Right colon undefined	70		Noninflamed tissue 		Non-smoker	No		
+SRR6153639	sHT12	Male	Healthy		Right colon undefined	29		Noninflamed tissue 		Non-smoker	No		
+SRR6153550	sHT14	Male	Healthy		Ascending	39		Noninflamed tissue 		Non-smoker	No	2E+11	R04C02
+SRR6153549	sHT14	Male	Healthy		Descending	39		Noninflamed tissue 		Non-smoker	No		
+SRR6153548	sHT16	Female	Healthy		Ascending	62		Noninflamed tissue 		Non-smoker	No	2E+11	R03C02
+SRR6153547	sHT16	Female	Healthy		Descending	62		Noninflamed tissue 		Non-smoker	No		
+SRR6153554	sHT17	Male	Healthy		Ascending	70		Noninflamed tissue 		Non-smoker	No		
+SRR6153553	sHT17	Male	Healthy		Descending	70		Noninflamed tissue 		Non-smoker	No	2E+11	R06C02
+SRR6153552	sHT18	Male	Healthy		Caecum	71		Noninflamed tissue 		Non-smoker	No		
+SRR6153551	sHT18	Male	Healthy		Descending	71		Noninflamed tissue 		Non-smoker	No		
+SRR6153556	sHT19	Male	Healthy		Caecum	55		Noninflamed tissue 		Non-smoker	No	2E+11	R01C02
+SRR6153555	sHT19	Male	Healthy		Descending	55		Noninflamed tissue 		Non-smoker	No		
+SRR6153792	sHT24	Female	Healthy		Caecum	58		Noninflamed tissue 		Smoker	No	2E+11	R02C02
+SRR6153793	sHT24	Female	Healthy		Rectum	58		Noninflamed tissue 		Smoker	No		
+SRR6153794	sHT28	Male	Healthy		Caecum	74		Noninflamed tissue 		Non-smoker	No		
+SRR6153795	sHT28	Male	Healthy		Descending	74		Noninflamed tissue 		Non-smoker	No		
+SRR6153788	sHT30	Male	Healthy		Caecum	68		Noninflamed tissue 		Non-smoker	No	2E+11	R02C01
+SRR6153789	sHT30	Male	Healthy		Rectum	68		Noninflamed tissue 		Non-smoker	No		
+SRR6153790	sHT32	Male	Healthy		Caecum	68		Noninflamed tissue 		Non-smoker	No		
+SRR6153791	sHT32	Male	Healthy		Descending	68		Noninflamed tissue 		Non-smoker	No		
+SRR6153796	sHT34	Female	Healthy		Caecum	65		Noninflamed tissue 		Non-smoker	No	2E+11	R04C02
+SRR6153797	sHT34	Female	Healthy		Descending	65		Noninflamed tissue 		Non-smoker	No		
+SRR6153779	sHT41	Female	Healthy		Caecum	Uncertain		Noninflamed tissue 		Smoker	No	2E+11	R01C02
+SRR6153778	sHT41	Female	Healthy		Rectum	Uncertain		Noninflamed tissue 		Smoker	No		
+SRR6153781	sHT42	Male	Healthy		Ascending	44		Noninflamed tissue 		Non-smoker	No	2E+11	R02C02
+SRR6153780	sHT42	Male	Healthy		Sigmoid	44		Noninflamed tissue 		Non-smoker	No		
+SRR6153783	sHT43	Male	Healthy		Caecum	50		Noninflamed tissue 		Non-smoker	No	2E+11	R04C01
+SRR6153782	sHT43	Male	Healthy		Rectum	50		Noninflamed tissue 		Non-smoker	No		
+SRR6153785	sHT44	Female	Healthy		Caecum	50		Noninflamed tissue 		Non-smoker	No		
+SRR6153784	sHT44	Female	Healthy		Rectum	50		Noninflamed tissue 		Non-smoker	No	2E+11	R01C01
+SRR6153787	sHT45	Male	Healthy		Caecum	68		Noninflamed tissue 		Non-smoker	No	2E+11	R02C01
+SRR6153786	sHT45	Male	Healthy		Rectum	68		Noninflamed tissue 		Non-smoker	No		
+SRR6153690	sHT46	Male	Healthy		Ascending	70		Noninflamed tissue 		Non-smoker	No	2E+11	R06C01
+SRR6153691	sHT46	Male	Healthy		Rectum	70		Noninflamed tissue 		Non-smoker	No		
+SRR6153688	sHT47	Female	Healthy		Ascending	56		Noninflamed tissue 		Non-smoker	No	2E+11	R03C01
+SRR6153689	sHT47	Female	Healthy		Rectum	56		Noninflamed tissue 		Non-smoker	No		
+SRR6153694	sHT48	Male	Healthy		Ascending	41		Noninflamed tissue 		Non-smoker	No	2E+11	R06C02
+SRR6153692	sHT49	Male	Healthy		Ascending	65		Noninflamed tissue 		Non-smoker	No	2E+11	R05C02
+SRR6153693	sHT49	Male	Healthy		Rectum	65		Noninflamed tissue 		Non-smoker	No		
+SRR6153696	sHT50	Female	Healthy		Ascending	39		Noninflamed tissue 		Non-smoker	No	2E+11	R04C01
+SRR6153697	sHT50	Female	Healthy		Rectum	39		Noninflamed tissue 		Non-smoker	No		
+SRR6153599	sHT51	Female	Healthy		Ascending	68		Noninflamed tissue 		Non-smoker	No	2E+11	R06C01
+SRR6153598	sHT51	Female	Healthy		Sigmoid	68		Noninflamed tissue 		Non-smoker	No		
+SRR6153597	sHT52	Female	Healthy		Rectum	48		Noninflamed tissue 		Non-smoker	No	2E+11	R03C01
+SRR6153596	sHT52	Female	Healthy		Caecum	48		Noninflamed tissue 		Non-smoker	No		
+SRR6153595	sHT53	Female	Healthy		Transverse	48		Noninflamed tissue 		Non-smoker	No	2E+11	R06C01
+SRR6153594	sHT53	Female	Healthy		Rectum	48		Noninflamed tissue 		Non-smoker	No		
+SRR6153593	sHT55	Female	Healthy		Ascending	62		Noninflamed tissue 		Ex-smoker	No	2E+11	R01C02
+SRR6153592	sHT55	Female	Healthy		Ascending	62		Noninflamed tissue 		Ex-smoker	No		
+SRR6153601	sHT56	Male	Healthy		Caecum	59		Noninflamed tissue 		Non-smoker	No	2E+11	R05C01
+SRR6153600	sHT56	Male	Healthy		Rectum	59		Noninflamed tissue 		Non-smoker	No		
+SRR6153850	sHT57	Male	Healthy		Caecum	51		Noninflamed tissue 		Non-smoker	No	2E+11	R01C01
+SRR6153851	sHT57	Male	Healthy		Rectum	51		Noninflamed tissue 		Non-smoker	No		
+SRR6153853	sUC01	Female	Ulcerative Colitis	E2	Right colon undefined	66	14	Noninflamed tissue 	Mesalamine	Non-smoker	No		
+SRR6153852	sUC01	Female	Ulcerative Colitis	E2	Right colon undefined	66	14	Inflamed tissue 	Mesalamine	Non-smoker	No		
+SRR6153855	sUC02	Male	Ulcerative Colitis	E2	Right colon undefined	56	8	Noninflamed tissue 	Mesalamine	Non-smoker	Yes		
+SRR6153854	sUC02	Male	Ulcerative Colitis	E2	Right colon undefined	56	8	Inflamed tissue 	Mesalamine	Non-smoker	Yes		
+SRR6153857	sUC03	Female	Ulcerative Colitis	E2	Right colon undefined	53	0	Noninflamed tissue 	No	Non-smoker	No		
+SRR6153856	sUC03	Female	Ulcerative Colitis	E2	Right colon undefined	53	0	Inflamed tissue 	No	Non-smoker	No		
+SRR6153849	sUC04	Female	Ulcerative Colitis	E3	Right colon undefined	34	9	Noninflamed tissue 	Mesalamine	Unknown	No		
+SRR6153848	sUC04	Female	Ulcerative Colitis	E3	Right colon undefined	34	9	Inflamed tissue 	Mesalamine	Unknown	No		
+SRR6153672	sUC05	Female	Ulcerative Colitis	E2	Right colon undefined	56	26	Noninflamed tissue 	Mesalamine	Non-smoker	No		
+SRR6153673	sUC05	Female	Ulcerative Colitis	E2	Right colon undefined	56	26	Inflamed tissue 	Mesalamine	Non-smoker	No		
+SRR6153674	sUC06	Male	Ulcerative Colitis	E3	Right colon undefined	48	0	Noninflamed tissue 	No	Non-smoker	No		
+SRR6153675	sUC06	Male	Ulcerative Colitis	E3	Right colon undefined	48	0	Inflamed tissue 	No	Non-smoker	No		
+SRR6153668	sUC08	Female	Ulcerative Colitis	E3	Right colon undefined	37	6	Noninflamed tissue 	No	Non-smoker	Yes		
+SRR6153669	sUC08	Female	Ulcerative Colitis	E3	Right colon undefined	37	6	Inflamed tissue 	No	Non-smoker	Yes		
+SRR6153572	sUC10	Female	Ulcerative Colitis	E2	Right colon undefined	33	5	Noninflamed tissue 	Mesalamine	Non-smoker	Yes		
+SRR6153571	sUC10	Female	Ulcerative Colitis	E2	Right colon undefined	33	5	Inflamed tissue 	Mesalamine	Non-smoker	Yes		
+SRR6153677	sUC100	Female	Ulcerative Colitis	E3	Ascending	67	0	Noninflamed tissue 	Mesalamine+mercaptopurine+anti-TNF	Ex-smoker	Yes		
+SRR6153671	sUC100	Female	Ulcerative Colitis	E3	Ascending	67	0	Inflamed tissue 	Mesalamine+mercaptopurine+anti-TNF	Ex-smoker	Yes		
+SRR6153670	sUC100	Female	Ulcerative Colitis	E3	Ascending	67	0	Inflamed tissue 	Mesalamine+mercaptopurine+anti-TNF	Ex-smoker	Yes		
+SRR6153676	sUC101	Male	Ulcerative Colitis	E3	Sigmoid	43	9	Inflamed tissue 	Mesalamine+mercaptopurine	Non-smoker	No		
+SRR6153573	sUC101	Male	Ulcerative Colitis	E3	Sigmoid	43	9	Noninflamed tissue 	Mesalamine+mercaptopurine	Non-smoker	No		
+SRR6153574	sUC101	Male	Ulcerative Colitis	E3	Sigmoid	43	9	Noninflamed tissue 	Mesalamine+mercaptopurine	Non-smoker	No		
+SRR6153570	sUC11	Male	Ulcerative Colitis	E2	Right colon undefined	40	17	Noninflamed tissue 	Mesalamine	Non-smoker	Yes		
+SRR6153569	sUC11	Male	Ulcerative Colitis	E2	Right colon undefined	40	17	Inflamed tissue 	Mesalamine	Non-smoker	Yes		
+SRR6153568	sUC12	Male	Ulcerative Colitis	E3	Right colon undefined	47	4	Noninflamed tissue 	Mesalamine	Non-smoker	Yes		
+SRR6153567	sUC12	Male	Ulcerative Colitis	E3	Right colon undefined	47	4	Inflamed tissue 	Mesalamine	Non-smoker	Yes		
+SRR6153576	sUC13	Male	Ulcerative Colitis	E3	Right colon undefined	76	7	Noninflamed tissue 	Mesalamine	Non-smoker	No		
+SRR6153575	sUC13	Male	Ulcerative Colitis	E3	Right colon undefined	76	7	Inflamed tissue 	Mesalamine	Non-smoker	No		
+SRR6153735	sUC14	Female	Ulcerative Colitis	E3	Right colon undefined	39	14	Noninflamed tissue 	Mesalamine	Non-smoker	No		
+SRR6153734	sUC14	Female	Ulcerative Colitis	E3	Right colon undefined	39	14	Inflamed tissue 	Mesalamine	Non-smoker	No		
+SRR6153733	sUC15	Male	Ulcerative Colitis	E3	Right colon undefined	59	23	Noninflamed tissue 	Mesalamine	Non-smoker	No		
+SRR6153732	sUC15	Male	Ulcerative Colitis	E3	Right colon undefined	59	23	Inflamed tissue 	Mesalamine	Non-smoker	No		
+SRR6153731	sUC16	Male	Ulcerative Colitis	E2	Right colon undefined	45	13	Noninflamed tissue 	Mesalamine	Non-smoker	No		
+SRR6153730	sUC16	Male	Ulcerative Colitis	E2	Right colon undefined	45	13	Inflamed tissue 	Mesalamine	Non-smoker	No		
+SRR6153832	sUC17	Female	Ulcerative Colitis	E3	Ascending	41	15	Noninflamed tissue 	Mesalamine+corticosteroids	Non-smoker	Yes		
+SRR6153833	sUC17	Female	Ulcerative Colitis	E3	Right colon undefined	41	15	Noninflamed tissue 	Mesalamine+corticosteroids	Non-smoker	Yes		
+SRR6153737	sUC17	Female	Ulcerative Colitis	E3	Right colon undefined	41	15	Noninflamed tissue 	Mesalamine+corticosteroids	Non-smoker	Yes		
+SRR6153728	sUC17	Female	Ulcerative Colitis	E3	Right colon undefined	41	15	Inflamed tissue 	Mesalamine+corticosteroids	Non-smoker	Yes		
+SRR6153729	sUC17	Female	Ulcerative Colitis	E3	Right colon undefined	41	15	Inflamed tissue 	Mesalamine+corticosteroids	Non-smoker	Yes		
+SRR6153736	sUC17	Female	Ulcerative Colitis	E3	Sigmoid	41	15	Inflamed tissue 	Mesalamine+corticosteroids	Non-smoker	Yes		
+SRR6153834	sUC18	Female	Ulcerative Colitis	E3	Right colon undefined	42	2	Noninflamed tissue 	Corticosteroids	Non-smoker	No		
+SRR6153835	sUC18	Female	Ulcerative Colitis	E3	Right colon undefined	42	2	Inflamed tissue 	Corticosteroids	Non-smoker	No		
+SRR6153829	sUC19	Male	Ulcerative Colitis	E3	Right colon undefined	45	12	Inflamed tissue 	Mesalamine	Smoker	No		
+SRR6153828	sUC19	Male	Ulcerative Colitis	E3	Right colon undefined	45	12	Noninflamed tissue 	Mesalamine	Smoker	No		
+SRR6153830	sUC20	Male	Ulcerative Colitis	E2	Right colon undefined	61	18	Noninflamed tissue 	No	Non-smoker	No		
+SRR6153831	sUC20	Male	Ulcerative Colitis	E2	Right colon undefined	61	18	Inflamed tissue 	No	Non-smoker	No		
+SRR6153836	sUC21	Male	Ulcerative Colitis	E3	Right colon undefined	39	1	Noninflamed tissue 	Mesalamine+corticosteroids	Non-smoker	No		
+SRR6153837	sUC21	Male	Ulcerative Colitis	E3	Right colon undefined	39	1	Inflamed tissue 	Mesalamine+corticosteroids	Non-smoker	No		
+SRR6153544	sUC22	Female	Ulcerative Colitis	E2	Right colon undefined	29	6	Noninflamed tissue 	Mesalamine	Non-smoker	Yes		
+SRR6153543	sUC22	Female	Ulcerative Colitis	E2	Right colon undefined	29	6	Inflamed tissue 	Mesalamine	Non-smoker	Yes		
+SRR6153546	sUC23	Male	Ulcerative Colitis	E3	Right colon undefined	56	1	Noninflamed tissue 	Corticosteroids	Non-smoker	No		
+SRR6153545	sUC23	Male	Ulcerative Colitis	E3	Right colon undefined	56	1	Inflamed tissue 	Corticosteroids	Non-smoker	No		
+SRR6153541	sUC24	Male	Ulcerative Colitis	E3	Right colon undefined	30	4	Noninflamed tissue 	Mesalamine+corticosteroids	Non-smoker	Yes		
+SRR6153542	sUC24	Male	Ulcerative Colitis	E3	Right colon undefined	30	4	Noninflamed tissue 	Mesalamine+corticosteroids	Non-smoker	Yes		
+SRR6153539	sUC24	Male	Ulcerative Colitis	E3	Right colon undefined	30	4	Inflamed tissue 	Mesalamine+corticosteroids	Non-smoker	Yes		
+SRR6153540	sUC24	Male	Ulcerative Colitis	E3	Right colon undefined	30	4	Inflamed tissue 	Mesalamine+corticosteroids	Non-smoker	Yes		
+SRR6153538	sUC25	Male	Ulcerative Colitis	E3	Right colon undefined	46	3	Noninflamed tissue 	Mercaptopurine	Non-smoker	Yes		
+SRR6153537	sUC25	Male	Ulcerative Colitis	E3	Right colon undefined	46	3	Inflamed tissue 	Mercaptopurine	Non-smoker	Yes		
+SRR6153630	sUC26	Male	Ulcerative Colitis	E2	Right colon undefined	36	12	Noninflamed tissue 	Mesalamine+mercaptopurine	Non-smoker	Yes		
+SRR6153629	sUC26	Male	Ulcerative Colitis	E2	Descending	36	12	Noninflamed tissue 	Mesalamine+mercaptopurine	Non-smoker	Yes		
+SRR6153632	sUC26	Male	Ulcerative Colitis	E2	Right colon undefined	36	12	Inflamed tissue 	Mesalamine+mercaptopurine	Non-smoker	Yes		
+SRR6153631	sUC26	Male	Ulcerative Colitis	E2	Descending	36	12	Inflamed tissue 	Mesalamine+mercaptopurine	Non-smoker	Yes		
+SRR6153635	sUC27	Female	Ulcerative Colitis	E1	Right colon undefined	49	10	Noninflamed tissue 	No	Non-smoker	Yes		
+SRR6153636	sUC27	Female	Ulcerative Colitis	E1	Right colon undefined	49	10	Inflamed tissue 	No	Non-smoker	Yes		
+SRR6153633	sUC28	Male	Ulcerative Colitis	E1	Right colon undefined	39	11	Noninflamed tissue 	No	Non-smoker	No		
+SRR6153634	sUC28	Male	Ulcerative Colitis	E1	Right colon undefined	39	11	Inflamed tissue 	No	Non-smoker	No		
+SRR6153627	sUC29	Female	Ulcerative Colitis	E3	Right colon undefined	71	21	Noninflamed tissue 	Mesalamine+corticosteroids	Non-smoker	No		
+SRR6153628	sUC29	Female	Ulcerative Colitis	E3	Right colon undefined	71	21	Inflamed tissue 	Mesalamine+corticosteroids	Non-smoker	No		
+SRR6153773	sUC30	Male	Ulcerative Colitis	E1	Right colon undefined	42	4	Noninflamed tissue 	No	Non-smoker	No		
+SRR6153772	sUC30	Male	Ulcerative Colitis	E1	Right colon undefined	42	4	Inflamed tissue 	No	Non-smoker	No		
+SRR6153771	sUC31	Female	Ulcerative Colitis	E3	Right colon undefined	31	10	Noninflamed tissue 	Corticosteroids	Non-smoker	No		
+SRR6153770	sUC31	Female	Ulcerative Colitis	E3	Right colon undefined	31	10	Inflamed tissue 	Corticosteroids	Non-smoker	No		
+SRR6153777	sUC32	Female	Ulcerative Colitis	E3	Right colon undefined	57	9	Noninflamed tissue 	Mesalamine+mercaptopurine	Non-smoker	No		
+SRR6153776	sUC32	Female	Ulcerative Colitis	E3	Right colon undefined	57	9	Inflamed tissue 	Mesalamine+mercaptopurine	Non-smoker	No		
+SRR6153775	sUC33	Female	Ulcerative Colitis	E2	Right colon undefined	26	12	Noninflamed tissue 	Mesalamine	Non-smoker	No		
+SRR6153774	sUC33	Female	Ulcerative Colitis	E2	Right colon undefined	26	12	Inflamed tissue 	Mesalamine	Non-smoker	No		
+SRR6153769	sUC35	Male	Ulcerative Colitis	E3	Right colon undefined	68	5	Noninflamed tissue 	Mesalamine+corticosteroids	Non-smoker	Yes		
+SRR6153768	sUC35	Male	Ulcerative Colitis	E3	Right colon undefined	68	5	Inflamed tissue 	Mesalamine+corticosteroids	Non-smoker	Yes		
+SRR6153860	sUC36	Male	Ulcerative Colitis	E2	Right colon undefined	56	0	Noninflamed tissue 	Mesalamine	Non-smoker	No		
+SRR6153861	sUC36	Male	Ulcerative Colitis	E2	Right colon undefined	56	0	Inflamed tissue 	Mesalamine	Non-smoker	No		
+SRR6153862	sUC37	Male	Ulcerative Colitis	E3	Right colon undefined	63	20	Noninflamed tissue 	Anti-TNF	Non-smoker	No		
+SRR6153863	sUC37	Male	Ulcerative Colitis	E3	Right colon undefined	63	20	Inflamed tissue 	Anti-TNF	Non-smoker	No		
+SRR6153864	sUC38	Female	Ulcerative Colitis	E1	Right colon undefined	36	14	Noninflamed tissue 	No	Non-smoker	No		
+SRR6153865	sUC38	Female	Ulcerative Colitis	E1	Right colon undefined	36	14	Inflamed tissue 	No	Non-smoker	No		
+SRR6153866	sUC39	Female	Ulcerative Colitis	E3	Right colon undefined	43	0	Noninflamed tissue 	Corticosteroids	Non-smoker	Yes		
+SRR6153867	sUC39	Female	Ulcerative Colitis	E3	Right colon undefined	43	0	Inflamed tissue 	Corticosteroids	Non-smoker	Yes		
+SRR6153858	sUC40	Female	Ulcerative Colitis	E2	Right colon undefined	26	11	Noninflamed tissue 	Mesalamine	Non-smoker	Yes		
+SRR6153859	sUC40	Female	Ulcerative Colitis	E2	Right colon undefined	26	11	Inflamed tissue 	Mesalamine	Non-smoker	Yes		
+SRR6153577	sUC43	Female	Ulcerative Colitis	E2	Right colon undefined	26	8	Noninflamed tissue 	Mesalamine	Non-smoker	No		
+SRR6153579	sUC44	Male	Ulcerative Colitis	E3	Right colon undefined	44	7	Noninflamed tissue 	Mesalamine+corticosteroids+mercaptopurine	Non-smoker	Yes		
+SRR6153578	sUC44	Male	Ulcerative Colitis	E3	Right colon undefined	44	7	Inflamed tissue 	Mesalamine+corticosteroids+mercaptopurine	Non-smoker	Yes		
+SRR6153581	sUC45	Female	Ulcerative Colitis	E2	Right colon undefined	63	24	Noninflamed tissue 	Mesalamine	Non-smoker	Yes		
+SRR6153580	sUC45	Female	Ulcerative Colitis	E2	Right colon undefined	63	24	Inflamed tissue 	Mesalamine	Non-smoker	Yes		
+SRR6153582	sUC47	Male	Ulcerative Colitis	E2	Right colon undefined	56	21	Noninflamed tissue 	Mesalamine	Non-smoker	No		
+SRR6153584	sUC48	Male	Ulcerative Colitis	E1	Right colon undefined	52	30	Noninflamed tissue 	No	Non-smoker	No		
+SRR6153695	sUC48	Male	Ulcerative Colitis	E1	Rectum	52	30	Noninflamed tissue 	No	Non-smoker	No		
+SRR6153583	sUC48	Male	Ulcerative Colitis	E1	Right colon undefined	52	30	Inflamed tissue 	No	Non-smoker	No		
+SRR6153586	sUC49	Male	Ulcerative Colitis	E2	Right colon undefined	57	0	Noninflamed tissue 	Mesalamine	Non-smoker	No		
+SRR6153602	sUC49	Male	Ulcerative Colitis	E2	Right colon undefined	57	0	Inflamed tissue 	Mesalamine	Non-smoker	No		
+SRR6153686	sUC50	Male	Ulcerative Colitis	E2	Right colon undefined	42	15	Noninflamed tissue 	No	Non-smoker	Yes		
+SRR6153687	sUC50	Male	Ulcerative Colitis	E2	Right colon undefined	42	15	Inflamed tissue 	No	Non-smoker	Yes		
+SRR6153684	sUC51	Male	Ulcerative Colitis	E3	Right colon undefined	59	20	Noninflamed tissue 	Mesalamine+mercaptopurine	Non-smoker	No		
+SRR6153685	sUC51	Male	Ulcerative Colitis	E3	Right colon undefined	59	20	Inflamed tissue 	Mesalamine+mercaptopurine	Non-smoker	No		
+SRR6153682	sUC52	Female	Ulcerative Colitis	E3	Right colon undefined	45	15	Noninflamed tissue 	Mesalamine+mercaptopurine	Non-smoker	No		
+SRR6153683	sUC52	Female	Ulcerative Colitis	E3	Right colon undefined	45	15	Inflamed tissue 	Mesalamine+mercaptopurine	Non-smoker	No		
+SRR6153680	sUC57	Female	Ulcerative Colitis	E3	Ascending	26	8	Noninflamed tissue 	Mesalamine+corticosteroids	Non-smoker	Yes		
+SRR6153681	sUC57	Female	Ulcerative Colitis	E3	Ascending	26	8	Inflamed tissue 	Mesalamine+corticosteroids	Non-smoker	Yes		
+SRR6153679	sUC58	Male	Ulcerative Colitis	E2	Sigmoid	39	14	Inflamed tissue 	Anti-TNF	Non-smoker	No		
+SRR6153678	sUC58	Male	Ulcerative Colitis	E2	Sigmoid	39	14	Noninflamed tissue 	Anti-TNF	Non-smoker	No		
+SRR6153816	sUC59	Male	Ulcerative Colitis	E3	Rectum	56	19	Inflamed tissue 	Mesalamine+corticosteroids	Non-smoker	Yes		
+SRR6153814	sUC60	Male	Ulcerative Colitis	E1	Rectum	29	7	Noninflamed tissue 	Mesalamine	Non-smoker	No		
+SRR6153817	sUC60	Male	Ulcerative Colitis	E1	Rectum	29	7	Inflamed tissue 	Mesalamine	Non-smoker	No		
+SRR6153815	sUC61	Female	Ulcerative Colitis	E2	Sigmoid	62	0	Inflamed tissue 	Mesalamine	Non-smoker	Yes		
+SRR6153812	sUC62	Female	Ulcerative Colitis	E2	Rectum	65	0	Inflamed tissue 	Mesalamine+corticosteroids	Non-smoker	Yes		
+SRR6153813	sUC63	Female	Ulcerative Colitis	E2	Rectum	69	18	Inflamed tissue 	No	Non-smoker	No		
+SRR6153811	sUC64	Male	Ulcerative Colitis	E1	Rectum	31	4	Noninflamed tissue 	Mesalamine+corticosteroids	Non-smoker	No		
+SRR6153810	sUC64	Male	Ulcerative Colitis	E1	Rectum	31	4	Inflamed tissue 	Mesalamine+corticosteroids	Non-smoker	No		
+SRR6153809	sUC65	Female	Ulcerative Colitis	E2	Descending	70	26	Noninflamed tissue 	Mesalamine	Non-smoker	No		
+SRR6153808	sUC65	Female	Ulcerative Colitis	E2	Descending	70	26	Inflamed tissue 	Mesalamine	Non-smoker	No		
+SRR6153563	sUC66	Male	Ulcerative Colitis	E2	Descending	64	13	Noninflamed tissue 	Mesalamine	Non-smoker	No		
+SRR6153564	sUC66	Male	Ulcerative Colitis	E2	Descending	64	13	Inflamed tissue 	Mesalamine	Non-smoker	No		
+SRR6153565	sUC67	Male	Ulcerative Colitis	E2	Ascending	49	18	Noninflamed tissue 	Mesalamine+mercaptopurine	Non-smoker	No		
+SRR6153566	sUC67	Male	Ulcerative Colitis	E2	Descending	49	18	Inflamed tissue 	Mesalamine+mercaptopurine	Non-smoker	No		
+SRR6153560	sUC68	Male	Ulcerative Colitis	E2	Sigmoid	34	11	Inflamed tissue 	Anti-TNF	Non-smoker	Yes		
+SRR6153559	sUC68	Male	Ulcerative Colitis	E2	Sigmoid	34	11	Noninflamed tissue 	Anti-TNF	Non-smoker	Yes		
+SRR6153562	sUC69	Male	Ulcerative Colitis	E1	Ascending	61	23	Noninflamed tissue 	Mesalamine	Non-smoker	No		
+SRR6153558	sUC71	Male	Ulcerative Colitis	E2	Descending	50	1	Noninflamed tissue 	Mesalamine+corticosteroids	Non-smoker	No		
+SRR6153561	sUC71	Male	Ulcerative Colitis	E2	Descending	50	1	Inflamed tissue 	Mesalamine+corticosteroids	Non-smoker	No		
+SRR6153557	sUC72	Female	Ulcerative Colitis	E2	Right colon undefined	60	10	Noninflamed tissue 	No	Non-smoker	No		
+SRR6153612	sUC73	Male	Ulcerative Colitis	E2	Descending	58	20	Noninflamed tissue 	Mesalamine	Non-smoker	No		
+SRR6153613	sUC73	Male	Ulcerative Colitis	E2	Descending	58	20	Inflamed tissue 	Mesalamine	Non-smoker	No		
+SRR6153610	sUC74	Female	Ulcerative Colitis	E1	Rectum	37	20	Noninflamed tissue 	Mesalamine+corticosteroids	Non-smoker	Yes		
+SRR6153611	sUC74	Female	Ulcerative Colitis	E1	Rectum	37	20	Inflamed tissue 	Mesalamine+corticosteroids	Non-smoker	Yes		
+SRR6153608	sUC75	Male	Ulcerative Colitis	E2	Descending	33	2	Noninflamed tissue 	Mesalamine	Non-smoker	Yes		
+SRR6153609	sUC75	Male	Ulcerative Colitis	E2	Descending	33	2	Inflamed tissue 	Mesalamine	Non-smoker	Yes		
+SRR6153607	sUC76	Female	Ulcerative Colitis	E2	Sigmoid	55	26	Inflamed tissue 	Mesalamine+corticosteroids+anti-TNF	Non-smoker	Yes		
+SRR6153605	sUC77	Male	Ulcerative Colitis	E2	Caecum	49	0	Noninflamed tissue 	Corticosteroids	Non-smoker	No		
+SRR6153606	sUC77	Male	Ulcerative Colitis	E3	Sigmoid	49	0	Inflamed tissue 	Corticosteroids	Non-smoker	No		
+SRR6153868	sUC78	Female	Ulcerative Colitis	E1	Ascending	55	16	Noninflamed tissue 	Mesalamine	Non-smoker	No		
+SRR6153604	sUC78	Female	Ulcerative Colitis	E1	Rectum	55	16	Inflamed tissue 	Mesalamine	Non-smoker	No		
+SRR6153522	sUC79	Male	Ulcerative Colitis	E2	Sigmoid	50	6	Inflamed tissue 	No	Non-smoker	No		
+SRR6153523	sUC79	Male	Ulcerative Colitis	E2	Sigmoid	50	6	Noninflamed tissue 	No	Non-smoker	No		
+SRR6153524	sUC80	Male	Ulcerative Colitis	E2	Sigmoid	46	15	Inflamed tissue 	Anti-TNF	Non-smoker	Yes		
+SRR6153637	sUC80	Male	Ulcerative Colitis	E2	Sigmoid	46	15	Noninflamed tissue 	Anti-TNF	Non-smoker	Yes		
+SRR6153527	sUC82	Female	Ulcerative Colitis	E3	Caecum	60	1	Noninflamed tissue 	Mesalamine	Non-smoker	Yes		
+SRR6153624	sUC82	Female	Ulcerative Colitis	E3	Caecum	60	1	Inflamed tissue 	Mesalamine	Non-smoker	Yes		
+SRR6153528	sUC84	Female	Ulcerative Colitis	E2	Right colon undefined	23	5	Inflamed tissue 	Mesalamine+mercaptopurine	Smoker	No		
+SRR6153625	sUC84	Female	Ulcerative Colitis	E2	Sigmoid	23	5	Noninflamed tissue 	Mesalamine+mercaptopurine	Smoker	No		
+SRR6153821	sUC85	Male	Ulcerative Colitis	E2	Rectum	41	2	Noninflamed tissue 	Mesalamine+corticosteroids	Non-smoker	Yes		
+SRR6153626	sUC85	Male	Ulcerative Colitis	E2	Sigmoid	41	2	Inflamed tissue 	Mesalamine+corticosteroids	Non-smoker	Yes		
+SRR6153823	sUC86	Female	Ulcerative Colitis	E1	Rectum	51	13	Noninflamed tissue 	Mesalamine	Non-smoker	No		
+SRR6153820	sUC86	Female	Ulcerative Colitis	E1	Rectum	51	13	Inflamed tissue 	Mesalamine	Non-smoker	No		
+SRR6153825	sUC87	Female	Ulcerative Colitis	E2	Descending	57	0	Noninflamed tissue 	Mesalamine+corticosteroids	Non-smoker	No		
+SRR6153822	sUC87	Female	Ulcerative Colitis	E2	Descending	57	0	Inflamed tissue 	Mesalamine+corticosteroids	Non-smoker	No		
+SRR6153827	sUC88	Female	Ulcerative Colitis	E3	Rectum	64	10	Noninflamed tissue 	Mesalamine+anti-TNF	Non-smoker	No		
+SRR6153824	sUC88	Female	Ulcerative Colitis	E3	Rectum	64	10	Inflamed tissue 	Mesalamine+anti-TNF	Non-smoker	No		
+SRR6153819	sUC89	Female	Ulcerative Colitis	E2	Descending	46	23	Noninflamed tissue 	No	Smoker	No		
+SRR6153826	sUC89	Female	Ulcerative Colitis	E2	Descending	46	23	Inflamed tissue 	No	Smoker	No		
+SRR6153818	sUC90	Male	Ulcerative Colitis	E2	Sigmoid	43	17	Inflamed tissue 	No	Non-smoker	Yes		
+SRR6153712	sUC90	Male	Ulcerative Colitis	E2	Sigmoid	43	17	Noninflamed tissue 	No	Non-smoker	Yes		
+SRR6153710	sUC91	Female	Ulcerative Colitis	E1	Rectum	62	30	Noninflamed tissue 	Mesalamine	Non-smoker	No		
+SRR6153713	sUC91	Female	Ulcerative Colitis	E1	Rectum	62	30	Inflamed tissue 	Mesalamine	Non-smoker	No		
+SRR6153716	sUC92	Female	Ulcerative Colitis	E1	Rectum	20	11	Noninflamed tissue 	Mesalamine	Non-smoker	Yes		
+SRR6153711	sUC92	Female	Ulcerative Colitis	E1	Rectum	20	11	Inflamed tissue 	Mesalamine	Non-smoker	Yes		
+SRR6153714	sUC93	Male	Ulcerative Colitis	E2	Sigmoid	64	0	Noninflamed tissue 	Mesalamine	Non-smoker	No		
+SRR6153717	sUC93	Male	Ulcerative Colitis	E2	Sigmoid	64	0	Inflamed tissue 	Mesalamine	Non-smoker	No		
+SRR6153715	sUC94	Female	Ulcerative Colitis	E2	Sigmoid	27	0	Noninflamed tissue 	No	Non-smoker	Yes		
+SRR6153708	sUC95	Female	Ulcerative Colitis	E2	Rectum	29	0	Inflamed tissue 	Corticosteroids	Non-smoker	No		
+SRR6153709	sUC96	Male	Ulcerative Colitis	E2	Sigmoid	41	2	Inflamed tissue 	Mesalamine+mercaptopurine+anti-TNF	Non-smoker	No		
+SRR6153588	sUC96	Male	Ulcerative Colitis	E2	Sigmoid	41	2	Noninflamed tissue 	Mesalamine+mercaptopurine+anti-TNF	Non-smoker	No		
+SRR6153603	sUC97	Male	Ulcerative Colitis	E3	Ascending	41	2	Noninflamed tissue 	No	Smoker	Yes		
+SRR6153587	sUC97	Male	Ulcerative Colitis	E3	Ascending	41	2	Inflamed tissue 	No	Smoker	Yes		
+SRR6153590	sUC99	Male	Ulcerative Colitis	E2	Sigmoid	50	17	Noninflamed tissue 	Mesalamine+corticosteroids	Ex-smoker	No		
+SRR6153589	sUC99	Male	Ulcerative Colitis	E2	Sigmoid	50	17	Noninflamed tissue 	Mesalamine+corticosteroids	Ex-smoker	No		
+SRR6153585	sUC99	Male	Ulcerative Colitis	E2	Sigmoid	50	17	Inflamed tissue 	Mesalamine+corticosteroids	Ex-smoker	No		
+SRR6153591	sUC99	Male	Ulcerative Colitis	E2	Sigmoid	50	17	Inflamed tissue 	Mesalamine+corticosteroids	Ex-smoker	No		
