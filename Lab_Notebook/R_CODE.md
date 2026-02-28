@@ -1,4 +1,4 @@
-#### Load all relevant packages ####
+#### Load all relevant packages####
 library(phyloseq)
 library(ape)
 library(tidyverse)
