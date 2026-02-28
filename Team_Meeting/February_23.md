@@ -16,3 +16,8 @@ b) Finish alpha and beta diversity and run the statistical tests by next meeting
 - first week of April: draft powerpoint ready for presentation
 - rest of April: manuscript -> optional meeting when writing the manuscript: will talk about which one will be Figure 1 or 2 etc
 
+
+## TO-DO lists
+1. Egbert: create phyloseq object and run alpha diversity
+2. Phoenix: run statistical tests for alpha and beta diversity and adjust the visualization
+3. Caroline: run beta diversity and generate taxonomy bar plot
