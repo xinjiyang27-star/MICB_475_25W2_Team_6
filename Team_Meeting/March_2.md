@@ -5,14 +5,14 @@
 
 ## Experimental Results Summary
 **1. Rarefaction Curve**
-- [Rarefaction_Curve](/Lab_Notebook/Alpha_and_Beta_Diversity/Rarefaction Curve.png)
+- [Rarefaction Curve](/Lab_Notebook/Alpha_and_Beta_Diversity/Rarefaction_Curve.png)
   
 **2. Alpha diversity**
-- [plot_richness](/Lab_Notebook/Alpha_and_Beta_Diversity/plot_richness_with_stats.png)
-- [plot_pd](/Lab_Notebook/Alpha_and_Beta_Diversity/plot_pd.png)
+- [plot richness](/Lab_Notebook/Alpha_and_Beta_Diversity/plot_richness_with_stats.png)
+- [plot pd](/Lab_Notebook/Alpha_and_Beta_Diversity/plot_pd.png)
 
 **3. Beta diversity**
-- [bray-curtis](/Lab_Notebook/Alpha_and_Beta_Diversity/plot_pcoa_bc.png)
+- [bray curtis](/Lab_Notebook/Alpha_and_Beta_Diversity/plot_pcoa_bc.png)
 - [jaccard](/Lab_Notebook/Alpha_and_Beta_Diversity/plot_gg_pcoa_j.png)
 - [unweighted unifrac](/Lab_Notebook/Alpha_and_Beta_Diversity/plot_gg_pcoa_uu.png)
 - [weighted unifrac](/Lab_Notebook/Alpha_and_Beta_Diversity/plot_gg_pcoa_wu.png)
