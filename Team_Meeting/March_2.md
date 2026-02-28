@@ -9,15 +9,23 @@
   
 **2. Alpha diversity**
 - [plot richness](/Lab_Notebook/Alpha_and_Beta_Diversity/plot_richness_with_stats.png)
+  - For Observed: healthy vs CD, healthy vs UC, and UC vs CD is significant.
+  - For Shannon: Only healthy vs CD shows significant differences. 
 - [plot pd](/Lab_Notebook/Alpha_and_Beta_Diversity/plot_pd.png)
-
+  - For phylogenetic distances: healthy vs CD, healthy vs UC, and UC vs CD is significant.
+  
 **3. Beta diversity**
 - [bray curtis](/Lab_Notebook/Alpha_and_Beta_Diversity/plot_pcoa_bc.png)
+    - For bray curtis: healthy vs UC vs CD is significant with PC at 17.7% 
 - [jaccard](/Lab_Notebook/Alpha_and_Beta_Diversity/plot_gg_pcoa_j.png)
+    - For jaccard: healthy vs UC vs CD is significant with PC at 11.1%. 
 - [unweighted unifrac](/Lab_Notebook/Alpha_and_Beta_Diversity/plot_gg_pcoa_uu.png)
+    - For unweighted unifrac: healthy vs UC vs CD is significant with PC at 9%. 
 - [weighted unifrac](/Lab_Notebook/Alpha_and_Beta_Diversity/plot_gg_pcoa_wu.png)
+    - For weighted unifrac: healthy vs UC vs CD is significant with PC at 21.9%. 
+- But, we don't see distinct clusters for each group.
 
-
+  
 **5. Taxonomy bar plot**
 - [Taxonomy bar plot](/Lab_Notebook/Alpha_and_Beta_Diversity/plot_taxonomy.png)
 
