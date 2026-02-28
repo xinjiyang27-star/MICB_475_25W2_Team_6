@@ -1,7 +1,7 @@
 # February 25 2026
 ## Purpose
-To run statiscal tests for alpha diversity and beta diversity. 
-To generate alpha and beta diversity visualization graphs with the results of statistical tests.
+1. To run statiscal tests for alpha diversity and beta diversity. 
+2. To generate alpha and beta diversity visualization graphs with the results of statistical tests.
 
 ## Materials 
 1. R Studio
@@ -77,7 +77,7 @@ ggsave("plot_pd.png",
 bc_dm <- distance(ryan_rare, method="bray")
 pcoa_bc <- ordinate(ryan_rare, method="PCoA", distance=bc_dm)
 
-#PERMANOVA for bray-curtis
+#Run PERMANOVA for bray-curtis
 perm_test <- adonis2(bc_dm ~ Condition, data = as(sample_data(ryan_rare), "data.frame"))
 p_val <- perm_test$`Pr(>F)`[1]
 f_val  <- perm_test$F[1]
@@ -102,7 +102,7 @@ ggsave("plot_pcoa_bc_eclipse.png",
 j_dm <- distance(ryan_rare, method = "jaccard")
 pcoa_j <- ordinate(ryan_rare, method="PCoA", distance=j_dm)
 
-#PERMANOVA for jaccard
+#Run PERMANOVA for jaccard
 perm_test_j <- adonis2(j_dm ~ Condition, data = as(sample_data(ryan_rare), "data.frame"))
 p_val_j <- perm_test$`Pr(>F)`[1]
 f_val_j  <- perm_test$F[1]
@@ -128,7 +128,7 @@ ggsave("plot_gg_pcoa_j.png",
 uu_dm <- distance(ryan_rare, method = "uunifrac")
 pcoa_uu <- ordinate(ryan_rare, method="PCoA", distance=uu_dm)
 
-#PERMANOVA for unweighted unifrac
+#Run PERMANOVA for unweighted unifrac
 perm_test_uu <- adonis2(uu_dm ~ Condition, data = as(sample_data(ryan_rare), "data.frame"))
 p_val_uu <- perm_test$`Pr(>F)`[1]
 f_val_uu <- perm_test$F[1]
@@ -153,7 +153,7 @@ ggsave("plot_gg_pcoa_uu.png",
 wu_dm <- distance(ryan_rare, method = "wunifrac")
 pcoa_wu <- ordinate(ryan_rare, method="PCoA", distance=wu_dm)
 
-#PERMANOVA for weighted unifrac
+#Run PERMANOVA for weighted unifrac
 perm_test_wu <- adonis2(wu_dm ~ Condition, data = as(sample_data(ryan_rare), "data.frame"))
 p_val_wu <- perm_test$`Pr(>F)`[1]
 f_val_wu <- perm_test$F[1]
