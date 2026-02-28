@@ -1,10 +1,10 @@
-# Load all relevant packages
+#Load all relevant packages
 library(phyloseq)
 library(ape)
 library(tidyverse)
 library(vegan)
 
-#### Load data####
+####Load data####
 # Load metadata file 
 metafp <- "ryan_export/ryan_metadata.tsv"
 meta <- read_delim(metafp, delim="\t")
