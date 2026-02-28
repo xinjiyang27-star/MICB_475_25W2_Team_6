@@ -163,15 +163,15 @@ pcoa_j <- ordinate(ryan_rare, method="PCoA", distance=j_dm)
 
 #PERMANOVA for jaccard
 perm_test_j <- adonis2(j_dm ~ Condition, data = as(sample_data(ryan_rare), "data.frame"))
-p_val_j <- perm_test$`Pr(>F)`[1]
-f_val_j  <- perm_test$F[1]
-stat_label_j <- paste0("PERMANOVA: F = ", round(f_val, 3), ", Pr(>F) = ", p_val)
+p_val_j <- perm_test_j$`Pr(>F)`[1]
+f_val_j  <- perm_test_j$F[1]
+stat_label_j <- paste0("PERMANOVA: F = ", round(f_val_j, 3), ", Pr(>F) = ", p_val_j)
 
 #Generate PcoA plot for jaccard
 gg_pcoa_j <- plot_ordination(ryan_rare, pcoa_j, color = "Condition") +
   stat_ellipse(aes(color = Condition), type = "t", level = 0.95) +
   labs(col = "Condition") +
-  annotate("text", x = Inf, y = -Inf, label = stat_label, 
+  annotate("text", x = Inf, y = -Inf, label = stat_label_j, 
            hjust = 1.1, vjust = -0.5, size = 4, fontface = "bold")
 
 gg_pcoa_j
@@ -189,15 +189,15 @@ pcoa_uu <- ordinate(ryan_rare, method="PCoA", distance=uu_dm)
 
 #PERMANOVA for unweighted unifrac
 perm_test_uu <- adonis2(uu_dm ~ Condition, data = as(sample_data(ryan_rare), "data.frame"))
-p_val_uu <- perm_test$`Pr(>F)`[1]
-f_val_uu <- perm_test$F[1]
-stat_label_uu <- paste0("PERMANOVA: F = ", round(f_val, 3), ", Pr(>F) = ", p_val)
+p_val_uu <- perm_test_uu$`Pr(>F)`[1]
+f_val_uu <- perm_test_uu$F[1]
+stat_label_uu <- paste0("PERMANOVA: F = ", round(f_val_uu, 3), ", Pr(>F) = ", p_val_uu)
 
 #Generate PcoA plot for unweighted unifrac
 gg_pcoa_uu <- plot_ordination(ryan_rare, pcoa_uu, color = "Condition") +
   stat_ellipse(aes(color = Condition), type = "t", level = 0.95) +
   labs(col = "Condition") +
-  annotate("text", x = Inf, y = -Inf, label = stat_label, 
+  annotate("text", x = Inf, y = -Inf, label = stat_label_uu, 
            hjust = 1.1, vjust = -0.5, size = 4, fontface = "bold")
 
 gg_pcoa_uu
@@ -214,15 +214,15 @@ pcoa_wu <- ordinate(ryan_rare, method="PCoA", distance=wu_dm)
 
 #PERMANOVA for weighted unifrac
 perm_test_wu <- adonis2(wu_dm ~ Condition, data = as(sample_data(ryan_rare), "data.frame"))
-p_val_wu <- perm_test$`Pr(>F)`[1]
-f_val_wu <- perm_test$F[1]
-stat_label_wu <- paste0("PERMANOVA: F = ", round(f_val, 3), ", Pr(>F) = ", p_val)
+p_val_wu <- perm_test_wu$`Pr(>F)`[1]
+f_val_wu <- perm_test_wu$F[1]
+stat_label_wu <- paste0("PERMANOVA: F = ", round(f_val_wu, 3), ", Pr(>F) = ", p_val_wu)
 
 #Generate PcoA plot for weighted unifrac
 gg_pcoa_wu <- plot_ordination(ryan_rare, pcoa_wu, color = "Condition") +
   stat_ellipse(aes(color = Condition), type = "t", level = 0.95) +
   labs(col = "Condition") +
-  annotate("text", x = Inf, y = -Inf, label = stat_label, 
+  annotate("text", x = Inf, y = -Inf, label = stat_label_wu, 
            hjust = 1.1, vjust = -0.5, size = 4, fontface = "bold")
 
 gg_pcoa_wu
@@ -249,26 +249,6 @@ gg_taxa <- plot_bar(ryan_phylum, fill="Phylum") +
   facet_wrap(.~Condition, scales = "free_x")
 gg_taxa
 
-ggsave("plot_taxonomy.png"
-       , gg_taxa
-       , height=8, width =12)
-
-#### Taxonomy bar plots ####
-# Plot bar plot of taxonomy. Group it by phylum
-plot_bar(ryan_rare, fill="Phylum") 
-
-# Convert to relative abundance.
-ryan_RA <- transform_sample_counts(ryan_rare, function(x) x/sum(x))
-
-# To remove black bars, "glom" by phylum first. We don't want to remove NAs
-ryan_phylum <- tax_glom(ryan_RA, taxrank = "Phylum", NArm=FALSE)
-
-# Create a bar plot based on phylum
-gg_taxa <- plot_bar(ryan_phylum, fill="Phylum") + 
-  facet_wrap(.~Condition, scales = "free_x")
-gg_taxa
-
-# Save the taxonomy bar plot
 ggsave("plot_taxonomy.png"
        , gg_taxa
        , height=8, width =12)
