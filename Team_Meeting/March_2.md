@@ -23,7 +23,7 @@
     - For unweighted unifrac: healthy vs UC vs CD is significant with PC at 9%. 
 - [weighted unifrac](/Lab_Notebook/Alpha_and_Beta_Diversity/plot_gg_pcoa_wu.png)
     - For weighted unifrac: healthy vs UC vs CD is significant with PC at 21.9%. 
-- But, we don't see distinct clusters for each group.
+- But, we don't see distinct clusters for any groups.
 
   
 **5. Taxonomy bar plot**
