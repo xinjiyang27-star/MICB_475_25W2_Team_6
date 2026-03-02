@@ -30,7 +30,7 @@
 - [Taxonomy bar plot](/Lab_Notebook/Alpha_and_Beta_Diversity/plot_taxonomy.png)
 
 **6. Core microbiome**
-
+- [Core microbiome](Lab_Notebook/Core_microbiome/Ryan_Venn_Condition.png)
 
 **7. ISA**
 
