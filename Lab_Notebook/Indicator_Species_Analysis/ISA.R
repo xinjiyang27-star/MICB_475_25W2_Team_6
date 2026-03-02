@@ -27,7 +27,8 @@ taxtable <- tax_table(ryan_filt) %>% as.data.frame() %>% rownames_to_column(var=
 isa_table <- isa_ryan$sign %>%
   rownames_to_column(var="ASV") %>%
   left_join(taxtable) %>%
-  filter(p.value<0.05) %>% View()
+  filter(p.value < 0.05)
+view(isa_table)
 
 # Save the table
 write.csv(isa_table, "ISA_significant_taxa.csv", row.names = FALSE)
