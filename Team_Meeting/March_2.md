@@ -33,7 +33,7 @@
 - [Core microbiome](/Lab_Notebook/Core_microbiome/Ryan_Venn_Condition.png)
 
 **7. ISA**
-
+- [ISA table](/Lab_Notebook/Indicator_Species_Analysis/ISA_significant_taxa.csv)
 
 **8. DESeq**
 
