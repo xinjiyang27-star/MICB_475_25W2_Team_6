@@ -3,6 +3,9 @@
 1. Discuss alpha and beta diversity results, taxonomy bar plot, core microbiome, ISA, and DESeq results
 2. Discuss Next step on building the random forest model
 
+## Q and A
+1. What are the requirements for the final figures in the paper?
+
 ## Experimental Results Summary
 **1. Rarefaction Curve**
 - [Rarefaction Curve](/Lab_Notebook/Alpha_and_Beta_Diversity/Rarefaction_Curve.png)
@@ -25,7 +28,6 @@
     - For weighted unifrac: healthy vs UC vs CD is significant with PC at 21.9%. 
 - But, we don't see distinct clusters for any groups.
 
-  
 **5. Taxonomy bar plot**
 - [Taxonomy bar plot](/Lab_Notebook/Alpha_and_Beta_Diversity/plot_taxonomy.png)
 
