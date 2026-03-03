@@ -55,7 +55,17 @@
 - Alpha: Faith pd
   - All sig
   - Difference in taxa is what is diff, focus on ISA and Core Microbiome, rather than abundance.
-- The beta diversity isn’t a very strong analysis (the % graphed of each analysis is very little) → Can’t trust the analysis. Be transparent → say you ran the metrics but it only represents ~3-13%
+- The beta diversity isn’t a very strong analysis (the % graphed for each analysis is very little) → Can’t trust the analysis. Be transparent → say you ran the metrics, but it only represents ~3-13%
+- Beta: Jaccard
+  - Not much diff
+  - Permanova's new versions need to fix the p-value. 
+- Beta: Weighted 
+  - More spread than unweighted → takes into account Shannon, so obviously why not sig (same with Bay-curtis)
+
+- Don’t combine CD and UC, as there are differences in the alpha metrics
+- Possible issue with UC is that it looks very similar to healthy → may result in a poor model
+- In manuscript → Diversity metrics are closer to healthy for UC so we don’t want to focus on that, hence why we dropped it and so only focus on CD 
+
 
 
 
