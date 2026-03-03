@@ -44,8 +44,8 @@
 
 ## Meeting Minutes
 1. Proposal revisions
-Hypothesis - Can we build a better model with biopsy samples rather than fecal samples
-Proposed approach - each dataset for each location, with the contingency that it has enough sample size. 
+- Hypothesis - Can we build a better model with biopsy samples rather than fecal samples
+- Proposed approach - each dataset for each location, with the contingency that it has enough sample size. 
 
 
 
