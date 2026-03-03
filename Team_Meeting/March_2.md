@@ -1,4 +1,4 @@
-# March 2 [16:00 -] 
+# March 2 [16:00 - 16:50] 
 ## Meeting Agenda 
 1. Discuss alpha and beta diversity results, taxonomy bar plot, core microbiome, ISA, and DESeq results
 2. Discuss Next step on building the random forest model
@@ -43,6 +43,9 @@
 
 
 ## Meeting Minutes
+1. Proposal revisions
+Hypothesis - Can we build a better model with biopsy samples rather than fecal samples
+Proposed approach - each dataset for each location, with the contingency that it has enough sample size. 
 
 
 
