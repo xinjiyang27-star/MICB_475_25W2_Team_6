@@ -65,6 +65,29 @@
 - Don’t combine CD and UC, as there are differences in the alpha metrics
 - Possible issue with UC is that it looks very similar to healthy → may result in a poor model
 - In manuscript → Diversity metrics are closer to healthy for UC so we don’t want to focus on that, hence why we dropped it and so only focus on CD 
+3. Next steps:
+- Keep all conditions
+- Core microbiome
+  - For core micro: make a Venn diagram, but get a list of microbes that are associated with each condition
+- DESeq
+  - Reconcile for how many are overlapping → only want ones that are unique
+- ISA
+  - Ones that are shared, remove them → only want one 1 across the 3 conditions
+  - Stat indicates close to 1 is better → set as 0.4 and higher
+  - Mention in the paper that we had to be lenient with the cut-off, as we didn’t get too many indicators. 
+  - Keep any shared between CD and UC
+
+- Keep everything we have rn and run the analyses again, but only for CD. (Possibly because UC is localised, and so certain biopsy locations would only have healthy or UC taxa)
+- Reconcile taxa with all analyses and just pick those that agree all throughout → less emphasis on DESeq. Match the core and ISA first, then check how many match with DESeq
+- 10-20 taxa is a good amount to feed the model, and maybe 5 metadata columns
+- Pick metadata categories we want for the model → for example, biopsy location, histology status, medications, condition, gender (?) → can always remove these if it isn’t driving anything
+- If we keep everything → more data = more noise → the more you see a decrease in accuracy
+
+
+
+
+
+
 
 
 
