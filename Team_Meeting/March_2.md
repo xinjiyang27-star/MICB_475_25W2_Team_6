@@ -54,7 +54,8 @@
   - Abundance changes are not diff → DESeq might not be great
 - Alpha: Faith pd
   - All sig
-  - Difference in taxa is what is diff, focus on ISA and Core Microbiome, rather than abundance. 
+  - Difference in taxa is what is diff, focus on ISA and Core Microbiome, rather than abundance.
+- The beta diversity isn’t a very strong analysis (the % graphed of each analysis is very little) → Can’t trust the analysis. Be transparent → say you ran the metrics but it only represents ~3-13%
 
 
 
