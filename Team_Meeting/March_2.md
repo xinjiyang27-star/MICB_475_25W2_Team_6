@@ -46,6 +46,15 @@
 1. Proposal revisions
 - Hypothesis - Can we build a better model with biopsy samples rather than fecal samples
 - Proposed approach - each dataset for each location, with the contingency that it has enough sample size. 
+2. Alpha & beta diversity
+- Alpha: Observed
+  - Decrease for both UC vs CD, sig diff between all conditions (varying amount of species)
+- Alpha: Shannon
+  - Not sig Healthy vs UC and CD v sUC
+  - Abundance changes are not diff → DESeq might not be great
+- Alpha: Faith pd
+  - All sig
+  - Difference in taxa is what is diff, focus on ISA and Core Microbiome, rather than abundance. 
 
 
 
