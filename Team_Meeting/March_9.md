@@ -32,6 +32,7 @@
      ![AUC Attempt 1](https://github.com/user-attachments/assets/78a9c131-3ac4-434b-b498-98e33d8d0eee)
 - Second Attempt:
    - Removed histological status, no other changes
+   - with top 10 abundance taxa
      ![Correlation Attempt 2](https://github.com/user-attachments/assets/4b3b3e15-6403-493b-b838-3504630f44e3)
      ![AUC Attempt 2](https://github.com/user-attachments/assets/7f2e9664-2d4e-49ea-8695-2927c723f58c)
      ![Importance Attempt 2](https://github.com/user-attachments/assets/68a5f649-7663-4f7d-b7a3-201f6595e08f)
@@ -40,8 +41,20 @@
     ![Correlation Attempt 3](https://github.com/user-attachments/assets/d22937e9-92e1-4b0c-836a-a8f35721340a)
     ![AUC Attempt 3](https://github.com/user-attachments/assets/aa39a62a-857f-4cc6-a0c5-fc3f30381339)
     ![Importance Attempt 3](https://github.com/user-attachments/assets/504168ed-29da-48f7-98c2-bbad44e2171d)
+  
 ## Meeting Minutes
-
+1. We will build a random forest model for CD vs healthy.
+2. based on ISA: 7 species unique to Healthy, and none unique to CD
+   - 
+4. Choose 6-8 taxa for 3 indicator species analysis
+   - g__Anaerostipes (with and without)
+   - g__Segatella
+   - g__Bacteroides
+   - g__Blautia
+   - g__Faecalibacterium 
+5. We will train the model with DESeq taxa that matches the top 10 abundance taxa
+6. Metada columns: Gender, Condition, biopsy location, smoking condition, year of diagnosis, age
+7. One model for taxa and one model for metadata column and then merge it
 
 
 
