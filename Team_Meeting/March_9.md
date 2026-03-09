@@ -43,27 +43,19 @@
     ![Importance Attempt 3](https://github.com/user-attachments/assets/504168ed-29da-48f7-98c2-bbad44e2171d)
   
 ## Meeting Minutes
-1. We will build a random forest model for CD vs healthy.
-2. based on ISA: 7 species unique to Healthy, and none unique to CD
-   - 
-4. Choose 6-8 taxa for 3 indicator species analysis
-   - g__Anaerostipes (with and without)
-   - g__Segatella
-   - g__Bacteroides
-   - g__Blautia
-   - g__Faecalibacterium 
-5. We will train the model with DESeq taxa that matches the top 10 abundance taxa
-6. Metada columns: Gender, Condition, biopsy location, smoking condition, year of diagnosis, age
-7. One model for taxa and one model for metadata column and then merge it
-
-
-
-
-
-
-
-
-
-
+1. We will build a random forest model for CD vs healthy b/c random forest has 2 variables and UC is overlapping with the healthy. 
+3. Re-run ISA by filtering out non-inflammed tissue for CD and UC from the phloseq object 
+4. Build model
+   1) 7 taxa from ISA results (ISA-significant_taxa.csv)
+      - with stat >0.5
+      - BLAST two taxa that don't have indentified genus
+   2) DESeq taxa that matches the top 10 abundance taxa
+   3) Merge the taxa data and metadata column and re-trian the model
+   4) taxa from re-running ISA by filtering out non-inflammed tissue for CD
+5. Metada columns: Gender, Condition, biopsy location, smoking condition, year of diagnosis, age
+   - if the biopsy locations becomes the dominant parameter then we will control for it.
+   - filter out non-inflammed tissue for CD, and then don't need to include the histological status when building the model
+6. publication: AUC curve and importance curve
+7. For DESeq: make the bar for taxa used in random forest model with a different colour 
 
 ## TO-DO lists
