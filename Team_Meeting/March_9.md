@@ -14,7 +14,7 @@
 <img width="633" height="881" alt="image" src="https://github.com/user-attachments/assets/a892dad2-70e3-4d03-b6e6-27ae6387ad33" />
 
 2. Indicator Taxa
-<img width="368" height="444" alt="Screenshot 2026-03-08 at 10 00 41 PM" src="https://github.com/user-attachments/assets/65062d07-5b14-4fd8-8ea7-04a155a57107" />
+<img width="964" height="1222" alt="image" src="https://github.com/user-attachments/assets/ba5b9ade-9bf2-4017-8d6d-3db3a8e19928" />
 
 3. DESeq
 <img width="418" height="556" alt="Screenshot 2026-03-08 at 10 00 27 PM" src="https://github.com/user-attachments/assets/abfffa92-5542-4c0a-89b2-4ef67aca5239" />
