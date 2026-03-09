@@ -12,12 +12,10 @@
 ## Experimental Results Summary
 1. Core microbiome
 
-2. 
-3. Indicator Taxa
+2. Indicator Taxa
 <img width="368" height="444" alt="Screenshot 2026-03-08 at 10 00 41 PM" src="https://github.com/user-attachments/assets/65062d07-5b14-4fd8-8ea7-04a155a57107" />
 
-
-4. DESeq
+3. DESeq
 <img width="418" height="556" alt="Screenshot 2026-03-08 at 10 00 27 PM" src="https://github.com/user-attachments/assets/abfffa92-5542-4c0a-89b2-4ef67aca5239" />
 
 ## Meeting Minutes
