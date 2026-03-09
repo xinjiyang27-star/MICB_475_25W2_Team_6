@@ -62,6 +62,16 @@ asv_cd_only
 asv_uc_cd
 asv_all3
 
+# UC-only taxa table
+uc_only_taxa <- isa_unique_uccd_labeled %>%
+  filter(group_label == "UC_only")
+View(uc_only_taxa)
+
+# CD-only taxa table
+cd_only_taxa <- isa_unique_uccd_labeled %>%
+  filter(group_label == "CD_only")
+View(cd_only_taxa)
+                  
 # Save the table
 write.csv(isa_table_unique_UCCD, "ISA_significant_taxa_unique_uccd.csv", row.names = FALSE)
 
