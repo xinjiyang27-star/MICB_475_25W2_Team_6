@@ -38,7 +38,7 @@
 - [ISA table](/Lab_Notebook/Indicator_Species_Analysis/ISA_significant_taxa.csv)
 
 **8. DESeq**
-- [DESeq sig ASVs UC vs Healthy](/Lab_Notebook/DESeq/DESeq_sigASVs_UC.png)
+- [DESeq sig ASVs UC vs Healthy](/Lab_Notebook/DESeq/DESeq_sigASVs_UC_log=3.png)
 - [DESeq sig ASVs CD vs Healthy](/Lab_Notebook/DESeq/DESeq_sigASVs_CD_log=3.png)
 
 
