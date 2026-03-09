@@ -83,18 +83,9 @@
 - Pick metadata categories we want for the model → for example, biopsy location, histology status, medications, condition, gender (?) → can always remove these if it isn’t driving anything
 - If we keep everything → more data = more noise → the more you see a decrease in accuracy
 
-
-
-
-
-
-
-
-
-
-
-
 ## TO-DO lists
+1. Decide which taxa and metadata categories to use for building machine learning model
+2. Watch random forest model and try with running the code
 
 
 
