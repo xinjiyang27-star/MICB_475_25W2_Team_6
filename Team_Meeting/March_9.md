@@ -49,9 +49,8 @@
    1) 7 taxa from ISA results (ISA-significant_taxa.csv)
       - with stat >0.5
       - BLAST two taxa that don't have indentified genus
-   2) DESeq taxa that matches the top 10 abundance taxa
-   3) Merge the taxa data and metadata column and re-trian the model
-   4) taxa from re-running ISA by filtering out non-inflammed tissue for CD. When building the model, filter out non-inflammed tissue for CD and all UC, and then don't need to include the histological status when building the model
+   2) Merge the taxa data and metadata column and re-trian the model
+   3) taxa from re-running ISA by filtering out non-inflammed tissue for CD. When building the model, filter out non-inflammed tissue for CD and all UC, and then don't need to include the histological status when building the model
 5. Metada columns: Gender, Condition, biopsy location, smoking condition, year of diagnosis, age
    - if the biopsy locations becomes the dominant parameter then we will control for it.
 6. publication: AUC curve and importance curve
