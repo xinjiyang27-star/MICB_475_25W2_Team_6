@@ -45,13 +45,16 @@
 ## Meeting Minutes
 1. We will build a random forest model for CD vs healthy b/c random forest has 2 variables and UC is overlapping with the healthy.
 2. Start from the phyloseq object and remove UC 
-3. Re-run ISA by filtering out non-inflammed tissue for CD
+3. Re-run ISA by filtering out non-inflammed tissue for CD and al UC -Caroline 
 4. Build model
-   1) 7 taxa from ISA results (ISA-significant_taxa.csv)
+   1) 7 taxa from ISA results (ISA-significant_taxa.csv) - Phoenix 
       - with stat >0.5
       - BLAST two taxa that don't have indentified genus
-   2) Merge the taxa data and metadata column and re-trian the model
-   3) taxa from re-running ISA by filtering out non-inflammed tissue for CD. When building the model, filter out non-inflammed tissue for CD and all UC, and then don't need to include the histological status when building the model
+   2) metadata column model (contain non-inflmmaed for CD and UC) -Tara
+   3) Merge 1) and 2) - Munt
+   4) taxa from re-running ISA by filtering out non-inflammed tissue for CD and all UC. -Caroline 
+   5) metadata column model (no non-inflmmaed for CD and UC) -Tara
+   6) Merge 4) and 5) -Egbert 
 5. Metada columns: Gender, Condition, biopsy location, smoking condition, year of diagnosis, age
    - if the biopsy locations becomes the dominant parameter then we will control for it.
 6. publication: AUC curve and importance curve
