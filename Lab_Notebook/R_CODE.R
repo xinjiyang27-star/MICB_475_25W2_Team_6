@@ -21,6 +21,13 @@ tax <- read_delim(taxfp, delim="\t")
 phylotreefp <- "ryan_export/rooted_tree_export/tree.nwk"
 phylotree <- read.tree(phylotreefp)
 
+#### Filter metadata####
+# Filter out UC, non-inflamed CD from the metadata
+meta_filt <- meta %>%
+  filter(Condition == "Healthy" | 
+           (Condition == "Crohn's Disease" & 
+           Histological.status == "Inflamed tissue "))
+
 #### Formatting relevant files####
 
 # Format OUT table
@@ -32,8 +39,14 @@ OTU <- otu_table(otu_mat, taxa_are_rows = TRUE)
 samp_df <- as.data.frame(meta[,-1])
 rownames(samp_df)<- meta$'sample-id'
 SAMP <- sample_data(samp_df)
-class(SAMP)
-
+class(SAMP
+     
+# Format filtered metadata
+samp_df_filt <- as.data.frame(meta_filt[,-1])
+rownames(samp_df_filt)<- meta_filt$'sample-id'
+SAMP_filt <- sample_data(samp_df_filt)
+class(SAMP_filt)
+      
 # Format taxonomy 
 tax_mat <- tax %>% select(-Confidence)%>%
   separate(col=Taxon, sep="; "
@@ -47,8 +60,11 @@ class(TAX)
 
 #### Create phyloseq object ####
 ryan_ps <- phyloseq(OTU, SAMP, TAX, phylotree)
-
-
+      
+# Filtered phyloseq object 
+ryan_ps_filt <- phyloseq(OTU, SAMP_filt, TAX, phylotree)
+ryan_filt_new <- subset_taxa(ryan_ps_filt,  Domain == "d__Bacteria" & Class!="c__Chloroplast" & Family !="f__Mitochondria")
+      
 #### Filtering ####
 # Filter out the mitochondrial and chloroplast in the sample 
 ryan_filt <- subset_taxa(ryan_ps,  Domain == "d__Bacteria" & Class!="c__Chloroplast" & Family !="f__Mitochondria")
