@@ -9,8 +9,11 @@ library(phyloseq)
 library(tidyverse)
 
 # Load the dataset and aggregate reads to the Genus level
-ps = readRDS('ryan_phyloseq_CDvsHealthy.rds') %>% 
-  tax_glom('Genus')
+load("ryan_filt.RData")
+
+ps <- ryan_filt   # replace with your actual loaded object name
+
+ps<- tax_glom(ps, taxrank = "Genus")
 
 # Calculate average abundance~~~~~~~~~~~~
 avg_abundance = taxa_sums(ps)/sum(taxa_sums(ps)) 
