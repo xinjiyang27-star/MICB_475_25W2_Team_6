@@ -44,7 +44,7 @@
   
 ## Meeting Minutes
 1. We will build a random forest model for CD vs healthy b/c random forest has 2 variables and UC is overlapping with the healthy.
-2. Start from the phyloseq object and remove UC 
+2. Start from the phyloseq object and remove UC - Egbert 
 3. Re-run ISA by filtering out non-inflammed tissue for CD and al UC -Caroline 
 4. Build model
    1) 7 taxa from ISA results (ISA-significant_taxa.csv) - Phoenix 
