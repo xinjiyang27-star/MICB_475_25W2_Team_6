@@ -99,7 +99,7 @@ outcome = df_final %>% pull(Condition) %>%
 
 # Randomly subsets the rows into k equal bins.
 k = 10
-set.seed(060)
+set.seed(063)
 folds = createFolds(outcome, k = k, list = TRUE)
 
 # Each of these folds will take a turn being the test dataset.
@@ -125,7 +125,7 @@ source('randomforest_functions.R')
 pd_model = run_rf(X = predictors, y = outcome, 
                   fold_list = folds,
                   hyper = tune_grid, 
-                  rngseed = 060)
+                  rngseed = 063)
 names(pd_model)
 
 #Interpretation
