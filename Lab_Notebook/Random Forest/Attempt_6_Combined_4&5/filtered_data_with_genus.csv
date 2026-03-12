@@ -1,0 +1,8 @@
+"ASV","s.Crohn.s.Disease","s.Healthy","s.Ulcerative.Colitis","index","stat","p.value","Domain","Phylum","Class","Order","Family","Genus","Species"
+"cd961ac611a323212c92980949aab9c4",0,1,0,2,0.661770551741233,0.005,"d__Bacteria","p__Verrucomicrobiota","c__Verrucomicrobiia","o__Verrucomicrobiales","f__Akkermansiaceae","g__Akkermansia",NA
+"f170d8be1ae6795a2b0a1ce87ce27d54",0,1,0,2,0.532246968620082,0.005,"d__Bacteria","p__Thermodesulfobacteriota","c__Desulfovibrionia","o__Desulfovibrionales","f__Desulfovibrionaceae","g__Desulfovibrio",NA
+"35d3f5184c7c7dd9f2b01f01c9b4b71a",0,1,1,6,0.76128969764348,0.005,"d__Bacteria","p__Bacillota","c__Clostridia","o__Peptostreptococcales-Tissierellales","f__Peptostreptococcaceae","g__Romboutsia",NA
+"6a403960cabac26623171326c99f6c36",0,1,1,6,0.583716846873241,0.005,"d__Bacteria","p__Bacillota","c__Bacilli","o__Erysipelotrichales","f__Erysipelotrichaceae","g__Turicibacter",NA
+"f0ee86326610d8cf29bf4d38c45d69ab",0,1,1,6,0.534171952609389,0.005,"d__Bacteria","p__Actinomycetota","c__Coriobacteriia","o__Coriobacteriales","f__Eggerthellaceae","g__Senegalimassilia",NA
+"e84d4246803a880cb7d986a60132c569",0,1,1,6,0.572325055840819,0.005,"d__Bacteria","p__Bacillota","c__Clostridia","o__Oscillospirales","f__Ruminococcaceae","g__Hydrogenoanaerobacterium",NA
+"949d11292146e12904547a6db61ce024",0,1,0,2,0.7852600414985,0.005,"d__Bacteria","p__Bacillota","c__Clostridia","o__Lachnospirales","f__Lachnospiraceae","g__Anaerosacchariphilus",NA
