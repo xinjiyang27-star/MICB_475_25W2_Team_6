@@ -1,0 +1,12 @@
+"ASV","s.Crohn.s.Disease","s.Healthy","index","stat","p.value","Domain","Phylum","Class","Order","Family","Genus","Species"
+"6d215b2671c1a2187ef2427f18a82846",1,0,1,0.339683110243379,0.005,"d__Bacteria","p__Actinomycetota","c__Actinobacteria","o__Propionibacteriales","f__Propionibacteriaceae","g__Cutibacterium",NA
+"6f16e62f1235e1a6fef634304c73b517",1,0,1,0.403040955582402,0.035,"d__Bacteria","p__Actinomycetota","c__Actinobacteria","o__Mycobacteriales","f__Corynebacteriaceae","g__Corynebacterium",NA
+"3a051765f0113c0bf91582574f655b4b",1,0,1,0.330707945063021,0.03,"d__Bacteria","p__Bacteroidota","c__Bacteroidia","o__Bacteroidales","f__Prevotellaceae","g__Hoylesella",NA
+"43e44d8b2ddc76afa16d8cd0959f19f3",1,0,1,0.366899692852671,0.005,"d__Bacteria","p__Bacillota","c__Clostridia","o__Peptostreptococcales-Tissierellales","f__Family_XI","g__Anaerococcus",NA
+"71cdfae8e8fa2e8918f5db97f0fe52ab",1,0,1,0.277350098112615,0.045,"d__Bacteria","p__Pseudomonadota","c__Gammaproteobacteria","o__Burkholderiales","f__Rhodocyclaceae","g__Azovibrio",NA
+"f4a6c425d5bf09c99e264c3dfbef9025",1,0,1,0.310086836473021,0.03,"d__Bacteria","p__Pseudomonadota","c__Gammaproteobacteria","o__Enterobacterales","f__Morganellaceae","g__Morganella",NA
+"81e2a084fcf445b7d1fd24ce6af7c04f",1,0,1,0.607512812178881,0.035,"d__Bacteria","p__Bacillota","c__Negativicutes","o__Veillonellales-Selenomonadales","f__Veillonellaceae","g__Veillonella",NA
+"e8490065adca23a9a435be45e3867b70",1,0,1,0.410191301766173,0.04,"d__Bacteria","p__Bacillota","c__Clostridia","o__Peptostreptococcales-Tissierellales","f__Family_XI","g__Finegoldia",NA
+"9a62352e67bc3dba8ad2fb7a5aec3774",1,0,1,0.412245872879387,0.025,"d__Bacteria","p__Bacillota","c__Clostridia","o__Peptostreptococcales-Tissierellales","f__Family_XI","g__Peptoniphilus",NA
+"7f83ae4b4bd781e53f9f26bf3e6c5680",1,0,1,0.310086836473021,0.02,"d__Bacteria","p__Bacillota","c__Clostridia","o__Peptostreptococcales-Tissierellales","f__Anaerovoracaceae","g__Senimuribacter",NA
+"1446edc40fa70e5b5bca4d33a67f2a94",1,0,1,0.389146624226019,0.01,"d__Bacteria","p__Pseudomonadota","c__Gammaproteobacteria","o__Burkholderiales","f__Comamonadaceae","g__Acidovorax",NA
