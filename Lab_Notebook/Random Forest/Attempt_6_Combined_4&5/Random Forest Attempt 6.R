@@ -99,7 +99,7 @@ outcome = df_final %>% pull(Condition) %>%
 
 # Randomly subsets the rows into k equal bins.
 k = 10
-set.seed(067)
+set.seed(065)
 folds = createFolds(outcome, k = k, list = TRUE)
 
 # Each of these folds will take a turn being the test dataset.
@@ -125,7 +125,7 @@ source('randomforest_functions.R')
 pd_model = run_rf(X = predictors, y = outcome, 
                   fold_list = folds,
                   hyper = tune_grid, 
-                  rngseed = 067)
+                  rngseed = 065)
 names(pd_model)
 
 #Interpretation
@@ -174,3 +174,4 @@ temp %>% ggplot(aes(Condition,Abundance)) +
   geom_boxplot(outlier.shape = NA) +
   geom_jitter(height=2, width = 0.2) +
   theme_classic(base_size=18)
+
