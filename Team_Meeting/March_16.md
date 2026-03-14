@@ -28,7 +28,10 @@
   
 
 ## Experimental Results Summary
-1. Attempt 4:
+- Background and Terminology:
+  - non-filtered metadata: Keeping all samples, including UC, CD, and healthy; No filteration conducted
+  - filtered metadata: Filtering out all UC and non-inflamed CD, only keep inflamed CD and all healthy
+2. Attempt 4:
    - metadata: 
    - predicotors:
    - AOC, importance
