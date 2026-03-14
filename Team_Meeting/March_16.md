@@ -14,7 +14,7 @@
            1) df_pivot = filtered_df %>% \
                     select(Sample,Condition,Genus,Abundance) %>% \
                     # Turn each Genus into its own column \
-                    pivot_wider(names_from = Genus, values_from = Abundance) \
+                    pivot_wider(names_from = Genus, values_from = Abundance) 
            2) predictors <- df_noNA %>% \
                  select(-Condition) %>% \
                  #Need to change categorical variables to factors \
