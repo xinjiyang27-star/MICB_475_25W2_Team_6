@@ -44,3 +44,15 @@
    - predictors: Age, biopsy location, gender, smoking condition
      ![ROC](/images/Attempt5_ROC.png)
      ![Importance bar plot](/images/Attempt5_Importance.png)
+
+### Attempt 6: Build the RF by combining nonfiltered metadata and non-filtered ISA taxa 
+   - metadata: non-filtered 
+   - predictors: 7 ISA taxa, Age, biopsy location, gender, smoking condition
+    ![ROC](/images/Attempt6_ROC.jpeg)
+    ![ROC](/images/Attempt6_Importance.jpeg)
+
+### Attempt 7: Build the RF by using filtered ISA taxa only 
+   - metadata: filtered 
+   - predictors: 15 taxa identified by ISA
+    ![ROC](/images/Attempt7_ROC.png)
+    ![ROC](/images/Attempt7_Importance.png)
