@@ -85,7 +85,10 @@ df_noNA = df_pivot %>% na.omit()
 
 # Remove the sample ID column - otherwise the code will try to use it as an explanatory variable (just like the microbial genera).
 # We do this after pivoting (try doing it before pivoting, see what happens!)
-df_final = df_noNA %>% select(-Sample)
+df_f = df_noNA %>% select(-Sample)
+#Remove Uncertain from Age
+unwanted_value <- c("Uncertain")
+df_final= df_f[df_f$Age_when_sampled != unwanted_value, ]
 
 #Set Predictors
 predictors = df_final %>% select(-Condition)
