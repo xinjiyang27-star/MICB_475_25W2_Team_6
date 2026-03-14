@@ -36,13 +36,11 @@
 ### Attempt 4: Build the RF by using ISA taxa only
    - metadata: non-filtered 
    - predictors: the 7 taxa identified by ISA
-   - Results:
      ![ROC](/images/Attempt4_ROC.png)
      ![Importance bar plot](/images/Attempt4_Importance.png)
 
  ### Attempt 5: Build the RF by using non-filtered metadata only
    - metadata: non-filtered 
    - predictors: Age, biopsy location, gender, smoking condition
-   - Results:
      ![ROC](/images/Attempt5_ROC.png)
      ![Importance bar plot](/images/Attempt5_Importance.png)
