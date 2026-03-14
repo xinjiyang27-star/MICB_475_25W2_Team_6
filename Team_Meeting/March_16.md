@@ -31,9 +31,11 @@
 - Background and Terminology:
   - non-filtered metadata: Keeping all samples, including UC, CD, and healthy; No filteration conducted
   - filtered metadata: Filtering out all UC and non-inflamed CD, only keep inflamed CD and all healthy
-2. Attempt 4:
-   - metadata: 
-   - predicotors:
-   - AOC, importance
+1. Attempt 4: Build the RF by using ISA taxa only
+   - metadata: non-filtered 
+   - predictors: the 7 taxa identified by ISA
+   - Results:
+     ![ROC](/images/Attempt4_ROC.png)
+     ![Importance bar plot](/images/Attempt4_Importance.png)
 
  
