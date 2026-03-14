@@ -17,7 +17,7 @@
                     pivot_wider(names_from = Genus, values_from = Abundance)
            2) predictors <- df_noNA %>%
                  select(-Condition) %>%
-                 # Need to change categorical variables to factors
+                 #Need to change categorical variables to factors
                  mutate(
                     Biopsy_location = as.factor(Biopsy_location),
                     Smoking.status = as.factor(Smoking.status),
