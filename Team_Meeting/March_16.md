@@ -31,11 +31,18 @@
 - Background and Terminology:
   - non-filtered metadata: Keeping all samples, including UC, CD, and healthy; No filteration conducted
   - filtered metadata: Filtering out all UC and non-inflamed CD, only keep inflamed CD and all healthy
-1. Attempt 4: Build the RF by using ISA taxa only
+- Attempt 1-3 are trying/ playing around of RF with our data
+
+### Attempt 4: Build the RF by using ISA taxa only
    - metadata: non-filtered 
    - predictors: the 7 taxa identified by ISA
    - Results:
      ![ROC](/images/Attempt4_ROC.png)
      ![Importance bar plot](/images/Attempt4_Importance.png)
 
- 
+ ### Attempt 5: Build the RF by using non-filtered metadata only
+   - metadata: non-filtered 
+   - predictors: Age, biopsy location, gender, smoking condition
+   - Results:
+     ![ROC](/images/Attempt5_ROC.png)
+     ![Importance bar plot](/images/Attempt5_Importance.png)
