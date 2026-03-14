@@ -9,7 +9,7 @@
    - More information on mtry and min.node.size? How to set the most appropriate parameters?
    - Inconsistent between models(metadata only and metadata+taxa):
         - For unfiltered model, Age when sampled is MORE importance than biopsy location, which is consistent between metadata only and metadata+taxa.
-        - For filtered model, Age when sampled is MORE important than biopsy location for metadata+taxa, but otherwise for metadata only.
+        - For filtered model, Age when sampled is MORE important than biopsy location for metadata+taxa, but otherwise for metadata only❗
         - We think it's driven by this. Which code is better:
            1) df_pivot = filtered_df %>% \
                     select(Sample,Condition,Genus,Abundance) %>% \
