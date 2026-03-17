@@ -1,10 +1,10 @@
 # March 16 [16:00 - ] 
 ## Meeting Agenda 
-1. Discuss Random Forest Model and ISA results
+1. Discuss Random Forest Models and ISA results
 
 ## Q and A
 1. For Random forest:
-   - Why all the modes are overfitted?
+   - Why all the models are overfitted?
    - Why the models are not consistent between runs with the same laptop and different laptops?
    - More information on mtry and min.node.size? How to set the most appropriate parameters?
    - Inconsistent between models(metadata only and metadata+taxa):
