@@ -4,7 +4,7 @@ library(indicspecies)
 
 #### Load data ####
 # Load the nonrarefied object
-load("ryan_filt_new.RData")
+load("Ryan_filt_new.RData")
 
 #### Indicator Species/Taxa Analysis ####
 # glom to Genus
@@ -30,9 +30,9 @@ isa_table <- isa_ryan$sign %>%
   filter(p.value<0.05)
 View(isa_table)
 
-isa_cd <- isa_table %>%
-  filter(`s.Crohn's Disease` == 1)
+isa_table_stat0.5 <- isa_table %>%
+  filter(stat>0.5)
 
 # Save the tables
 write.csv(isa_table, "ISA_ryanfilt_new.csv", row.names = FALSE)
-write.csv(isa_cd, "ISA_onlyCD.csv", row.names = FALSE)
+write.csv(isa_table_stat0.5, "ISA_15_taxa.csv", row.names = FALSE)

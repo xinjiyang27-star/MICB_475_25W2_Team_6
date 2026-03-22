@@ -1,36 +1,29 @@
-#### Re-do the diversity analysis by using filtered phyloseq object ####
+# Significance Analysis for Alpha Diversity Metrics
 
-# Load all relevant packages
+# Load the packages 
 library(phyloseq)
 library(ape)
 library(tidyverse)
 library(vegan)
 library(picante)
+library(ggsignif)
+library(ggpubr)
 
-# Load filtered phloseq object 
-load("Ryan_filt_new.RData")
-
-#### Rarefaction and Generating Rarefaction Curve####
-# generating rarefaction curve, CANNOT run the alpha rarefaction curve
-# rarefaction_curve <- rarecurve(t(as.data.frame(otu_table(ryan_filt_new))), cex=0.1)
-# print(rarefaction_curve)
-
-# Rarefaction 
-ryan_rare_new <- rarefy_even_depth(ryan_filt_new, rngseed = 1, sample.size = 26522)
-
-# Save the file
-save(ryan_rare_new, file="ryan_rare_new.RData")
-
-#### Shannon and Observed Features ####
+# Load the relevant items in the RData file 
+load("Alpha_formatted.RData")
 
 # Calculate alpha diversity and merge with the metadata
 alphadiv <- estimate_richness(ryan_rare_new)
 samp_dat <- sample_data(ryan_rare_new)
 samp_dat_wdiv <- data.frame(samp_dat, alphadiv)
 
-# Create a formatted alpha diversity plot (Shannon)
+#### Shannon Figure####  
+# Wilcoxon Rank Sum Test 
+wilcox.test(Shannon ~ Condition, data=samp_dat_wdiv, exact = FALSE)
+
+# Figure generation 
 alpha_plot_shannon <- ggplot(samp_dat_wdiv, aes(x = Condition,
-                                        y = Shannon)) +
+                                                y = Shannon)) +
   stat_boxplot(geom = "errorbar", width = 0.2) +
   geom_boxplot(aes(fill=Condition)) +
   scale_fill_manual(values = c(
@@ -38,17 +31,26 @@ alpha_plot_shannon <- ggplot(samp_dat_wdiv, aes(x = Condition,
     "Crohn's Disease" = "#D55E00"
   )) +
   labs(x = "Condition", y = "Shannon Diversity Measure") + 
+  geom_signif(comparisons = list(c("Healthy", "Crohn's Disease")), 
+             test = "wilcox.test",
+             annotations = c("p=0.03"), 
+             y_position = 4.6) +
   theme_classic(base_size =13) + 
   theme(legend.position = "none")
 alpha_plot_shannon
 
-ggsave(filename = "plot_Shannon.png"
+# Save the figure 
+ggsave(filename = "plot_Shannon_sig.png"
        , alpha_plot_shannon
        , height=4, width=6)
 
-# Create a formatted alpha diversity plot (Observed Features)
+#### Observed Features Figure####
+# Wilcoxon Rank Sum Test 
+wilcox.test(Observed ~ Condition, data=samp_dat_wdiv, exact = FALSE)
+
+# Figure generation 
 alpha_plot_observed <- ggplot(samp_dat_wdiv, aes(x = Condition,
-                                                y = Observed)) +
+                                                 y = Observed)) +
   stat_boxplot(geom = "errorbar", width = 0.2) +
   geom_boxplot(aes(fill=Condition)) +
   scale_fill_manual(values = c(
@@ -56,22 +58,32 @@ alpha_plot_observed <- ggplot(samp_dat_wdiv, aes(x = Condition,
     "Crohn's Disease" = "#D55E00"
   )) +
   labs(x = "Condition", y = "Observed Features Diversity Measure") + 
+  geom_signif(comparisons = list(c("Healthy", "Crohn's Disease")), 
+              test = "wilcox.test",
+              annotations = c("p=0.0005"),, 
+              y_position = 300) +
   theme_classic(base_size =13) + 
   theme(legend.position = "none")
 alpha_plot_observed
 
-ggsave(filename = "plot_Observed.png"
+# Export the figure 
+ggsave(filename = "plot_Observed_sig.png"
        , alpha_plot_observed
        , height=4, width=6)
 
-#### Faith's Phylogenetic Diversity ####
+#### PD Figure ####
+# faith PD calculation 
 phylo_dist <- pd(t(otu_table(ryan_rare_new)), phy_tree(ryan_rare_new),
                  include.root=F) 
 
-sample_data(ryan_rare_new)$PD <- phylo_dist$PD
+samp_dat_wdiv$PD <- phylo_dist$PD
 
-alpha_plot_pd <- ggplot(sample_data(ryan_rare_new), aes(x = Condition,
-                                                 y = PD)) +
+# Wilcoxon Rank Sum Test 
+wilcox.test(PD ~ Condition, data=samp_dat_wdiv, exact = FALSE)
+
+# Figure generation 
+alpha_plot_pd <- ggplot(samp_dat_wdiv, aes(x = Condition,
+                                                        y = PD)) +
   stat_boxplot(geom = "errorbar", width = 0.2) +
   geom_boxplot(aes(fill=Condition)) +
   scale_fill_manual(values = c(
@@ -79,11 +91,10 @@ alpha_plot_pd <- ggplot(sample_data(ryan_rare_new), aes(x = Condition,
     "Crohn's Disease" = "#D55E00"
   )) +
   labs(x = "Condition", y = "Faith's Phylogenetic Diversity Measure") + 
+  geom_signif(comparisons = list(c("Healthy", "Crohn's Disease")), 
+              test = "wilcox.test",
+              annotations = c("p=0.0007"),, 
+              y_position = 16) +
   theme_classic(base_size = 13) + 
   theme(legend.position = "none")
-
 alpha_plot_pd
-
-ggsave(filename = "plot_pd.png"
-       , alpha_plot_pd
-       , height=4, width=6)
