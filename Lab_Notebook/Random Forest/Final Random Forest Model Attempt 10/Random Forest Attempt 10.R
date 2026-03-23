@@ -162,33 +162,33 @@ roc_plot <- ggplot() +
                 color = "Test"),
             size = 1.2) +
   
-  # Diagonal reference line
+  
   geom_abline(slope = 1, intercept = 0, 
               linetype = "dashed", 
               color = "grey50", 
               size = 0.8) +
   
-  # Labels
+  
   labs(
     x = "False Positive Rate",
     y = "True Positive Rate",
     color = "Dataset"
   ) +
   
-  # Annotation (AUC text)
+
   annotate("text", x = 0.65, y = 0.15, 
            label = sprintf("Train: %.2f (%.2f–%.2f)\nTest: %.2f (%.2f–%.2f)",
                            auc(roc_train), pd_model$auc_train_ci[1], pd_model$auc_train_ci[2],
                            auc(roc_test), pd_model$auc_test_ci[1], pd_model$auc_test_ci[2]), 
            size = 4.5, hjust = 0) +
   
-  # Color palette (clean & publication-friendly)
+
   scale_color_manual(values = c(
-    "Training" = "#0072B2",  # blue
-    "Test" = "#D55E00"       # orange
+    "Training" = "#7570B3",  
+    "Test" = "#D55E00"       
   )) +
   
-  # Theme adjustments
+
   theme_minimal() +
   theme(
     axis.title = element_text(size = 14),
@@ -202,7 +202,7 @@ roc_plot <- ggplot() +
 roc_plot
 
 
-ggsave("ROC_curve.png", roc_plot, width = 8, height = 6, dpi = 300)
+ggsave("Final_ROC_Plot.png", roc_plot, width = 8, height = 6, dpi = 300)
 
 
 importance_plot <- pd_model$importance %>% 
@@ -211,10 +211,9 @@ importance_plot <- pd_model$importance %>%
   ggplot(aes(x = Feature, y = MeanDecreaseGini, fill = MeanDecreaseGini)) +
   geom_col(width = 0.75, color = "black", size = 0.2) +
   
-  # Clean, publication-friendly gradient (viridis-like)
   scale_fill_gradient(
-    low = "#DCEAF7", 
-    high = "#08519C",
+    low = "#FCE5FC", 
+    high = "#7570B3",
     name = "Gini Importance"
   ) +
   
@@ -233,11 +232,9 @@ importance_plot <- pd_model$importance %>%
     legend.text = element_text(size = 12),
     legend.position = "right",
     
-    # Subtle aesthetic improvements
     axis.line = element_line(size = 0.6),
     axis.ticks = element_line(size = 0.6)
   )
-
-ggsave("RF_feature_importance.png", importance_plot, width = 8, height = 6, dpi = 300)
-
 importance_plot
+ggsave("Final_Importance_Plot.png", importance_plot, width = 8, height = 6, dpi = 300)
+
