@@ -1,4 +1,4 @@
-# March 16 [16:00 - ] 
+# March 16 [17:20 - 18:00] 
 ## Meeting Agenda 
 1. Discuss Random Forest Models and ISA results
 
