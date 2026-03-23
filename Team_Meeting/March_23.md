@@ -1,4 +1,4 @@
-# March 23 [16:00 - ] 
+# March 23 [16:00 - 16:50] 
 ## Meeting Agenda 
 1. Decide the order of figures for publication
 2. Questions about Undergraduate Research Symposium
@@ -23,19 +23,21 @@ If weighted was more important, then we’d go with DESeq, if unweighted was mor
 6. RF Attempt: keep g__ for the importance plots 
 
 ### Manuscript Figures 
-Figure 1. - Panel A → Observed 
+1. Figure 1: Alpha Diversity
+	   - Panel A → Observed 
 	   -  Panel B → Faith 
-	    - Panel C → Shannon 
+	   - Panel C → Shannon 
 Shows sig diff in diversity 
-Figure 2. - Panel A → Jackard 
-	  - Panel B → BC 
+2. Figure 2: Beta diversity
+    - Panel A → Jackard 
+	- Panel B → BC 
     - Panel C → unweighted unifrac 
     - Panel D → weighted unifrac 
 Same shows diff 
-Figure 3. DESeq → make CD vs Healthy (as ref) very clear 
-Highlights some taxa diff, esp ones used in model 
-Table 1. ISA results → look up literature and format like that, 3 taxonomic levels (no kingdom, domain → genus, phylum, family), indicator value and the p-value. Divided into CD and healthy relevant (one table but divided into 2). Explain that these are the main taxa used in the RF models \
-Figure 4, 6 panels 
+3. Figure 3: DESeq → make CD vs Healthy (as ref) very clear 
+Highlights some taxa diff, esp ones used in model \
+4. Table 1: ISA results → look up literature and format like that, 3 taxonomic levels (no kingdom, domain → genus, phylum, family), indicator value and the p-value. Divided into CD and healthy relevant (one table but divided into 2). Explain that these are the main taxa used in the RF models 
+5. Figure 4: RF model  6 panels: top 3 panels ROC, bottom 3 Importance 
 - Panel A indicator ROC 
 - Panel B metadata ROC 
 - Panel C combined ROC 
