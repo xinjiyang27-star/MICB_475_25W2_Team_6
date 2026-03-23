@@ -143,38 +143,93 @@ roc_test = roc(pd_model$test_labels$true_labels,
 roc_train = roc(pd_model$train_labels$true_labels,
                 pd_model$train_labels$predicted_probabilities)
 roc_plot <- ggplot() +
-  # Training data: this is a type of control
+  # Training ROC
   geom_line(aes(x = 1 - roc_train$specificities, 
-                y = roc_train$sensitivities), 
-            color = "red",size=1) +
-  # Test data: tells us the strength of the prediction
+                y = roc_train$sensitivities,
+                color = "Training"),
+            size = 1.2) +
+  
+  # Test ROC
   geom_line(aes(x = 1 - roc_test$specificities,
-                y = roc_test$sensitivities), 
-            color = "black",size=1) +
-  geom_abline(slope = 1, intercept = 0, color = "gray", linetype = "dashed",size=1) +
-  labs(x = "False Positive Rate", y = "True Positive Rate") +
-  annotate("text", x = 0.7, y = 0.2, 
-           label = sprintf("Train (red): %.2f (%.2f-%.2f)\nTest (black): %.2f (%.2f-%.2f)",
+                y = roc_test$sensitivities,
+                color = "Test"),
+            size = 1.2) +
+  
+  
+  geom_abline(slope = 1, intercept = 0, 
+              linetype = "dashed", 
+              color = "grey50", 
+              size = 0.8) +
+  
+  
+  labs(
+    x = "False Positive Rate",
+    y = "True Positive Rate",
+    color = "Dataset"
+  ) +
+  
+  
+  annotate("text", x = 0.65, y = 0.15, 
+           label = sprintf("Train: %.2f (%.2f–%.2f)\nTest: %.2f (%.2f–%.2f)",
                            auc(roc_train), pd_model$auc_train_ci[1], pd_model$auc_train_ci[2],
                            auc(roc_test), pd_model$auc_test_ci[1], pd_model$auc_test_ci[2]), 
-           size = 6) +
-  theme_minimal(base_size=18)
+           size = 4.5, hjust = 0) +
+  
+  
+  scale_color_manual(values = c(
+    "Training" = "#7570B3",  
+    "Test" = "#D55E00"       
+  )) +
+  
+  
+  theme_minimal() +
+  theme(
+    axis.title = element_text(size = 14),
+    axis.text = element_text(size = 12),
+    legend.title = element_text(size = 14, face = "bold"),
+    legend.text = element_text(size = 12),
+    legend.position = "bottom",
+    panel.grid.minor = element_blank()
+  )
 
-pd_model$importance
+roc_plot
 
-ggsave("ROC_curve.png", roc_plot, width = 8, height = 6, dpi = 300)
+
+ggsave("ROC_Plot_7.png", roc_plot, width = 8, height = 6, dpi = 300)
+
 
 importance_plot <- pd_model$importance %>% 
-  # Data are automatically arranged by decreasing importance - turn it into a factor.
-  # Otherwise the features will show up alphabetically in the plot.
-  mutate(Feature = factor(.$Feature,levels = .$Feature)) %>% 
-  ggplot(aes(Feature,MeanDecreaseGini,fill=MeanDecreaseGini)) +
-  geom_col() +
-  theme_classic(base_size=18) +
-  theme(axis.text.x = element_text(angle=70, vjust = 1, hjust=1)) +
-  ylab('Importance (Gini)') + xlab(NULL)
-
-ggsave("RF_feature_importance.png", importance_plot, width = 8, height = 6, dpi = 300)
+  mutate(Feature = factor(Feature, levels = Feature)) %>% 
+  
+  ggplot(aes(x = Feature, y = MeanDecreaseGini, fill = MeanDecreaseGini)) +
+  geom_col(width = 0.75, color = "black", size = 0.2) +
+  
+  scale_fill_gradient(
+    low = "#FCE5FC", 
+    high = "#7570B3",
+    name = "Gini Importance"
+  ) +
+  
+  labs(
+    y = "Importance (Gini)",
+    x = NULL
+  ) +
+  
+  theme_classic() +
+  theme(
+    axis.title = element_text(size = 14),
+    axis.text = element_text(size = 12),
+    axis.text.x = element_text(angle = 60, vjust = 1, hjust = 1),
+    
+    legend.title = element_text(size = 14, face = "bold"),
+    legend.text = element_text(size = 12),
+    legend.position = "right",
+    
+    axis.line = element_line(size = 0.6),
+    axis.ticks = element_line(size = 0.6)
+  )
+importance_plot
+ggsave("Importance_Plot_7.png", importance_plot, width = 8, height = 6, dpi = 300)
 
 #Check Correlation
 

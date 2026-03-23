@@ -1,4 +1,4 @@
-# Ramdom Forest Model- Combine filtered metadata and filtered ISA taxa
+# Random Forest Model- Combine filtered metadata and filtered ISA taxa
 
 #### Loading packages and data####
 library(caret)
@@ -146,9 +146,6 @@ roc_test = roc(pd_model$test_labels$true_labels,
                pd_model$test_labels$predicted_probabilities)
 roc_train = roc(pd_model$train_labels$true_labels,
                 pd_model$train_labels$predicted_probabilities)
-
-
-
 roc_plot <- ggplot() +
   # Training ROC
   geom_line(aes(x = 1 - roc_train$specificities, 
@@ -175,20 +172,20 @@ roc_plot <- ggplot() +
     color = "Dataset"
   ) +
   
-
+  
   annotate("text", x = 0.65, y = 0.15, 
            label = sprintf("Train: %.2f (%.2f–%.2f)\nTest: %.2f (%.2f–%.2f)",
                            auc(roc_train), pd_model$auc_train_ci[1], pd_model$auc_train_ci[2],
                            auc(roc_test), pd_model$auc_test_ci[1], pd_model$auc_test_ci[2]), 
            size = 4.5, hjust = 0) +
   
-
+  
   scale_color_manual(values = c(
     "Training" = "#7570B3",  
     "Test" = "#D55E00"       
   )) +
   
-
+  
   theme_minimal() +
   theme(
     axis.title = element_text(size = 14),
@@ -202,7 +199,7 @@ roc_plot <- ggplot() +
 roc_plot
 
 
-ggsave("Final_ROC_Plot.png", roc_plot, width = 8, height = 6, dpi = 300)
+ggsave("ROC_Plot_9_Final.png", roc_plot, width = 8, height = 6, dpi = 300)
 
 
 importance_plot <- pd_model$importance %>% 
@@ -236,5 +233,18 @@ importance_plot <- pd_model$importance %>%
     axis.ticks = element_line(size = 0.6)
   )
 importance_plot
-ggsave("Final_Importance_Plot.png", importance_plot, width = 8, height = 6, dpi = 300)
+ggsave("Importance_Plot_9_Final.png", importance_plot, width = 8, height = 6, dpi = 300)
 
+#Check Correlation
+
+temp = ps_clr %>% 
+  subset_taxa(Genus=='g__Laedolimicola') %>% 
+  psmelt()
+
+box_plot_RF <- temp %>% 
+  ggplot(aes(Condition,Abundance)) +
+  geom_boxplot(outlier.shape = NA) +
+  geom_jitter(height=2, width = 0.2) +
+  theme_classic(base_size=18)
+
+ggsave("Laedolimicola_abundance.png", box_plot_RF, width = 8, height = 6, dpi = 300)
