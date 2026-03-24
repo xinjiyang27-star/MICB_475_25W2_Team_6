@@ -36,7 +36,7 @@
 - [Core microbiome analysis- filtered metadata](./Lab_Notebook/Core_Microbiome)
 - [Indicator species analysis- filtered metadata](./Lab_Notebook/Indicator_Species_Analysis)
 - [DESeq- filtered metadata](./Lab_Notebook/DESeq)
-- [Random Forest](./Lab_Norebook/Random%20Forest)
+- [Random Forest](https://github.com/xinjiyang27-star/MICB_475_25W2_Team_6/tree/3bf8b9f38e116ffddefb6f77435999b16f760b6d/Lab_Notebook/Random%20Forest)
 
 ## Finalized Code 💻 ##
 
