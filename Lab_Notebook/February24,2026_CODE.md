@@ -1,4 +1,4 @@
-# Running Beta-diversity and Taxonomy bar plots in R [Feb.24.2026]
+# Running Beta-diversity and Taxonomy bar plots in R [24 February]
 
 ## Purpose:
 1. To generate the four beta-diveristy metrics (bray-curtis, jaccard, unweighted unifrac, and weighted unifrac) and taxonomy bar plot
