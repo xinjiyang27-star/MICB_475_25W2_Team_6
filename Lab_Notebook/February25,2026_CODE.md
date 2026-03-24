@@ -1,4 +1,4 @@
-# February 25 2026
+# Statistical analysis for alpha and beta diversity [25 February]
 ## Purpose
 1. To run statiscal tests for alpha diversity and beta diversity. 
 2. To generate alpha and beta diversity visualization graphs with the results of statistical tests.
