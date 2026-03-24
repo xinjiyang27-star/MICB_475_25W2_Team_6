@@ -1,19 +1,26 @@
 # Paired Reads: Assign Taxonomy, Filtering, and Alpha Rarefaction [19 February]
+## Purpose
+To analyze the taxonomy, filter the sequence and do the alpha rarefaction 
 
-#Use trained classifier to create taxonomy file
+## Material 
+MICB475 group server 
+
+## Method
+### Paired end data analysis 
+1. Use trained classifier to create taxonomy file
 
 qiime feature-classifier classify-sklearn \
 --i-classifier ryan-classifier.qza \
 --i-reads ryan-rep-seqs.qza \
 --o-classification ryan-taxonomy.qza
 
-#convert to a visualizable file
+2. convert to a visualizable file
 
 qiime metadata tabulate \
   --m-input-file ryan-taxonomy.qza \
   --o-visualization ryan-taxonomy.qzv
 
-#create taxa barplot
+3. create taxa barplot
 
 qiime taxa barplot \
   --i-table ryan-table.qza \
@@ -21,13 +28,13 @@ qiime taxa barplot \
   --m-metadata-file /datasets/project_2/human_ibd/ryan_metadata.tsv \
   --o-visualization ryan-taxa-bar-plots.qzv
 
-#copy files to local
+4. copy files to local
 
 scp root@10.19.139.189:/data/project_2/Version_1/ryan-taxonomy.qzv .
 
 scp root@10.19.139.189:/data/project_2/Version_1/ryan-taxa-bar-plots.qzv .
 
-## Filtering
+5. Filtering
 #Filtering out mitochondria and Chloroplasts
 
 qiime taxa filter-table \
@@ -36,18 +43,18 @@ qiime taxa filter-table \
   --p-exclude mitochondria,chloroplast \
   --o-filtered-table table-no-mitochondria-no-chloroplast.qza
 
-#convert to a visualizable file
+6. convert to a visualizable file
 
 qiime feature-table summarize \
   --i-table table-no-mitochondria-no-chloroplast.qza \
   --o-visualization table-no-mitochondria-no-chloroplast.qzv \
   --m-sample-metadata-file /datasets/project_2/human_ibd/ryan_metadata.tsv
 
-#Copy to local
+7. Copy to local
 
 scp root@10.19.139.189:/data/project_2/Version_1/table-no-mitochondria-no-chloroplast.qzv .
 
-## Alpha Rarefaction
+8. Alpha Rarefaction
 #Generate a tree for phylogenetic diversity analyses
 
 qiime phylogeny align-to-tree-mafft-fasttree \
@@ -57,7 +64,7 @@ qiime phylogeny align-to-tree-mafft-fasttree \
   --o-tree ryan-unrooted-tree.qza \
   --o-rooted-tree ryan-rooted-tree.qza 
 
-#Generate alpha rarefaction curve
+9. Generate alpha rarefaction curve
 
 qiime diversity alpha-rarefaction \
   --i-table ryan-table.qza \
@@ -66,28 +73,28 @@ qiime diversity alpha-rarefaction \
   --m-metadata-file /datasets/project_2/human_ibd/ryan_metadata.tsv \
   --o-visualization ryan-alpha-rarefaction.qzv
 
-#Copy to local
+10. Copy to local
 
 scp root@10.19.139.189:/data/project_2/Version_1/ryan-alpha-rarefaction.qzv .
 
-# Version 2 Code. Forward Sequences Only
-## Code was rerun using only forward sequences in order to increase the quality of reads. Poor overlap of reads was causing read quality to suffer
-## Bring manifest.tsv file to local
+### Forward Sequences Only
+#Code was rerun using only forward sequences in order to increase the quality of reads. Poor overlap of reads was causing read quality to suffer
+1. Bring manifest.tsv file to local
 
 scp root@10.19.139.189:/datasets/project_2/human_ibd/ryan_manifest.tsv .
 
-## Send edited manifest.tsv file back to server
+2. Send edited manifest.tsv file back to server
 
 scp ryan_manifest_forward.tsv root@10.19.139.189:/data/project_2
 
-## Import Data
+3. Import Data
 qiime tools import \
   --type "SampleData[SequencesWithQuality]" \
   --input-format SingleEndFastqManifestPhred33V2 \
   --input-path ./data/project_2/Version_2/ryan_manifest_forward.tsv \
   --output-path ./data/project_2/Version_2/forwardryan_demux_seqs.qza
 
-## Trim
+4. Trim
 qiime cutadapt trim-single \
   --i-demultiplexed-sequences forwardryan_demux_seqs.qza \
   --p-front TCGTCGGCAGCGTCAGATGTGTATAAGAGACAGCCTACGGGNGGCWGCAG \
@@ -97,16 +104,16 @@ qiime cutadapt trim-single \
   --o-trimmed-sequences forwardryan_demux-trimmed.qza \
   --verbose > cutadapt-log-2.txt
 
-## Visualize
+5. Visualize
 qiime demux summarize \
   --i-data forwardryan_demux-trimmed.qza \
   --o-visualization forwardryan_demux-trimmed.qzv
 
-## Send to Local 
+6. Send to Local 
 scp root@10.19.139.189:/data/project_2/Version_2/forwardryan_demux-trimmed.qzv .
 
 
-## Determine ASVs with DADA2
+7. Determine ASVs with DADA2
 qiime dada2 denoise-single \
   --i-demultiplexed-seqs forwardryan_demux-trimmed.qza \
   --p-trim-left 0 \
@@ -126,12 +133,12 @@ qiime feature-table tabulate-seqs \
   --o-visualization forwardryan-rep-seqs.qzv
 
 
-## Send to Local 
+8. Send to Local 
 scp root@10.19.139.189:/data/project_2/Version_2/forwardryan-table.qzv .
 scp root@10.19.139.189:/data/project_2/Version_2/forwardryan-rep-seqs.qzv .
 
 
-## Taxonomic analysis
+9. Taxonomic analysis
 qiime feature-classifier extract-reads \
   --i-sequences /datasets/classifiers/silva_ref_files/silva-138-99-seqs.qza \
   --p-f-primer CCTACGGGNGGCWGCAG \
@@ -139,7 +146,7 @@ qiime feature-classifier extract-reads \
   --p-trunc-len 220 \
   --o-reads forward-ryan-ref-seqs-trimmed.qza
 
-## Train classifier with your new ref-seq file
+10. Train classifier with your new ref-seq file
 qiime feature-classifier fit-classifier-naive-bayes \
   --i-reference-reads /data/project_2/Version_1/forward-ryan-ref-seqs-trimmed.qza \
   --i-reference-taxonomy /datasets/classifiers/silva_ref_files/silva-138-99-tax.qza \
