@@ -46,7 +46,7 @@
 #### Results 
 - [Alpha diversity analysis- unfiltered metadata](https://github.com/xinjiyang27-star/MICB_475_25W2_Team_6/tree/cb779d263fff61370a087de9e62e59418b830964/Lab_Notebook/Alpha_and_Beta_Diversity)
 - [Beta diversity analysis- unfiltered metadata](https://github.com/xinjiyang27-star/MICB_475_25W2_Team_6/tree/cb779d263fff61370a087de9e62e59418b830964/Lab_Notebook/Alpha_and_Beta_Diversity)
-- [DESeq](https://github.com/xinjiyang27-star/MICB_475_25W2_Team_6/tree/dce264dff75ba7fc13de863b18f24116de0f6126/Lab_Notebook/DESeq)
+- [DESeq- unfiltered metadata](https://github.com/xinjiyang27-star/MICB_475_25W2_Team_6/tree/dce264dff75ba7fc13de863b18f24116de0f6126/Lab_Notebook/DESeq)
 - [Alpha diversity analysis- filtered metadata](https://github.com/xinjiyang27-star/MICB_475_25W2_Team_6/tree/cb779d263fff61370a087de9e62e59418b830964/Lab_Notebook/Final_figure_analysis/Figures/Filtered_alpha)
 - [Beta diversity analysis- filtered metadata](https://github.com/xinjiyang27-star/MICB_475_25W2_Team_6/tree/cb779d263fff61370a087de9e62e59418b830964/Lab_Notebook/Final_figure_analysis/Figures/Filtered_beta)
 - [Core microbiome analysis- filtered metadata](./Lab_Notebook/Core_Microbiome)
