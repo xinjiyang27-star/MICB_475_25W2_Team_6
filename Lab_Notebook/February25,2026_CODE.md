@@ -7,7 +7,7 @@
 1. R Studio
 
 ## Method
-#### Alpha Diversity ####
+1. Alpha Diversity
 #Load all the packages
 library(phyloseq)
 library(ape)
@@ -15,11 +15,11 @@ library(tidyverse)
 library(picante)
 library(ggpubr)
 
-# Load data 
+2. Load data 
 load("ryan_rare.RData")
 load("ryan_filt.RData")
 
-#### Alpha Diversity with statistical Test ####
+3. Alpha Diversity with statistical Test
 unique(get_variable(ryan_rare, "Condition"))
 
 alpha_comparisons <- list( c("Healthy", "Ulcerative Colitis"), 
@@ -72,8 +72,8 @@ ggsave("plot_pd.png",
        height = 6,
        width = 8)
 
-#### Beta diversity #####
-# Run beta-diversity using bray-curtis as the metric
+4. Beta diversity
+#Run beta-diversity using bray-curtis as the metric
 bc_dm <- distance(ryan_rare, method="bray")
 pcoa_bc <- ordinate(ryan_rare, method="PCoA", distance=bc_dm)
 
@@ -98,7 +98,7 @@ ggsave("plot_pcoa_bc_eclipse.png",
        height = 4,
        width = 6)
 
-# Run beta-diversity using jaccard as the metric
+#Run beta-diversity using jaccard as the metric
 j_dm <- distance(ryan_rare, method = "jaccard")
 pcoa_j <- ordinate(ryan_rare, method="PCoA", distance=j_dm)
 
@@ -124,7 +124,7 @@ ggsave("plot_gg_pcoa_j.png",
        width = 6)
 
 
-# Run beta-diversity using unweighted unifrac as the metric
+#Run beta-diversity using unweighted unifrac as the metric
 uu_dm <- distance(ryan_rare, method = "uunifrac")
 pcoa_uu <- ordinate(ryan_rare, method="PCoA", distance=uu_dm)
 
@@ -149,7 +149,7 @@ ggsave("plot_gg_pcoa_uu.png",
        height = 4,
        width = 6)
 
-# Run beta-diversity using weighted unifrac as the metric
+#Run beta-diversity using weighted unifrac as the metric
 wu_dm <- distance(ryan_rare, method = "wunifrac")
 pcoa_wu <- ordinate(ryan_rare, method="PCoA", distance=wu_dm)
 
