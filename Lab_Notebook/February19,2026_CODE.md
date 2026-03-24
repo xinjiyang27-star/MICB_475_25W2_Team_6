@@ -1,4 +1,4 @@
-# Paired Reads: Assign Taxonomy, Filtering, and Alpha Rarefaction
+# Paired Reads: Assign Taxonomy, Filtering, and Alpha Rarefaction [19 February]
 
 #Use trained classifier to create taxonomy file
 
