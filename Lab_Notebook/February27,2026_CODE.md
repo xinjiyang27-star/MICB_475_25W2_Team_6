@@ -1,4 +1,4 @@
-# Indicator Species/Taxa Analysis [FEB.27]
+# Indicator Species/Taxa Analysis [27 February]
 
 ## Purpose:
 1. To run ISA to identify the indicator species for each condition
