@@ -18,12 +18,15 @@
 ## Lab Notebook 📓 ##
 
 ### QIIME2 Analysis
+#### Code
 - [Demultiuplexing](/Lab_Notebook/February12,2026_CODE.md)
 - [Denoising and clustering](/Lab_Notebook/February13,2026_CODE.md)
 - [Taxonomic analysis](/Lab_Notebook/February14,2026_CODE.md)
 - [Filtering and rarefaction- paired reads](/Lab_Notebook/February19,2026_CODE.md)
 - [Filtering and rarefaction- forward reads](/Lab_Notebook/February20,2026_CODE.md)
 - [Exporting files from QIIME2](/Lab_Notebook/February23,2026_CODE.md)
+#### Results
+- [Experimental results](https://github.com/xinjiyang27-star/MICB_475_25W2_Team_6/tree/0dafe6cb729f8c8b7fc580e7e0ec7f1208a10301/Lab_Notebook/Experimental_Results)
 
 ### R Studio Analysis
 - [Phyloseq analysis- unfiltered metadata](/Lab_Notebook/February23,2026_CODE.md)
