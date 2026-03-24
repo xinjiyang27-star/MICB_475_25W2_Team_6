@@ -1,4 +1,4 @@
-# Forward Reads: Assign Taxonomy, Filtering, and Alpha Rarefaction
+# Forward Reads: Assign Taxonomy, Filtering, and Alpha Rarefaction [20 February]
 
 #Use trained classifier to create taxonomy file
 
