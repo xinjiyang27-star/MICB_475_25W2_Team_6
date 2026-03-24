@@ -1,4 +1,4 @@
-# Exporting, phyloseq creation and alpha diversity analysis [23 February]
+# Exporting, phyloseq creation, and alpha diversity analysis [23 February]
 ## Purpose
 To convert table.qza, phylogeentic tree, metadata, and taxonomy.qza to human readable files and export from QIIME2. 
 To Create Phyloseq object and recreate rarefaction, alpha diversity in R. 
