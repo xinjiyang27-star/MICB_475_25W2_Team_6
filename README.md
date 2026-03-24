@@ -32,7 +32,7 @@
 - [Statistical analysis for alpha and beta diveristy- unfiltered metadata](/Lab_Notebook/February25,2026_CODE.md)
 - [Indicator species analysis- unfiltered metadata](/Lab_Notebook/February27,2026_CODE.md)
 - [Phyloseq analysis- filtered metadata](/Lab_Notebook/March10,2026_CODE.md)
-- [Alpha and beta diversity analysis- filtered metadata](./Lab_Notebook/Alpha_and_Beta_Diversity)
+- [Alpha and beta diversity analysis and statistical analysis- filtered metadata](./Lab_Notebook/Alpha_and_Beta_Diversity)
 - [Core microbiome analysis- filtered metadata](./Lab_Notebook/Core_Microbiome)
 - [Indicator species analysis- filtered metadata](./Lab_Notebook/Indicator_Species_Analysis)
 - [DESeq- filtered metadata](./Lab_Notebook/DESeq)
