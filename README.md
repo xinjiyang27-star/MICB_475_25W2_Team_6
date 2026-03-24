@@ -31,8 +31,8 @@
 ### R Studio Analysis
 #### Code
 - [Phyloseq analysis- unfiltered metadata](/Lab_Notebook/February23,2026_CODE.md)
-- [Alpha diversity analysis- unfiltered metadata]([/Lab_Notebook/February23,2026_CODE.md](https://github.com/xinjiyang27-star/MICB_475_25W2_Team_6/blob/cb779d263fff61370a087de9e62e59418b830964/Lab_Notebook/February25%2C2026_CODE.md)
-- [Beta diversity analysis- unfiltered metadata]([/Lab_Notebook/February24,2026_CODE.md](https://github.com/xinjiyang27-star/MICB_475_25W2_Team_6/blob/cb779d263fff61370a087de9e62e59418b830964/Lab_Notebook/February25%2C2026_CODE.md)
+- [Alpha diversity analysis- unfiltered metadata](https://github.com/xinjiyang27-star/MICB_475_25W2_Team_6/blob/cb779d263fff61370a087de9e62e59418b830964/Lab_Notebook/February25%2C2026_CODE.md)
+- [Beta diversity analysis- unfiltered metadata](https://github.com/xinjiyang27-star/MICB_475_25W2_Team_6/blob/cb779d263fff61370a087de9e62e59418b830964/Lab_Notebook/February25%2C2026_CODE.md)
 - [Statistical analysis for alpha and beta diveristy- unfiltered metadata](/[Lab_Notebook/February25,2026_CODE.md)
 - [Indicator species analysis- unfiltered metadata](./Lab_Notebook/February27,2026_CODE.md)
 - [Phyloseq analysis- filtered metadata](/Lab_Notebook/March10,2026_CODE.md)
