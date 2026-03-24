@@ -29,6 +29,7 @@
 - [Experimental results](https://github.com/xinjiyang27-star/MICB_475_25W2_Team_6/tree/0dafe6cb729f8c8b7fc580e7e0ec7f1208a10301/Lab_Notebook/Experimental_Results)
 
 ### R Studio Analysis
+#### Code
 - [Phyloseq analysis- unfiltered metadata](/Lab_Notebook/February23,2026_CODE.md)
 - [Alpha diversity analysis- unfiltered metadata](/Lab_Notebook/February23,2026_CODE.md)
 - [Beta diversity analysis- unfiltered metadata](/Lab_Notebook/February24,2026_CODE.md)
@@ -41,7 +42,13 @@
 - [Indicator species analysis- filtered metadata](./Lab_Notebook/Indicator_Species_Analysis)
 - [DESeq- filtered metadata](./Lab_Notebook/DESeq)
 - [Random Forest](https://github.com/xinjiyang27-star/MICB_475_25W2_Team_6/tree/3bf8b9f38e116ffddefb6f77435999b16f760b6d/Lab_Notebook/Random%20Forest)
-
+#### Results 
+- [Alpha diversity analysis- filtered metadata](https://github.com/xinjiyang27-star/MICB_475_25W2_Team_6/tree/da44a12b685f88b42084651b2500b23e30897c08/Lab_Notebook/Final_figure_analysis/Analysis/Filtered_alpha)
+- [Beta diversity analysis- filtered metadata](https://github.com/xinjiyang27-star/MICB_475_25W2_Team_6/tree/da44a12b685f88b42084651b2500b23e30897c08/Lab_Notebook/Final_figure_analysis/Analysis/Filtered_beta)
+- [Core microbiome analysis- filtered metadata](./Lab_Notebook/Core_Microbiome)
+- [Indicator species analysis- filtered metadata](./Lab_Notebook/Indicator_Species_Analysis)
+- [DESeq- filtered metadata](./Lab_Notebook/DESeq)
+- [Random Forest](https://github.com/xinjiyang27-star/MICB_475_25W2_Team_6/tree/3bf8b9f38e116ffddefb6f77435999b16f760b6d/Lab_Notebook/Random%20Forest)
 ## Finalized Code 💻 ##
 
 
