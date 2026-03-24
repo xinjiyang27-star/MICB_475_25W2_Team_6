@@ -1,4 +1,12 @@
 # Denoising and Clustering [13 February]
+## Purpose
+To denoise the sequencing data by using the upstream demultiplexed data in QIIME2
+
+## Material 
+MICB475 group server 
+
+## Methods
+1. Denosing and clustering 
 qiime dada2 denoise-paired \
   --i-demultiplexed-seqs ryan_demux_seqs-trimmed.qza \
   --p-trim-left-f 0 \
@@ -11,7 +19,7 @@ qiime dada2 denoise-paired \
 
 #Ensure overlap is: forward length after truncation + reverse length after truncation - amplicon length ≥ 20–30 bp overlap
 
-# Visualize Files
+2. Visualize Files
 qiime feature-table summarize \
   --i-table ryan-table.qza \
   --o-visualization ryan-table.qzv \
