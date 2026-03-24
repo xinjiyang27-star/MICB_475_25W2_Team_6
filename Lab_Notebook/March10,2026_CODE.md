@@ -1,4 +1,4 @@
-# March 10 Lab Notebook 
+# Re-create phyloseq object [10 March]
 ## Purpose
 Conduct metadata filtering and recreate phyloseq object based on the filtered files
 
