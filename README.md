@@ -18,20 +18,20 @@
 ## Lab Notebook 📓 ##
 
 ### QIIME2 Analysis
-[Demultiuplexing](/Lab_Notebook/February12,2026_CODE.md)
-[Denoising and clustering](/Lab_Notebook/February13,2026_CODE.md)
-[Taxonomic analysis](/Lab_Notebook/February14,2026_CODE.md)
-[Filtering and rarefaction- version 1](/Lab_Notebook/February19,2026_CODE.md)
-[Filtering and rarefaction- version 2](/Lab_Notebook/February20,2026_CODE.md)
-[Exporting files from QIIME2](/Lab_Notebook/February23,2026_CODE.md)
+- [Demultiuplexing](/Lab_Notebook/February12,2026_CODE.md)
+- [Denoising and clustering](/Lab_Notebook/February13,2026_CODE.md)
+- [Taxonomic analysis](/Lab_Notebook/February14,2026_CODE.md)
+- [Filtering and rarefaction- paired reads](/Lab_Notebook/February19,2026_CODE.md)
+- [Filtering and rarefaction- forward reads](/Lab_Notebook/February20,2026_CODE.md)
+- [Exporting files from QIIME2](/Lab_Notebook/February23,2026_CODE.md)
 
 ### R Studio Analysis
-[Phyloseq analysis](/Lab_Notebook/February23,2026_CODE.md)
-[Alpha diversity analysis](/Lab_Notebook/February23,2026_CODE.md)
-[Beta diversity analysis](/Lab_Notebook/February24,2026_CODE.md)
-[Statistical analysis for alpha and beta diveristy](/Lab_Notebook/February25,2026_CODE.md)
-[Indicator species analysis](/Lab_Notebook/February27,2026_CODE.md)
-[Phyloseq analysis- version 2](/Lab_Notebook/March10,2026_CODE.md)
+- [Phyloseq analysis- unfiltered metadata](/Lab_Notebook/February23,2026_CODE.md)
+- [Alpha diversity analysis](/Lab_Notebook/February23,2026_CODE.md)
+- [Beta diversity analysis](/Lab_Notebook/February24,2026_CODE.md)
+- [Statistical analysis for alpha and beta diveristy](/Lab_Notebook/February25,2026_CODE.md)
+- [Indicator species analysis](/Lab_Notebook/February27,2026_CODE.md)
+- [Phyloseq analysis- filtered metadata](/Lab_Notebook/March10,2026_CODE.md)
 
 ## Finalized Code 💻 ##
 
