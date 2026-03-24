@@ -1,4 +1,4 @@
-# Taxonomic analysis
+# Taxonomic analysis [14 February]
 qiime feature-classifier extract-reads \
   --i-sequences /datasets/classifiers/silva_ref_files/silva-138-99-seqs.qza \
   --p-f-primer TCGTCGGCAGCGTCAGATGTGTATAAGAGACAGCCTACGGGNGGCWGCAG \
