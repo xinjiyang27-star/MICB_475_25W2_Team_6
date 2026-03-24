@@ -27,10 +27,10 @@
 
 ### R Studio Analysis
 - [Phyloseq analysis- unfiltered metadata](/Lab_Notebook/February23,2026_CODE.md)
-- [Alpha diversity analysis](/Lab_Notebook/February23,2026_CODE.md)
-- [Beta diversity analysis](/Lab_Notebook/February24,2026_CODE.md)
-- [Statistical analysis for alpha and beta diveristy](/Lab_Notebook/February25,2026_CODE.md)
-- [Indicator species analysis](/Lab_Notebook/February27,2026_CODE.md)
+- [Alpha diversity analysis- unfiltered metadata](/Lab_Notebook/February23,2026_CODE.md)
+- [Beta diversity analysis- unfiltered metadata](/Lab_Notebook/February24,2026_CODE.md)
+- [Statistical analysis for alpha and beta diveristy- unfiltered metadata](/Lab_Notebook/February25,2026_CODE.md)
+- [Indicator species analysis- unfiltered metadata](/Lab_Notebook/February27,2026_CODE.md)
 - [Phyloseq analysis- filtered metadata](/Lab_Notebook/March10,2026_CODE.md)
 - [Alpha and beta diversity analysis- filtered metadata](./Lab_Notebook/Alpha_and_Beta_Diversity)
 - [Core microbiome analysis- filtered metadata](./Lab_Notebook/Core_Microbiome)
