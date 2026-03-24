@@ -1,4 +1,4 @@
-# Determine ASVs with DADA2
+# Denoising and Clustering [13 February]
 qiime dada2 denoise-paired \
   --i-demultiplexed-seqs ryan_demux_seqs-trimmed.qza \
   --p-trim-left-f 0 \
