@@ -50,7 +50,7 @@
 - [Beta diversity analysis- filtered metadata](https://github.com/xinjiyang27-star/MICB_475_25W2_Team_6/tree/cb779d263fff61370a087de9e62e59418b830964/Lab_Notebook/Final_figure_analysis/Figures/Filtered_beta)
 - [Core microbiome analysis- filtered metadata](./Lab_Notebook/Core_Microbiome)
 - [Indicator species analysis- filtered metadata](./Lab_Notebook/Indicator_Species_Analysis)
-- [DESeq- filtered metadata](./Lab_Notebook/DESeq)
+- [DESeq- filtered metadata](https://github.com/xinjiyang27-star/MICB_475_25W2_Team_6/tree/cb779d263fff61370a087de9e62e59418b830964/Lab_Notebook/DESeq/CD%20only)
 - [Random Forest](https://github.com/xinjiyang27-star/MICB_475_25W2_Team_6/tree/3bf8b9f38e116ffddefb6f77435999b16f760b6d/Lab_Notebook/Random%20Forest)
 ## Finalized Code 💻 ##
 
