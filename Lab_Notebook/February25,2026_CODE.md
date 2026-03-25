@@ -7,7 +7,7 @@
 1. R Studio
 
 ## Method
-1. Alpha Diversity
+#Alpha Diversity
 #Load all the packages
 library(phyloseq)
 library(ape)
@@ -15,11 +15,11 @@ library(tidyverse)
 library(picante)
 library(ggpubr)
 
-2. Load data 
+#Load data 
 load("ryan_rare.RData")
 load("ryan_filt.RData")
 
-3. Alpha Diversity with statistical Test
+#Alpha Diversity with statistical Test
 unique(get_variable(ryan_rare, "Condition"))
 
 alpha_comparisons <- list( c("Healthy", "Ulcerative Colitis"), 
@@ -72,7 +72,7 @@ ggsave("plot_pd.png",
        height = 6,
        width = 8)
 
-4. Beta diversity
+#Beta diversity
 #Run beta-diversity using bray-curtis as the metric
 bc_dm <- distance(ryan_rare, method="bray")
 pcoa_bc <- ordinate(ryan_rare, method="PCoA", distance=bc_dm)
