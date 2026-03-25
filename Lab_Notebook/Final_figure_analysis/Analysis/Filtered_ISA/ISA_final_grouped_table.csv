@@ -1,0 +1,17 @@
+"Group","Phylum","Family","Genus","Indicator Value","p-value"
+"Crohn's Disease","Bacillota","Veillonellaceae","Veillonella",0.607512812178881,0.02
+"","","","",NA,NA
+"Healthy","Bacillota","Lachnospiraceae","Laedolimicola",0.842790011155522,0.005
+"","Bacillota","Christensenellaceae","Beduinella",0.7914288605385,0.005
+"","Verrucomicrobiota","Akkermansiaceae","Akkermansia",0.745023448862318,0.005
+"","Bacillota","Oscillospiraceae","Faecousia",0.705787321098244,0.005
+"","Bacillota","Ruminococcaceae","Hydrogenoanaerobacterium",0.651060073392114,0.005
+"","Actinomycetota","Eggerthellaceae","Senegalimassilia",0.606719576188154,0.005
+"","Thermodesulfobacteriota","Desulfovibrionaceae","Desulfovibrio",0.603277266011587,0.01
+"","Bacillota","Ruminococcaceae","Pseudoruminococcus",0.592483142711408,0.01
+"","Bacillota","Erysipelotrichaceae","Turicibacter",0.592321460199929,0.005
+"","Bacillota","Lachnospiraceae","Bifidobacterium",0.564740016269144,0.005
+"","Bacillota","Lachnospiraceae","Howardella",0.562501826735295,0.005
+"","Bacillota","Ruminococcaceae","Fournierella",0.551849210443732,0.005
+"","Bacillota","Anaerovoracaceae","Brotomerdimonas",0.522235765396209,0.015
+"","Actinomycetota","Eggerthellaceae","Slackia",0.504505339314012,0.01
