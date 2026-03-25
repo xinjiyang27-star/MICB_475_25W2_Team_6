@@ -123,8 +123,8 @@ roc_plot <- ggplot() +
   
   
   scale_color_manual(values = c(
-    "Training" = "#7570B3",  
-    "Test" = "#D55E00"       
+    "Training" = "#22CCEE",  
+    "Test" = "#ee55cc"       
   )) +
   
   
@@ -151,8 +151,8 @@ importance_plot <- filt_clinical_model$importance %>%
   geom_col(width = 0.75, color = "black", size = 0.2) +
   
   scale_fill_gradient(
-    low = "#FCE5FC", 
-    high = "#7570B3",
+    low = "#CCF2F9", 
+    high = "#22CCEE",
     name = "Gini Importance"
   ) +
   
