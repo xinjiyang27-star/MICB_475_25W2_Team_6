@@ -2,7 +2,7 @@
 **Group Members:** Yuqing Jin, Tara Philip, Muntaqim Syed, Caroline Wei, Jiyang Xin
 
 ## Time Line ⏰ ##
-
+[](https://github.com/xinjiyang27-star/MICB_475_25W2_Team_6/blob/26f97b15189d8aeeb116d5907ae5c765a292079a/images/timeline_clean.png)
 ## Team Meeting 🤝 ##
 ### January 
 [January 26](/Team_Meeting/January_26.md)
