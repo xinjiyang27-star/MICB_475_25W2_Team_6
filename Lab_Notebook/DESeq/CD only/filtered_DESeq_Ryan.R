@@ -5,7 +5,7 @@ library(DESeq2)
 library(Biostrings)
 
 load("Ryan_filt_new.RData")
-sequences <- readDNAStringSet("dna-sequences.fasta")
+
 ## NOTE: If you get a zeros error, then you need to add '1' count to all reads
 # Convert taxonomy table to matrix
 tax_mat <- as(tax_table(ryan_filt_new), "matrix")
@@ -64,20 +64,22 @@ sigASVs_CD <- tax_table(ryan_DESeq_CD) %>% as.data.frame() %>%
   right_join(sigASVs_CD) %>%
   arrange(log2FoldChange) %>%
   mutate(Genus = make.unique(Genus)) %>%
+  mutate(Genus = gsub("g__", "", Genus)) %>%
   mutate(Genus = factor(Genus, levels=unique(Genus)))
 
 tax_table(ryan_DESeq_CD) %>% 
   as.data.frame() %>% 
   pull(Genus)
 
+### the following code is for BLAST purposes- Don't run when doing DESeq runs again###
+
+sequences <- readDNAStringSet("dna-sequences.fasta")
 # Get ASVs where Genus is NA (only the ones that appear in DESeq)in order to BLAST them
 na_asvs <- tax_table(ryan_DESeq_CD) %>%
   as.data.frame() %>%
   rownames_to_column(var = "ASV") %>%
   filter(is.na(Genus) | Genus == "") %>%
   pull(ASV)
-
-na_asvs
 
 # Get ASVs where Genus is named in a different way in order to BLAST them
 odd_asvs <- tax_table(ryan_DESeq_CD) %>%
@@ -92,20 +94,21 @@ na_seqs <- sequences[na_asvs]
 # Export as fasta file for BLAST
 writeXStringSet(na_seqs, filepath = "na_taxa_DESeq_sequences.fasta")
 
+### End of BLAST-related code ###
 
 ggplot(sigASVs_CD) +
   geom_bar(aes(x=Genus, y=log2FoldChange), stat="identity")+
   geom_errorbar(aes(x=Genus, ymin=log2FoldChange-lfcSE, ymax=log2FoldChange+lfcSE)) +
-  theme(axis.text.x = element_text(angle=90, hjust=1, vjust=0.5))
+  theme(axis.text.x = element_text(angle=90, hjust=0.5, vjust=0.5))
 
 sigASVs_CD <- sigASVs_CD %>%
   mutate(fill_colour = case_when(
-    grepl("Turicibacter", Genus) ~ "#D55E00",
-    grepl("Laedolimicola", Genus) ~ "#D55E00",
-    grepl("Faecousia", Genus) ~ "#D55E00",
-    grepl("Fournierella", Genus) ~ "#D55E00",
-    grepl("Howardella", Genus) ~ "#D55E00",
-    grepl("Akkermansia", Genus) ~ "#D55E00",
+    grepl("Turicibacter", Genus) ~ "#ee55cc",
+    grepl("Laedolimicola", Genus) ~ "#ee55cc",
+    grepl("Faecousia", Genus) ~ "#ee55cc",
+    grepl("Fournierella", Genus) ~ "#ee55cc",
+    grepl("Howardella", Genus) ~ "#ee55cc",
+    grepl("Akkermansia", Genus) ~ "#ee55cc",
     TRUE ~ "grey50"
   ))
 DESeq_bar_plot <- ggplot(sigASVs_CD) +
@@ -113,7 +116,7 @@ DESeq_bar_plot <- ggplot(sigASVs_CD) +
   geom_errorbar(aes(x = Genus, ymin = log2FoldChange - lfcSE, 
                     ymax = log2FoldChange + lfcSE)) +
   scale_fill_identity() +
-  theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = 0.5))
-
+  theme_classic(base_size=10) + 
+  theme(axis.text.x = element_text(angle=45, hjust=1, vjust=1))
 DESeq_bar_plot 
 ggsave(filename="DESeq_bar_plot .png",DESeq_bar_plot )

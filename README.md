@@ -2,7 +2,7 @@
 **Group Members:** Yuqing Jin, Tara Philip, Muntaqim Syed, Caroline Wei, Jiyang Xin
 
 ## Time Line ⏰ ##
-
+![](https://github.com/xinjiyang27-star/MICB_475_25W2_Team_6/blob/f84a1d177e219e3d154e36285c1484ed0265fed3/images/timeline.png)
 ## Team Meeting 🤝 ##
 ### January 
 [January 26](/Team_Meeting/January_26.md)
@@ -50,7 +50,7 @@
 - [Core microbiome analysis- filtered metadata](./Lab_Notebook/Core_Microbiome)
 - [Indicator species analysis- filtered metadata](./Lab_Notebook/Indicator_Species_Analysis)
 - [DESeq- filtered metadata](https://github.com/xinjiyang27-star/MICB_475_25W2_Team_6/tree/cb779d263fff61370a087de9e62e59418b830964/Lab_Notebook/DESeq/CD%20only)
-- [Random Forest](https://github.com/xinjiyang27-star/MICB_475_25W2_Team_6/tree/3bf8b9f38e116ffddefb6f77435999b16f760b6d/Lab_Notebook/Random%20Forest)
+- [Random Forest](https://github.com/xinjiyang27-star/MICB_475_25W2_Team_6/tree/fd242af59fe87a925906760e1ca75b4a38207ebd/Lab_Notebook/Final_figure_analysis/Figures/RF_graphs)
 ## Finalized Code 💻 ##
 - [QIIME2 analysis](https://github.com/xinjiyang27-star/MICB_475_25W2_Team_6/blob/f3a4b5783eb36f06c4a2f393f75e440e50cb97ec/Lab_Notebook/QIIME2_CODE.md)
 - [R analysis](https://github.com/xinjiyang27-star/MICB_475_25W2_Team_6/blob/f3a4b5783eb36f06c4a2f393f75e440e50cb97ec/Lab_Notebook/R_CODE.R)

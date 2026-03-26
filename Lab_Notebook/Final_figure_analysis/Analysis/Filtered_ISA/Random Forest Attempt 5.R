@@ -181,6 +181,8 @@ ggsave("RF_feature_importance.png", importance_plot, width = 8, height = 6, dpi 
 temp1 = ps_clr %>% 
   subset_taxa(Genus=='g__Laedolimicola') %>% 
   psmelt()
+temp1$Condition <- factor(temp1$Condition, 
+                          levels = c("Healthy", "Crohn's Disease"))
 box_plot_Laedolimicola <- temp1 %>% 
   ggplot(aes(x = Condition, y = Abundance, fill = Condition)) +
   stat_boxplot(geom = "errorbar", width = 0.2) +
@@ -189,13 +191,15 @@ box_plot_Laedolimicola <- temp1 %>%
     "Crohn's Disease" = "#D55E00",
     "Healthy" = "#7570B3"
   )) +
-  labs(x = "Condition", y = "Abundance") +
+  labs(x = NULL, y = "Abundance", fill = NULL) +
   theme_classic(base_size = 18)
 ggsave("Laedolimicola_abundance.png", box_plot_Laedolimicola, width = 8, height = 6, dpi = 300)
 
 temp2 = ps_clr %>% 
   subset_taxa(Genus=='g__Beduinella') %>% 
   psmelt()
+temp2$Condition <- factor(temp2$Condition, 
+                          levels = c("Healthy", "Crohn's Disease"))
 box_plot_Beduinella <- temp2 %>% 
   ggplot(aes(x = Condition, y = Abundance, fill = Condition)) +
   stat_boxplot(geom = "errorbar", width = 0.2) +
@@ -204,13 +208,15 @@ box_plot_Beduinella <- temp2 %>%
     "Crohn's Disease" = "#D55E00",
     "Healthy" = "#7570B3"
   )) +
-  labs(x = "Condition", y = "Abundance") +
+  labs(x = NULL, y = "Abundance", fill = NULL) +
   theme_classic(base_size = 18)
 ggsave("Beduinella_abundance.png", box_plot_Beduinella, width = 8, height = 6, dpi = 300)
 
 temp3 = ps_clr %>% 
   subset_taxa(Genus=='g__Akkermansia') %>% 
   psmelt()
+temp3$Condition <- factor(temp3$Condition, 
+                          levels = c("Healthy", "Crohn's Disease"))
 box_plot_Akkermansia <- temp3 %>% 
   ggplot(aes(x = Condition, y = Abundance, fill = Condition)) +
   stat_boxplot(geom = "errorbar", width = 0.2) +
@@ -219,13 +225,15 @@ box_plot_Akkermansia <- temp3 %>%
     "Crohn's Disease" = "#D55E00",
     "Healthy" = "#7570B3"
   )) +
-  labs(x = "Condition", y = "Abundance") +
+  labs(x = NULL, y = "Abundance", fill = NULL) +
   theme_classic(base_size = 18)
 ggsave("Akkermansia_abundance.png", box_plot_Akkermansia, width = 8, height = 6, dpi = 300)
 
 temp4 = ps_clr %>% 
   subset_taxa(Genus=='g__Brotomerdimonas') %>% 
   psmelt()
+temp4$Condition <- factor(temp4$Condition, 
+                          levels = c("Healthy", "Crohn's Disease"))
 box_plot_Brotomerdimonas <- temp4 %>% 
   ggplot(aes(x = Condition, y = Abundance, fill = Condition)) +
   stat_boxplot(geom = "errorbar", width = 0.2) +
@@ -234,13 +242,15 @@ box_plot_Brotomerdimonas <- temp4 %>%
     "Crohn's Disease" = "#D55E00",
     "Healthy" = "#7570B3"
   )) +
-  labs(x = "Condition", y = "Abundance") +
+  labs(x = NULL, y = "Abundance", fill = NULL) +
   theme_classic(base_size = 18)
 ggsave("Brotomerdimonas_abundance.png", box_plot_Brotomerdimonas, width = 8, height = 6, dpi = 300)
 
 temp5 = ps_clr %>% 
   subset_taxa(Genus=='g__Desulfovibrio') %>% 
   psmelt()
+temp5$Condition <- factor(temp5$Condition, 
+                          levels = c("Healthy", "Crohn's Disease"))
 box_plot_Desulfovibrio <- temp5 %>% 
   ggplot(aes(x = Condition, y = Abundance, fill = Condition)) +
   stat_boxplot(geom = "errorbar", width = 0.2) +
@@ -249,13 +259,15 @@ box_plot_Desulfovibrio <- temp5 %>%
     "Crohn's Disease" = "#D55E00",
     "Healthy" = "#7570B3"
   )) +
-  labs(x = "Condition", y = "Abundance") +
+  labs(x = NULL, y = "Abundance", fill = NULL) +
   theme_classic(base_size = 18)
 ggsave("Desulfovibrio_abundance.png", box_plot_Desulfovibrio, width = 8, height = 6, dpi = 300)
 
 temp6 = ps_clr %>% 
   subset_taxa(Genus=='g__Veillonella') %>% 
   psmelt()
+temp6$Condition <- factor(temp6$Condition, 
+                          levels = c("Healthy", "Crohn's Disease"))
 box_plot_Veillonella <- temp6 %>% 
   ggplot(aes(x = Condition, y = Abundance, fill = Condition)) +
   stat_boxplot(geom = "errorbar", width = 0.2) +
@@ -264,13 +276,15 @@ box_plot_Veillonella <- temp6 %>%
     "Crohn's Disease" = "#D55E00",
     "Healthy" = "#7570B3"
   )) +
-  labs(x = "Condition", y = "Abundance") +
+  labs(x = NULL, y = "Abundance", fill = NULL) +
   theme_classic(base_size = 18)
 ggsave("Veillonella_abundance.png", box_plot_Veillonella, width = 8, height = 6, dpi = 300)
 
 temp7 = ps_clr %>% 
   subset_taxa(Genus=='g__Pseudoruminococcus') %>% 
   psmelt()
+temp7$Condition <- factor(temp7$Condition, 
+                          levels = c("Healthy", "Crohn's Disease"))
 box_plot_Pseudoruminococcus <- temp7 %>% 
   ggplot(aes(x = Condition, y = Abundance, fill = Condition)) +
   stat_boxplot(geom = "errorbar", width = 0.2) +
@@ -279,13 +293,15 @@ box_plot_Pseudoruminococcus <- temp7 %>%
     "Crohn's Disease" = "#D55E00",
     "Healthy" = "#7570B3"
   )) +
-  labs(x = "Condition", y = "Abundance") +
+  labs(x = NULL, y = "Abundance", fill = NULL) +
   theme_classic(base_size = 18)
 ggsave("Pseudoruminococcus_abundance.png", box_plot_Pseudoruminococcus, width = 8, height = 6, dpi = 300)
 
 temp8 = ps_clr %>% 
   subset_taxa(Genus=='g__Hydrogenoanaerobacterium') %>% 
   psmelt()
+temp8$Condition <- factor(temp8$Condition, 
+                          levels = c("Healthy", "Crohn's Disease"))
 box_plot_Hydrogenoanaerobacterium <- temp8 %>% 
   ggplot(aes(x = Condition, y = Abundance, fill = Condition)) +
   stat_boxplot(geom = "errorbar", width = 0.2) +
@@ -294,13 +310,15 @@ box_plot_Hydrogenoanaerobacterium <- temp8 %>%
     "Crohn's Disease" = "#D55E00",
     "Healthy" = "#7570B3"
   )) +
-  labs(x = "Condition", y = "Abundance") +
+  labs(x = NULL, y = "Abundance", fill = NULL) +
   theme_classic(base_size = 18)
 ggsave("Hydrogenoanaerobacterium_abundance.png", box_plot_Hydrogenoanaerobacterium, width = 8, height = 6, dpi = 300)
 
 temp9 = ps_clr %>% 
   subset_taxa(Genus=='g__Fournierella') %>% 
   psmelt()
+temp9$Condition <- factor(temp9$Condition, 
+                          levels = c("Healthy", "Crohn's Disease"))
 box_plot_Fournierella <- temp9 %>% 
   ggplot(aes(x = Condition, y = Abundance, fill = Condition)) +
   stat_boxplot(geom = "errorbar", width = 0.2) +
@@ -309,13 +327,15 @@ box_plot_Fournierella <- temp9 %>%
     "Crohn's Disease" = "#D55E00",
     "Healthy" = "#7570B3"
   )) +
-  labs(x = "Condition", y = "Abundance") +
+  labs(x = NULL, y = "Abundance", fill = NULL) +
   theme_classic(base_size = 18)
 ggsave("Fournierella_abundance.png", box_plot_Fournierella, width = 8, height = 6, dpi = 300)
 
 temp10 = ps_clr %>% 
   subset_taxa(Genus=='g__Howardella') %>% 
   psmelt()
+temp10$Condition <- factor(temp10$Condition, 
+                          levels = c("Healthy", "Crohn's Disease"))
 box_plot_Howardella <- temp10 %>% 
   ggplot(aes(x = Condition, y = Abundance, fill = Condition)) +
   stat_boxplot(geom = "errorbar", width = 0.2) +
@@ -324,13 +344,15 @@ box_plot_Howardella <- temp10 %>%
     "Crohn's Disease" = "#D55E00",
     "Healthy" = "#7570B3"
   )) +
-  labs(x = "Condition", y = "Abundance") +
+  labs(x = NULL, y = "Abundance", fill = NULL) +
   theme_classic(base_size = 18)
 ggsave("Howardella_abundance.png", box_plot_Howardella, width = 8, height = 6, dpi = 300)
 
 temp11 = ps_clr %>% 
   subset_taxa(Genus=='g__Faecousia') %>% 
   psmelt()
+temp11$Condition <- factor(temp11$Condition, 
+                           levels = c("Healthy", "Crohn's Disease"))
 box_plot_Faecousia <- temp11 %>% 
   ggplot(aes(x = Condition, y = Abundance, fill = Condition)) +
   stat_boxplot(geom = "errorbar", width = 0.2) +
@@ -339,13 +361,15 @@ box_plot_Faecousia <- temp11 %>%
     "Crohn's Disease" = "#D55E00",
     "Healthy" = "#7570B3"
   )) +
-  labs(x = "Condition", y = "Abundance") +
+  labs(x = NULL, y = "Abundance", fill = NULL) +
   theme_classic(base_size = 18)
 ggsave("Faecousia_abundance.png", box_plot_Faecousia, width = 8, height = 6, dpi = 300)
 
 temp12 = ps_clr %>% 
   subset_taxa(Genus=='g__Bifidobacterium') %>% 
   psmelt()
+temp12$Condition <- factor(temp12$Condition, 
+                           levels = c("Healthy", "Crohn's Disease"))
 box_plot_Bifidobacterium <- temp12 %>% 
   ggplot(aes(x = Condition, y = Abundance, fill = Condition)) +
   stat_boxplot(geom = "errorbar", width = 0.2) +
@@ -354,13 +378,15 @@ box_plot_Bifidobacterium <- temp12 %>%
     "Crohn's Disease" = "#D55E00",
     "Healthy" = "#7570B3"
   )) +
-  labs(x = "Condition", y = "Abundance") +
+  labs(x = NULL, y = "Abundance", fill = NULL) +
   theme_classic(base_size = 18)
 ggsave("Bifidobacterium_abundance.png", box_plot_Bifidobacterium, width = 8, height = 6, dpi = 300)
 
 temp13 = ps_clr %>% 
   subset_taxa(Genus=='g__Turicibacter') %>% 
   psmelt()
+temp13$Condition <- factor(temp13$Condition, 
+                           levels = c("Healthy", "Crohn's Disease"))
 box_plot_Turicibacter <- temp13 %>% 
   ggplot(aes(x = Condition, y = Abundance, fill = Condition)) +
   stat_boxplot(geom = "errorbar", width = 0.2) +
@@ -369,13 +395,15 @@ box_plot_Turicibacter <- temp13 %>%
     "Crohn's Disease" = "#D55E00",
     "Healthy" = "#7570B3"
   )) +
-  labs(x = "Condition", y = "Abundance") +
+  labs(x = NULL, y = "Abundance", fill = NULL) +
   theme_classic(base_size = 18)
 ggsave("Turicibacter_abundance.png", box_plot_Turicibacter, width = 8, height = 6, dpi = 300)
 
 temp14 = ps_clr %>% 
   subset_taxa(Genus=='g__Senegalimassilia') %>% 
   psmelt()
+temp14$Condition <- factor(temp14$Condition, 
+                           levels = c("Healthy", "Crohn's Disease"))
 box_plot_Senegalimassilia <- temp14 %>% 
   ggplot(aes(x = Condition, y = Abundance, fill = Condition)) +
   stat_boxplot(geom = "errorbar", width = 0.2) +
@@ -384,13 +412,15 @@ box_plot_Senegalimassilia <- temp14 %>%
     "Crohn's Disease" = "#D55E00",
     "Healthy" = "#7570B3"
   )) +
-  labs(x = "Condition", y = "Abundance") +
+  labs(x = NULL, y = "Abundance", fill = NULL) +
   theme_classic(base_size = 18)
 ggsave("Senegalimassilia_abundance.png", box_plot_Senegalimassilia, width = 8, height = 6, dpi = 300)
 
 temp15 = ps_clr %>% 
   subset_taxa(Genus=='g__Slackia') %>% 
   psmelt()
+temp15$Condition <- factor(temp15$Condition, 
+                           levels = c("Healthy", "Crohn's Disease"))
 box_plot_Slackia <- temp15 %>% 
   ggplot(aes(x = Condition, y = Abundance, fill = Condition)) +
   stat_boxplot(geom = "errorbar", width = 0.2) +
@@ -399,6 +429,6 @@ box_plot_Slackia <- temp15 %>%
     "Crohn's Disease" = "#D55E00",
     "Healthy" = "#7570B3"
   )) +
-  labs(x = "Condition", y = "Abundance") +
+  labs(x = NULL, y = "Abundance", fill = NULL) +
   theme_classic(base_size = 18)
 ggsave("Slackia_abundance.png", box_plot_Slackia, width = 8, height = 6, dpi = 300)
