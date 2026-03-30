@@ -15,4 +15,5 @@ Using the same tuning parameters as previous models \
 https://docs.google.com/document/d/1SoN4dvKqNJCbMrxWUkYL4zOaGJDNVzZBbfy5p8ulbEo/edit?usp=sharing 
 
 ## Meeting notes
+1. If we want a meeting, we should let Evelyn know by Friday
 ## TO DO
