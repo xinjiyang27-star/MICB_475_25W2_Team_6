@@ -11,6 +11,8 @@ Using the same tuning parameters as previous models \
 Using the same tuning parameters as previous models \
 <img width="882" height="535" alt="image" src="https://github.com/user-attachments/assets/9e914f1a-5488-49a4-b130-c936deecd78a" />
 <img width="882" height="535" alt="image" src="https://github.com/user-attachments/assets/22bcaf77-ce6c-40c7-87d6-12d6af4dfbd1" /> \
-4. Discuss abstract for URS
+4. Discuss the abstract for URS \
+https://docs.google.com/document/d/1SoN4dvKqNJCbMrxWUkYL4zOaGJDNVzZBbfy5p8ulbEo/edit?usp=sharing 
+
 ## Meeting notes
 ## TO DO
