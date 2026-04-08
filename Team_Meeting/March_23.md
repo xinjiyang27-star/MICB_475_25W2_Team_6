@@ -44,7 +44,7 @@ Highlights some taxa diff, esp ones used in model
 - Panel D indicator Importance 
 - Panel E metadata importance 
 - Panel F combined importance 
-Supplementary Figure S1: 15 panels of ISA abundance graphs, 3 columns, 5 rows, remove figure legend 
+6. Supplementary Figure S1: 15 panels of ISA abundance graphs, 3 columns, 5 rows, remove figure legend 
 
 ### Presentation notes
 - Don't show the 15 taxa in the presentation → just the story of our process 
