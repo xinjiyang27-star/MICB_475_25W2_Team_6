@@ -1,4 +1,4 @@
-# March 23 [16:00 - ] 
+# March 23 [16:00 - 16:35] 
 ## Meeting Agenda 
 1. Discuss presentation slides and relevant questions \
 https://docs.google.com/presentation/d/1-H2z6RNa7lQWuaByzSHCpoebNlVfAxPpd_qH0VhTlNk/edit?usp=sharing 
