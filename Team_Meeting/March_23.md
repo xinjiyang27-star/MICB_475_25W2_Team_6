@@ -35,7 +35,7 @@ Shows sig diff in diversity
     - Panel D → weighted unifrac 
 Same shows diff 
 3. Figure 3: DESeq → make CD vs Healthy (as ref) very clear 
-Highlights some taxa diff, esp ones used in model \
+Highlights some taxa diff, esp ones used in model 
 4. Table 1: ISA results → look up literature and format like that, 3 taxonomic levels (no kingdom, domain → genus, phylum, family), indicator value and the p-value. Divided into CD and healthy relevant (one table but divided into 2). Explain that these are the main taxa used in the RF models 
 5. Figure 4: RF model  6 panels: top 3 panels ROC, bottom 3 Importance 
 - Panel A indicator ROC 
