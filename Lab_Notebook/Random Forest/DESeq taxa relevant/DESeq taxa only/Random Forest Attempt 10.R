@@ -226,3 +226,4 @@ box_plot_RF <- temp %>%
 
 box_plot_RF
 ggsave("Laedolimicola_abundance.png", box_plot_RF, width = 8, height = 6, dpi = 300)
+pd_model$importance

@@ -176,4 +176,4 @@ importance_plot <- filt_clinical_model$importance %>%
   )
 importance_plot
 ggsave("Importance_Plot_8.png", importance_plot, width = 8, height = 6, dpi = 300)
-pd_model$importance
+filt_clinical_model$importance
