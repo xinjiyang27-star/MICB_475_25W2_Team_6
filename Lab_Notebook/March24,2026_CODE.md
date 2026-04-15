@@ -245,7 +245,8 @@ importance_plot
 ggsave("Importance_Plot_7.png", importance_plot, width = 8, height = 6, dpi = 300)
 
 pd_model$importance
-#Check Correlation
+
+#Check Correlation, generate abundance graphs of each of the 15 ISA taxa compared between healthy and CD
 
 temp1 = ps_clr %>% 
   subset_taxa(Genus=='g__Laedolimicola') %>% 
