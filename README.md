@@ -36,7 +36,7 @@
 - [DESeq- unfiltered metadata](https://github.com/xinjiyang27-star/MICB_475_25W2_Team_6/tree/8eedee8d000cda5483695dc41ec08d21917121a9/Lab_Notebook/DESeq)
 - [Phyloseq analysis- filtered metadata](/Lab_Notebook/March10,2026_CODE.md)
 - [Alpha diversity and statistical analysis- filtered metadata](https://github.com/xinjiyang27-star/MICB_475_25W2_Team_6/blob/c3dd07644aa416d7149d15893af8008756b2096f/Lab_Notebook/March13%2C2026_CODE.md)
-- [Beta diversity and statistical analysis- filtered metadata](https://github.com/xinjiyang27-star/MICB_475_25W2_Team_6/tree/da44a12b685f88b42084651b2500b23e30897c08/Lab_Notebook/Final_figure_analysis/Analysis/Filtered_beta)
+- [Beta diversity and statistical analysis- filtered metadata](https://github.com/xinjiyang27-star/MICB_475_25W2_Team_6/blob/b02269db83427d7fd010a3830496efebbafb6016/Lab_Notebook/March10%2C2026_CODE.md)
 - [Core microbiome analysis- filtered metadata](./Lab_Notebook/Core_Microbiome)
 - [Indicator species analysis- filtered metadata](./Lab_Notebook/Indicator_Species_Analysis)
 - [DESeq- filtered metadata](https://github.com/xinjiyang27-star/MICB_475_25W2_Team_6/blob/b3be35e3770fe4474c2e550824f5a408d52d64ef/Lab_Notebook/March13%2C2026_CODE.md)
