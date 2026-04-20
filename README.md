@@ -11,7 +11,7 @@
 ### March 
 [March 2](/Team_Meeting/March_2.md) | [March 9](/Team_Meeting/March_9.md) | [March 16](/Team_Meeting/March_16.md) | [March 23](/Team_Meeting/March_23.md) | [March 30]()
 ### April 
-[April 6]()
+[April 6 (Optional)]- We chose not to meet
 
 ## Lab Notebook 📓 ##
 
