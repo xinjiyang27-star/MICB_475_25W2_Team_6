@@ -37,7 +37,7 @@
 - [Phyloseq analysis- filtered metadata](/Lab_Notebook/March10,2026_CODE.md)
 - [Alpha diversity and statistical analysis- filtered metadata](https://github.com/xinjiyang27-star/MICB_475_25W2_Team_6/blob/c3dd07644aa416d7149d15893af8008756b2096f/Lab_Notebook/March13%2C2026_CODE.md)
 - [Beta diversity and statistical analysis- filtered metadata](https://github.com/xinjiyang27-star/MICB_475_25W2_Team_6/blob/b02269db83427d7fd010a3830496efebbafb6016/Lab_Notebook/March23%2C2026.md)
-- [Indicator species analysis- filtered metadata](./Lab_Notebook/Indicator_Species_Analysis)
+- [Indicator species analysis- filtered metadata](https://github.com/xinjiyang27-star/MICB_475_25W2_Team_6/blob/9655032d94a54458446da0002a170a9c0b2a4015/Lab_Notebook/March23%2C2026_CODE.md)
 - [DESeq- filtered metadata](https://github.com/xinjiyang27-star/MICB_475_25W2_Team_6/blob/b3be35e3770fe4474c2e550824f5a408d52d64ef/Lab_Notebook/March13%2C2026_CODE.md)
 - [Random Forest](https://github.com/xinjiyang27-star/MICB_475_25W2_Team_6/blob/e72082f8a4da36bb2e3a4b3048c3f5f33f3abe86/Lab_Notebook/March24%2C2026_CODE.md)
 #### Results 
