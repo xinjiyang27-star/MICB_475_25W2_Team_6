@@ -51,7 +51,7 @@
 - [Random Forest](https://github.com/xinjiyang27-star/MICB_475_25W2_Team_6/tree/fd242af59fe87a925906760e1ca75b4a38207ebd/Lab_Notebook/Final_figure_analysis/Figures/RF_graphs)
 ## Finalized Code 💻 ##
 - [QIIME2 analysis](https://github.com/xinjiyang27-star/MICB_475_25W2_Team_6/blob/f2a35e2ff8ea1ab48f6136f4c1aac7bb94ac6a79/Lab_Notebook/QIIME2_CODE.md)
-- [R analysis](https://github.com/xinjiyang27-star/MICB_475_25W2_Team_6/blob/f3a4b5783eb36f06c4a2f393f75e440e50cb97ec/Lab_Notebook/R_CODE.R)
+- [R analysis](https://github.com/xinjiyang27-star/MICB_475_25W2_Team_6/blob/c904abf1f4a71508953f009bb33583d9ef23b1c1/Lab_Notebook/R_CODE.R)
 
 
 
