@@ -11,6 +11,7 @@
 2. Figures and tables are generally good, only tiny changes needed --> refers to the comments in Google SharedDoc
 3. Finish Beta figure
 4. Pay attention to the biological statements in the Results, results should not include info in the figure --> repetition
+5. No UC samples needed; dont mention anything about UC in manuscript
 ## TO DO
 - finish manuscript draft
 - may schedule a meeting with Avril next week if needed 
