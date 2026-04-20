@@ -1,4 +1,4 @@
-# April 8 [15:15 - ] 
+# April 8 [15:15 - 15:55] 
 ## Meeting Agenda 
 1. Discuss the manuscript overall
 2. Specific Questions:
