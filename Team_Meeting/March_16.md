@@ -68,3 +68,14 @@
    - predictors: 15 taxa identified by ISA, age, biopsy location, gender, smoking condition
     ![ROC](/images/Attempt9_ROC.png)
     ![ROC](/images/Attempt9_Importance.png)
+## Meeting notes
+- Only look at active inflammation (justify in manuscript why we filtered it out)
+- Look at the distribution of ISA taxa (boxplot for each one of the 15 taxa, in terms of relative abundance for CD vs healthy controls, could put this in supplementary figures)
+- 0.5 stat value just be explicit in the manuscript that we chose this value 
+- normal for things to shift when looking at the metadata only vs combined models, cause in the metadata only model, the biopsy location is the closest proxy, but in the combined model → you’re getting better info from the age_when_sampled in terms of taxa rather than the biopsy location.
+- re-do alpha and beta diversity with filtered data → only CD and healthy → only do ISA and DESEQ
+- When introducing dataset → talk about why you remove UC (very similar to healthy) but we don’t include UC in any of the figures
+- 
+
+
+
