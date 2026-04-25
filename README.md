@@ -11,7 +11,7 @@
 ### March 
 [March 2](/Team_Meeting/March_2.md) | [March 9](/Team_Meeting/March_9.md) | [March 16](/Team_Meeting/March_16.md) | [March 23](/Team_Meeting/March_23.md) | [March 30](https://github.com/xinjiyang27-star/MICB_475_25W2_Team_6/blob/0eb449aa03022056d4c81ae226c2a90d93665cd2/Team_Meeting/March_30.md)
 ### April 
-[April 8](https://github.com/xinjiyang27-star/MICB_475_25W2_Team_6/blob/ca6a7917495c2e20afa74ca3cfc57beea04a088a/Team_Meeting/April_8.md)
+[April 8](https://github.com/xinjiyang27-star/MICB_475_25W2_Team_6/blob/ca6a7917495c2e20afa74ca3cfc57beea04a088a/Team_Meeting/April_8.md) | [April 24] (https://github.com/xinjiyang27-star/MICB_475_25W2_Team_6/blob/d5cde6d6e3d0c6bf6a095ea5c0191bb2516003c4/Team_Meeting/April_24.md)
 
 ## Lab Notebook 📓 ##
 
