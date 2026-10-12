@@ -1,0 +1,211 @@
+Login to Server:
+
+ssh root@10.19.139.189
+
+Password: Biome391
+
+#Open new screen
+screen -S Ryan
+
+## Bring manifest.tsv file to local
+
+scp root@10.19.139.189:/datasets/project_2/human_ibd/ryan_manifest.tsv .
+
+## Send edited manifest.tsv file back to server
+
+scp ryan_manifest_forward.tsv root@10.19.139.189:/data/project_2
+
+## Import Data
+qiime tools import \
+  --type "SampleData[SequencesWithQuality]" \
+  --input-format SingleEndFastqManifestPhred33V2 \
+  --input-path ./data/project_2/Version_2/ryan_manifest_forward.tsv \
+  --output-path ./data/project_2/Version_2/forwardryan_demux_seqs.qza
+
+## Trim
+qiime cutadapt trim-single \
+  --i-demultiplexed-sequences forwardryan_demux_seqs.qza \
+  --p-front TCGTCGGCAGCGTCAGATGTGTATAAGAGACAGCCTACGGGNGGCWGCAG \
+  --p-match-read-wildcards \
+  --p-match-adapter-wildcards \
+  --p-discard-untrimmed \
+  --o-trimmed-sequences forwardryan_demux-trimmed.qza \
+  --verbose > cutadapt-log-2.txt
+
+## Visualize
+qiime demux summarize \
+  --i-data forwardryan_demux-trimmed.qza \
+  --o-visualization forwardryan_demux-trimmed.qzv
+
+## Send to Local 
+scp root@10.19.139.189:/data/project_2/Version_2/forwardryan_demux-trimmed.qzv .
+
+
+## Determine ASVs with DADA2
+qiime dada2 denoise-single \
+  --i-demultiplexed-seqs forwardryan_demux-trimmed.qza \
+  --p-trim-left 0 \
+  --p-trunc-len 220 \
+  --o-representative-sequences forwardryan-rep-seqs.qza \
+  --o-table forwardryan-table.qza \
+  --o-denoising-stats forwardryan-stats.qza
+
+
+qiime feature-table summarize \
+  --i-table forwardryan-table.qza \
+  --o-visualization forwardryan-table.qzv \
+  --m-sample-metadata-file /datasets/project_2/human_ibd/ryan_metadata.tsv
+
+qiime feature-table tabulate-seqs \
+  --i-data forwardryan-rep-seqs.qza \
+  --o-visualization forwardryan-rep-seqs.qzv
+
+
+## Send to Local 
+scp root@10.19.139.189:/data/project_2/Version_2/forwardryan-table.qzv .
+scp root@10.19.139.189:/data/project_2/Version_2/forwardryan-rep-seqs.qzv .
+
+
+## Taxonomic analysis
+qiime feature-classifier extract-reads \
+  --i-sequences /datasets/classifiers/silva_ref_files/silva-138-99-seqs.qza \
+  --p-f-primer CCTACGGGNGGCWGCAG \
+  --p-r-primer GACTACHVGGGTATCTAATCC \
+  --p-trunc-len 220 \
+  --o-reads forward-ryan-ref-seqs-trimmed.qza
+
+## Train classifier with your new ref-seq file
+qiime feature-classifier fit-classifier-naive-bayes \
+  --i-reference-reads /data/project_2/Version_1/forward-ryan-ref-seqs-trimmed.qza \
+  --i-reference-taxonomy /datasets/classifiers/silva_ref_files/silva-138-99-tax.qza \
+  --o-classifier forwardryan-classifier.qza
+
+# Use the trained classifier to assign taxonomy to your reads (rep-seqs.qza)
+qiime feature-classifier classify-sklearn \
+  --i-classifier ryan-classifier.qza \
+  --i-reads ryan-rep-seqs.qza \
+  --o-classification ryan-taxonomy.qza
+
+# Visualization 
+qiime metadata tabulate \
+  --m-input-file ryan-taxonomy.qza \
+  --o-visualization ryan-taxonomy.qzv
+  
+# Taxonomy barplots
+qiime taxa barplot \
+  --i-table ryan-table.qza \
+  --i-taxonomy ryan-taxonomy.qza \
+  --m-metadata-file /datasets/project_2/human_ibd/ryan_metadata.tsv \
+  --o-visualization ryan-taxa-bar-plots.qzv
+
+#Local 
+scp root@10.19.139.189:/data/project_2/ryan-taxonomy.qzv .
+scp root@10.19.139.189:/data/project_2/ryan-taxa-bar-plots.qzv .
+
+#Filter out chloroplast and mitochondrial data (Taxonomy Filtering)
+qiime taxa filter-table \
+  --i-table table.qza \
+  --i-taxonomy taxonomy.qza \
+  --p-exclude mitochondria,chloroplast \
+  --o-filtered-table table-no-mitochondria-no-chloroplast.qza
+
+qiime feature-table summarize \
+  --i-table table-no-mitochondria-no-chloroplast.qza \
+  --o-visualization table-no-mitochondria-no-chloroplast.qzv \
+  --m-sample-metadata-file /datasets/project_1/moving_pictures/sample-metadata.tsv 
+
+Frequency Based Filtering:
+qiime feature-table filter-features \
+--i-table table.qza \
+--p-min-frequency 8 \
+--o-filtered-table feature-frequency-filtered-table.qza
+
+Metadata Based Filtering:
+qiime feature-table filter-samples \
+  --i-table table-no-mitochondria-no-chloroplast.qza \
+  --m-metadata-file /datasets/project_1/moving_pictures/sample-metadata.tsv \
+  --p-where "[subject]='subject-1'" \
+  --o-filtered-table subject-1-filtered-table.qza
+
+qiime feature-table filter-samples \
+  --i-table table-no-mitochondria-no-chloroplast.qza \
+  --m-metadata-file /datasets/project_1/moving_pictures/sample-metadata.tsv \
+  --p-where "[body-site] IN ('left palm', 'right palm')" \
+  --o-filtered-table skin-filtered-table.qza
+
+Module 7
+
+In local 
+
+scp root@10.19.139.127:/data/moving_pictures_tutorial/table-no-mitochondria-no-chloroplast.qzv .
+
+# Generate a tree for phylogenetic diversity analyses
+qiime phylogeny align-to-tree-mafft-fasttree \
+  --i-sequences rep-seqs.qza \
+  --o-alignment aligned-rep-seqs.qza \
+  --o-masked-alignment masked-aligned-rep-seqs.qza \
+  --o-tree unrooted-tree.qza \
+  --o-rooted-tree rooted-tree.qza 
+
+
+# Alpha-rarefaction check
+qiime diversity alpha-rarefaction \
+  --i-table table.qza \
+  --i-phylogeny rooted-tree.qza \
+  --p-max-depth 8000 \
+  --m-metadata-file /datasets/project_1/moving_pictures/sample-metadata.tsv \
+  --o-visualization alpha-rarefaction.qzv
+In local 
+
+scp root@10.19.139.127:/data/moving_pictures_tutorial/alpha-rarefaction.qzv .
+
+# Alpha-rarefaction confirmed
+# Calculate alpha- and beta-diversity metrics
+qiime diversity core-metrics-phylogenetic \
+  --i-phylogeny rooted-tree.qza \
+  --i-table table-no-mitochondria-no-chloroplast.qza \
+  --p-sampling-depth 4082 \
+  --m-metadata-file /datasets/project_1/moving_pictures/sample-metadata.tsv \
+  --output-dir core-metrics-results
+
+in local:
+
+scp root@10.19.139.127:/data/moving_pictures_tutorial/core-metrics-results/unweighted_unifrac_emperor.qzv .
+scp root@10.19.139.127:/data/moving_pictures_tutorial/core-metrics-results/weighted_unifrac_emperor.qzv .
+scp root@10.19.139.127:/data/moving_pictures_tutorial/core-metrics-results/jaccard_emperor.qzv .
+scp root@10.19.139.127:/data/moving_pictures_tutorial/core-metrics-results/bray_curtis_emperor.qzv .
+
+Visualizing other metrics:
+
+# Calculate alpha-group-significance
+qiime diversity alpha-group-significance \
+  --i-alpha-diversity core-metrics-results/faith_pd_vector.qza \
+  --m-metadata-file /datasets/project_1/moving_pictures/sample-metadata.tsv \
+  --o-visualization core-metrics-results/faith-pd-group-significance.qzv
+
+qiime diversity alpha-group-significance \
+  --i-alpha-diversity core-metrics-results/evenness_vector.qza \
+  --m-metadata-file /datasets/project_1/moving_pictures/sample-metadata.tsv \
+  --o-visualization core-metrics-results/evenness-group-significance.qzv
+
+# Calculate beta-group-significance
+qiime diversity beta-group-significance \
+  --i-distance-matrix core-metrics-results/unweighted_unifrac_distance_matrix.qza \
+  --m-metadata-file /datasets/project_1/moving_pictures/sample-metadata.tsv \
+  --m-metadata-column body-site \
+  --o-visualization core-metrics-results/unweighted-unifrac-body-site-significance.qzv \
+  --p-pairwise
+
+qiime diversity beta-group-significance \
+  --i-distance-matrix core-metrics-results/unweighted_unifrac_distance_matrix.qza \
+  --m-metadata-file /datasets/project_1/moving_pictures/sample-metadata.tsv \
+  --m-metadata-column subject \
+  --o-visualization core-metrics-results/unweighted-unifrac-subject-group-significance.qzv \
+  --p-pairwise
+
+in local
+
+scp root@10.19.139.127:/data/moving_pictures_tutorial/core-metrics-results/faith-pd-group-significance.qzv .
+scp root@10.19.139.127:/data/moving_pictures_tutorial/core-metrics-results/evenness-group-significance.qzv .
+scp root@10.19.139.127:/data/moving_pictures_tutorial/core-metrics-results/unweighted-unifrac-body-site-significance.qzv .
+scp root@10.19.139.127:/data/moving_pictures_tutorial/core-metrics-results/unweighted-unifrac-subject-group-significance.qzv .

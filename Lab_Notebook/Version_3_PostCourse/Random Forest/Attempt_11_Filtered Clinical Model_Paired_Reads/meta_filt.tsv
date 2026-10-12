@@ -1,0 +1,115 @@
+sample-id	Subject	Gender	Condition	Montreal.classification	Biopsy_location	Age_when_sampled	Years_since_diagnosis	Histological.status	Medications	Smoking.status	DocumentedFlareWithin24MonthsofSampling	Epi.Sentrix_ID	Epi.Sentrix_Position
+SRR6153846	sCD01	Male	Crohn's Disease	A2L2B1	Right colon	52	29	Inflamed tissue 	No	Non-smoker	No	NA	NA
+SRR6153843	sCD03	Female	Crohn's Disease	A2L3B1	Sigmoid	34	12	Inflamed tissue 	Anti-TNF	Non-smoker	Yes	2e+11	R04C02
+SRR6153841	sCD04	Male	Crohn's Disease	A2L3B3	Splenic flexture	37	4	Inflamed tissue 	No	Non-smoker	Yes	NA	NA
+SRR6153839	sCD05	Female	Crohn's Disease	A2L2B1	Rectum	48	14	Inflamed tissue 	Anti-TNF	Non-smoker	Yes	2e+11	R02C02
+SRR6153655	sCD06	Male	Crohn's Disease	A2L3B2	Right colon	31	12	Inflamed tissue 	No	Non-smoker	No	NA	NA
+SRR6153653	sCD07	Male	Crohn's Disease	A2L2B2	Sigmoid	34	15	Inflamed tissue 	Mesalamine+mercaptopurine	Smoker	Yes	2e+11	R01C01
+SRR6153651	sCD08	Female	Crohn's Disease	A2L3B2	Right colon	33	13	Inflamed tissue 	No	Non-smoker	No	2e+11	R03C02
+SRR6153649	sCD09	Male	Crohn's Disease	A2L2B1	Rectum	44	12	Inflamed tissue 	Mercaptopurine	Smoker	No	2e+11	R03C02
+SRR6153657	sCD10	Female	Crohn's Disease	A1L2B2	T colon	31	19	Inflamed tissue 	Mercaptopurine+corticosteroids	Smoker	No	NA	NA
+SRR6153706	sCD11	Male	Crohn's Disease	A2L2B1	Right colon	31	11	Inflamed tissue 	Mesalamine+mercaptopurine	Non-smoker	No	NA	NA
+SRR6153704	sCD12	Male	Crohn's Disease	A2L2B1	Right colon	21	0	Inflamed tissue 	Antibiotics	Non-smoker	No	2e+11	R04C02
+SRR6153702	sCD13	Female	Crohn's Disease	A3L3B2	Sigmoid	41	12	Inflamed tissue 	Mercaptopurine	Non-smoker	Yes	2e+11	R04C01
+SRR6153700	sCD16	Male	Crohn's Disease	A2L2B1	Rectum	22	4	Inflamed tissue 	No	Non-smoker	No	NA	NA
+SRR6153698	sCD17	Female	Crohn's Disease	A2L3B2	Right colon	62	25	Inflamed tissue 	No	Non-smoker	No	2e+11	R04C01
+SRR6153801	sCD18	Male	Crohn's Disease	A3L3B2	Right colon	55	8	Inflamed tissue 	Corticosteroids	Non-smoker	No	2e+11	R05C02
+SRR6153803	sCD19	Male	Crohn's Disease	A2L3B1	Right colon	59	40	Inflamed tissue 	Corticosteroids	Non-smoker	No	NA	NA
+SRR6153805	sCD20	Male	Crohn's Disease	A2L2B1	Right colon	47	3	Inflamed tissue 	Mercaptopurine	Non-smoker	No	2e+11	R04C01
+SRR6153807	sCD21	Male	Crohn's Disease	A2L2B1	Right colon	44	8	Inflamed tissue 	No	Non-smoker	No	NA	NA
+SRR6153799	sCD22	Male	Crohn's Disease	A3L2B1	Right colon	65	0	Inflamed tissue 	No	Non-smoker	No	2e+11	R04C01
+SRR6153616	sCD23	Male	Crohn's Disease	A2L3B1	Sigmoid	34	10	Inflamed tissue 	No	Non-smoker	No	NA	NA
+SRR6153619	sCD24	Female	Crohn's Disease	A2L2B1	Rectum	38	17	Inflamed tissue 	No	Smoker	No	2e+11	R01C01
+SRR6153621	sCD25	Male	Crohn's Disease	A2L3B2	Sigmoid	37	9	Inflamed tissue 	Mercaptopurine	Non-smoker	No	NA	NA
+SRR6153623	sCD26	Male	Crohn's Disease	A2L2B1	Right colon	51	20	Inflamed tissue 	No	Non-smoker	No	2e+11	R01C01
+SRR6153615	sCD28	Male	Crohn's Disease	A2L3B1	Right colon	34	13	Inflamed tissue 	Anti-TNF	Non-smoker	No	2e+11	R04C02
+SRR6153614	sCD29	Male	Crohn's Disease	A2L2B1	Right colon	24	7	Inflamed tissue 	Corticosteroids	Non-smoker	Yes	NA	NA
+SRR6153723	sCD30	Male	Crohn's Disease	A3L2B1	Rectum	66	0	Inflamed tissue 	No	Non-smoker	No	2e+11	R02C02
+SRR6153721	sCD31	Female	Crohn's Disease	A2L3B2	Right colon	34	2	Inflamed tissue 	Mesalamine	Non-smoker	No	2e+11	R05C02
+SRR6153727	sCD32	Male	Crohn's Disease	A2L3B1	Rectum	31	6	Inflamed tissue 	Anti-TNF	Non-smoker	Yes	NA	NA
+SRR6153725	sCD36	Male	Crohn's Disease	A2L3B1	Right colon	52	17	Inflamed tissue 	No	Non-smoker	No	2e+11	R01C01
+SRR6153719	sCD38	Female	Crohn's Disease	A2L2B1	Right colon	33	13	Inflamed tissue 	Anti-TNF	Non-smoker	No	2e+11	R02C02
+SRR6153750	sCD41	Male	Crohn's Disease	A2L2B1	Right colon	35	6	Inflamed tissue 	Mesalamine+mercaptopurine	Non-smoker	No	2e+11	R05C01
+SRR6153748	sCD42	Male	Crohn's Disease	A2L2B1	Right colon	40	0	Inflamed tissue 	No	Non-smoker	No	2e+11	R02C01
+SRR6153754	sCD43	Male	Crohn's Disease	A3L2B1	Caecum	65	0	Inflamed tissue 	Mesalamine	Smoker	Unknown	2e+11	R04C01
+SRR6153757	sCD45	Female	Crohn's Disease	A2L3B2	Right colon undefined	25	7	Inflamed tissue 	No	Non-smoker	Yes	2e+11	R03C01
+SRR6153534	sCD47	Female	Crohn's Disease	A2L3B2	Sigmoid	48	20	Inflamed tissue 	Corticosteroids	Non-smoker	No	2e+11	R03C01
+SRR6153536	sCD48	Male	Crohn's Disease	A3L3B1	Descending	65	16	Inflamed tissue 	No	Non-smoker	No	2e+11	R05C01
+SRR6153530	sCD49	Female	Crohn's Disease	A2L2B1	Rectum	32	0	Inflamed tissue 	No	Non-smoker	Yes	2e+11	R06C02
+SRR6153532	sCD50	Female	Crohn's Disease	A2L2B1	Sigmoid	52	6	Inflamed tissue 	No	Non-smoker	Yes	2e+11	R01C02
+SRR6153526	sCD51	Female	Crohn's Disease	A1L2B1	Ascending	22	7	Inflamed tissue 	Mesalamine+mercaptopurine	Non-smoker	No	2e+11	R04C01
+SRR6153664	sCD52	Female	Crohn's Disease	A2L3B1	Sigmoid	31	0	Inflamed tissue 	No	Non-smoker	No	2e+11	R04C01
+SRR6153666	sCD53	Female	Crohn's Disease	A3L2B1	Rectum	68	17	Inflamed tissue 	Anti-TNF	Non-smoker	Yes	2e+11	R01C02
+SRR6153660	sCD54	Male	Crohn's Disease	A2L3B1	Right colon	43	5	Inflamed tissue 	No	Non-smoker	Yes	2e+11	R06C01
+SRR6153662	sCD55	Female	Crohn's Disease	A2L3B2	Right colon	22	3	Inflamed tissue 	Mercaptopurine	Smoker	No	NA	NA
+SRR6153658	sCD56	Female	Crohn's Disease	A2L2B1	Ascending	51	30	Inflamed tissue 	Mercaptopurine	Non-smoker	No	2e+11	R02C02
+SRR6153765	sCD58	Female	Crohn's Disease	A2L3B1	Descending	45	22	Inflamed tissue 	No	Ex-smoker	Yes	2e+11	R05C01
+SRR6153763	sCD59	Female	Crohn's Disease	A2L2B1	Transverse	41	6	Inflamed tissue 	Mesalamine	Non-smoker	Yes	2e+11	R02C02
+SRR6153761	sCD60	Female	Crohn's Disease	A2L2B1	Ascending	47	30	Inflamed tissue 	Mercaptopurine	Non-smoker	No	2e+11	R04C02
+SRR6153759	sCD61	Male	Crohn's Disease	A2L2B1p	Transverse	40	11	Inflamed tissue 	Mesalamine	Smoker	No	NA	NA
+SRR6153744	sCD62	Female	Crohn's Disease	A2L2B1	Descending	42	20	Inflamed tissue 	Mercaptopurine	Smoker	No	2e+11	R02C01
+SRR6153747	sCD62	Female	Crohn's Disease	A2L2B1	Descending	42	20	Inflamed tissue 	Mercaptopurine	Smoker	No	NA	NA
+SRR6153740	sCD63	Female	Crohn's Disease	A2L2B1	Transverse	33	8	Inflamed tissue 	No	Smoker	Yes	2e+11	R03C02
+SRR6153743	sCD63	Female	Crohn's Disease	A2L2B1	Transverse	33	8	Inflamed tissue 	No	Smoker	Yes	NA	NA
+SRR6153738	sHT02	Female	Healthy	NA	Right colon undefined	63	NA	Noninflamed tissue 	NA	Non-smoker	No	NA	NA
+SRR6153646	sHT02	Female	Healthy	NA	Right colon undefined	63	NA	Noninflamed tissue 	NA	Non-smoker	No	NA	NA
+SRR6153647	sHT03	Male	Healthy	NA	Right colon undefined	Uncertain	NA	Noninflamed tissue 	NA	Non-smoker	No	NA	NA
+SRR6153644	sHT03	Male	Healthy	NA	Right colon undefined	Uncertain	NA	Noninflamed tissue 	NA	Non-smoker	No	NA	NA
+SRR6153645	sHT04	Female	Healthy	NA	Right colon undefined	37	NA	Noninflamed tissue 	NA	Non-smoker	No	NA	NA
+SRR6153642	sHT04	Female	Healthy	NA	Right colon undefined	37	NA	Noninflamed tissue 	NA	Non-smoker	No	NA	NA
+SRR6153643	sHT05	Male	Healthy	NA	Right colon undefined	59	NA	Noninflamed tissue 	NA	Non-smoker	No	NA	NA
+SRR6153640	sHT05	Male	Healthy	NA	Right colon undefined	59	NA	Noninflamed tissue 	NA	Non-smoker	No	NA	NA
+SRR6153641	sHT06	Female	Healthy	NA	Right colon undefined	70	NA	Noninflamed tissue 	NA	Non-smoker	No	NA	NA
+SRR6153638	sHT06	Female	Healthy	NA	Right colon undefined	70	NA	Noninflamed tissue 	NA	Non-smoker	No	NA	NA
+SRR6153639	sHT12	Male	Healthy	NA	Right colon undefined	29	NA	Noninflamed tissue 	NA	Non-smoker	No	NA	NA
+SRR6153550	sHT14	Male	Healthy	NA	Ascending	39	NA	Noninflamed tissue 	NA	Non-smoker	No	2e+11	R04C02
+SRR6153549	sHT14	Male	Healthy	NA	Descending	39	NA	Noninflamed tissue 	NA	Non-smoker	No	NA	NA
+SRR6153548	sHT16	Female	Healthy	NA	Ascending	62	NA	Noninflamed tissue 	NA	Non-smoker	No	2e+11	R03C02
+SRR6153547	sHT16	Female	Healthy	NA	Descending	62	NA	Noninflamed tissue 	NA	Non-smoker	No	NA	NA
+SRR6153554	sHT17	Male	Healthy	NA	Ascending	70	NA	Noninflamed tissue 	NA	Non-smoker	No	NA	NA
+SRR6153553	sHT17	Male	Healthy	NA	Descending	70	NA	Noninflamed tissue 	NA	Non-smoker	No	2e+11	R06C02
+SRR6153552	sHT18	Male	Healthy	NA	Caecum	71	NA	Noninflamed tissue 	NA	Non-smoker	No	NA	NA
+SRR6153551	sHT18	Male	Healthy	NA	Descending	71	NA	Noninflamed tissue 	NA	Non-smoker	No	NA	NA
+SRR6153556	sHT19	Male	Healthy	NA	Caecum	55	NA	Noninflamed tissue 	NA	Non-smoker	No	2e+11	R01C02
+SRR6153555	sHT19	Male	Healthy	NA	Descending	55	NA	Noninflamed tissue 	NA	Non-smoker	No	NA	NA
+SRR6153792	sHT24	Female	Healthy	NA	Caecum	58	NA	Noninflamed tissue 	NA	Smoker	No	2e+11	R02C02
+SRR6153793	sHT24	Female	Healthy	NA	Rectum	58	NA	Noninflamed tissue 	NA	Smoker	No	NA	NA
+SRR6153794	sHT28	Male	Healthy	NA	Caecum	74	NA	Noninflamed tissue 	NA	Non-smoker	No	NA	NA
+SRR6153795	sHT28	Male	Healthy	NA	Descending	74	NA	Noninflamed tissue 	NA	Non-smoker	No	NA	NA
+SRR6153788	sHT30	Male	Healthy	NA	Caecum	68	NA	Noninflamed tissue 	NA	Non-smoker	No	2e+11	R02C01
+SRR6153789	sHT30	Male	Healthy	NA	Rectum	68	NA	Noninflamed tissue 	NA	Non-smoker	No	NA	NA
+SRR6153790	sHT32	Male	Healthy	NA	Caecum	68	NA	Noninflamed tissue 	NA	Non-smoker	No	NA	NA
+SRR6153791	sHT32	Male	Healthy	NA	Descending	68	NA	Noninflamed tissue 	NA	Non-smoker	No	NA	NA
+SRR6153796	sHT34	Female	Healthy	NA	Caecum	65	NA	Noninflamed tissue 	NA	Non-smoker	No	2e+11	R04C02
+SRR6153797	sHT34	Female	Healthy	NA	Descending	65	NA	Noninflamed tissue 	NA	Non-smoker	No	NA	NA
+SRR6153779	sHT41	Female	Healthy	NA	Caecum	Uncertain	NA	Noninflamed tissue 	NA	Smoker	No	2e+11	R01C02
+SRR6153778	sHT41	Female	Healthy	NA	Rectum	Uncertain	NA	Noninflamed tissue 	NA	Smoker	No	NA	NA
+SRR6153781	sHT42	Male	Healthy	NA	Ascending	44	NA	Noninflamed tissue 	NA	Non-smoker	No	2e+11	R02C02
+SRR6153780	sHT42	Male	Healthy	NA	Sigmoid	44	NA	Noninflamed tissue 	NA	Non-smoker	No	NA	NA
+SRR6153783	sHT43	Male	Healthy	NA	Caecum	50	NA	Noninflamed tissue 	NA	Non-smoker	No	2e+11	R04C01
+SRR6153782	sHT43	Male	Healthy	NA	Rectum	50	NA	Noninflamed tissue 	NA	Non-smoker	No	NA	NA
+SRR6153785	sHT44	Female	Healthy	NA	Caecum	50	NA	Noninflamed tissue 	NA	Non-smoker	No	NA	NA
+SRR6153784	sHT44	Female	Healthy	NA	Rectum	50	NA	Noninflamed tissue 	NA	Non-smoker	No	2e+11	R01C01
+SRR6153787	sHT45	Male	Healthy	NA	Caecum	68	NA	Noninflamed tissue 	NA	Non-smoker	No	2e+11	R02C01
+SRR6153786	sHT45	Male	Healthy	NA	Rectum	68	NA	Noninflamed tissue 	NA	Non-smoker	No	NA	NA
+SRR6153690	sHT46	Male	Healthy	NA	Ascending	70	NA	Noninflamed tissue 	NA	Non-smoker	No	2e+11	R06C01
+SRR6153691	sHT46	Male	Healthy	NA	Rectum	70	NA	Noninflamed tissue 	NA	Non-smoker	No	NA	NA
+SRR6153688	sHT47	Female	Healthy	NA	Ascending	56	NA	Noninflamed tissue 	NA	Non-smoker	No	2e+11	R03C01
+SRR6153689	sHT47	Female	Healthy	NA	Rectum	56	NA	Noninflamed tissue 	NA	Non-smoker	No	NA	NA
+SRR6153694	sHT48	Male	Healthy	NA	Ascending	41	NA	Noninflamed tissue 	NA	Non-smoker	No	2e+11	R06C02
+SRR6153692	sHT49	Male	Healthy	NA	Ascending	65	NA	Noninflamed tissue 	NA	Non-smoker	No	2e+11	R05C02
+SRR6153693	sHT49	Male	Healthy	NA	Rectum	65	NA	Noninflamed tissue 	NA	Non-smoker	No	NA	NA
+SRR6153696	sHT50	Female	Healthy	NA	Ascending	39	NA	Noninflamed tissue 	NA	Non-smoker	No	2e+11	R04C01
+SRR6153697	sHT50	Female	Healthy	NA	Rectum	39	NA	Noninflamed tissue 	NA	Non-smoker	No	NA	NA
+SRR6153599	sHT51	Female	Healthy	NA	Ascending	68	NA	Noninflamed tissue 	NA	Non-smoker	No	2e+11	R06C01
+SRR6153598	sHT51	Female	Healthy	NA	Sigmoid	68	NA	Noninflamed tissue 	NA	Non-smoker	No	NA	NA
+SRR6153597	sHT52	Female	Healthy	NA	Rectum	48	NA	Noninflamed tissue 	NA	Non-smoker	No	2e+11	R03C01
+SRR6153596	sHT52	Female	Healthy	NA	Caecum	48	NA	Noninflamed tissue 	NA	Non-smoker	No	NA	NA
+SRR6153595	sHT53	Female	Healthy	NA	Transverse	48	NA	Noninflamed tissue 	NA	Non-smoker	No	2e+11	R06C01
+SRR6153594	sHT53	Female	Healthy	NA	Rectum	48	NA	Noninflamed tissue 	NA	Non-smoker	No	NA	NA
+SRR6153593	sHT55	Female	Healthy	NA	Ascending	62	NA	Noninflamed tissue 	NA	Ex-smoker	No	2e+11	R01C02
+SRR6153592	sHT55	Female	Healthy	NA	Ascending	62	NA	Noninflamed tissue 	NA	Ex-smoker	No	NA	NA
+SRR6153601	sHT56	Male	Healthy	NA	Caecum	59	NA	Noninflamed tissue 	NA	Non-smoker	No	2e+11	R05C01
+SRR6153600	sHT56	Male	Healthy	NA	Rectum	59	NA	Noninflamed tissue 	NA	Non-smoker	No	NA	NA
+SRR6153850	sHT57	Male	Healthy	NA	Caecum	51	NA	Noninflamed tissue 	NA	Non-smoker	No	2e+11	R01C01
+SRR6153851	sHT57	Male	Healthy	NA	Rectum	51	NA	Noninflamed tissue 	NA	Non-smoker	No	NA	NA
