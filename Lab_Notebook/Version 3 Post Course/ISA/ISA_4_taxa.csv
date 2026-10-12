@@ -1,0 +1,5 @@
+"ASV","s.Crohn's Disease","s.Healthy","s.Ulcerative Colitis","index","stat","p.value","Domain","Phylum","Class","Order","Family","Genus","Species"
+"583a986f5ebf9d33038ff60eee737e06",0,1,0,2,0.543194592466511,0.005,"d__Bacteria","p__Verrucomicrobiota","c__Verrucomicrobiae","o__Verrucomicrobiales","f__Akkermansiaceae","g__Akkermansia","s__"
+"e692fcf963c630541c141757c5eb197a",1,1,0,4,0.629027129152482,0.005,"d__Bacteria","p__Firmicutes","c__Negativicutes","o__Acidaminococcales","f__Acidaminococcaceae","g__Phascolarctobacterium","s__"
+"ae92751ce0103cf1fe77dd7f219da00c",0,1,1,6,0.611963939435687,0.005,"d__Bacteria","p__Firmicutes","c__Clostridia","o__Peptostreptococcales-Tissierellales","f__Peptostreptococcaceae","g__Romboutsia","s__"
+"46c2180d9b6a2b12486e64cee312a3af",0,1,0,2,0.742923241383386,0.005,"d__Bacteria","p__Firmicutes","c__Clostridia","o__Lachnospirales","f__Lachnospiraceae","g__GCA-900066575","s__"

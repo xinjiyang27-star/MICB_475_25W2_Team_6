@@ -1,0 +1,5 @@
+"Group","Phylum","Family","Genus","Indicator Value","p-value"
+"Crohn's Disease","Firmicutes","Acidaminococcaceae","Phascolarctobacterium",0.629027129152482,0.005
+"Healthy","Firmicutes","Lachnospiraceae","GCA-900066575",0.742923241383386,0.005
+"","Firmicutes","Peptostreptococcaceae","Romboutsia",0.611963939435687,0.005
+"","Verrucomicrobiota","Akkermansiaceae","Akkermansia",0.543194592466511,0.005
